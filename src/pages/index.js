@@ -3,11 +3,13 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
 import Layout from '~components/layout';
+import SEO from '~components/seo';
 
 class Index extends Component {
   render() {
     return (
       <Layout>
+        <SEO title="Home" />
         <Container>
           <Row>
             <Col>
