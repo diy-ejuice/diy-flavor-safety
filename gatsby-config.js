@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Flavor Safety',
+    title: 'DIY Flavor Safety',
     author: 'ayan4m1',
     description: 'A repository of vaping flavor safety information.',
     siteUrl: 'https://safety.diyejuice.org/'
@@ -45,7 +45,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Flavor Safety',
+        name: 'DIY Flavor Safety',
         /* eslint-disable camelcase */
         short_name: 'Flavor Safety',
         start_url: '/',
