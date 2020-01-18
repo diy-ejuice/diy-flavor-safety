@@ -137,7 +137,7 @@ export default class SearchPage extends Component {
             <Col>
               <Card body className="mb-4">
                 <Card.Title>
-                  <h3>All Tests</h3>
+                  <h3>Search Flavors</h3>
                 </Card.Title>
                 <Search
                   vendors={vendors}
