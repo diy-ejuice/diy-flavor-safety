@@ -11,9 +11,6 @@ const Header = ({ siteTitle }) => (
     <Navbar.Toggle />
     <Navbar.Collapse>
       <Nav>
-        <Nav.Link as={Link} to="/all">
-          Full List
-        </Nav.Link>
         <Nav.Link as={Link} to="/search">
           Search
         </Nav.Link>
