@@ -1,15 +1,28 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "flavor-safety",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "A repository of vaping flavor safety information.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  "author": "ayan4m1 <andrew@bulletlogic.com>",
+  "homepage": "https://safety.diyejuice.org",
+  "license": "MIT",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ayan4m1/flavor-safety.git"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
     "bootswatch": "^4.4.1",
+    "date-fns": "^2.9.0",
     "gatsby": "^2.18.12",
     "gatsby-image": "^2.2.34",
     "gatsby-plugin-eslint": "^2.0.8",
@@ -21,11 +34,15 @@
     "gatsby-plugin-sharp": "^2.3.5",
     "gatsby-remark-images": "^3.1.35",
     "gatsby-source-filesystem": "^2.1.40",
+    "gatsby-transformer-json": "^2.2.25",
     "gatsby-transformer-remark": "^2.6.39",
     "gatsby-transformer-sharp": "^2.3.7",
     "jquery": "^3.4.1",
+    "lodash": "^4.17.15",
     "node-sass": "^4.13.1",
+    "prop-types": "^15.7.2",
     "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1"
   },
@@ -46,24 +63,5 @@
     "stylelint": "^13.0.0",
     "stylelint-a11y": "^1.2.2",
     "stylelint-config-recommended": "^3.0.0"
-  },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:ayan4m1/flavor-safety.git"
-  },
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   }
 }

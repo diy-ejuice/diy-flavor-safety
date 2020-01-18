@@ -1,0 +1,1272 @@
+[
+  {
+    "name": "27 Bears",
+    "vendor": "CAP",
+    "ingredient": "8008-26-2"
+  },
+  {
+    "name": "27 Bears",
+    "vendor": "CAP",
+    "ingredient": "8008-57-9"
+  },
+  {
+    "name": "Cupcake Batter",
+    "vendor": "FLV",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Bubble Gum",
+    "vendor": "CAP",
+    "ingredient": "8008-57-9"
+  },
+  {
+    "name": "Cake Batter",
+    "vendor": "CAP",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Cool Mint",
+    "vendor": "CAP",
+    "ingredient": "8006-90-4"
+  },
+  {
+    "name": "French Vanilla",
+    "vendor": "CAP",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Horchata",
+    "vendor": "CAP",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Juicy Orange",
+    "vendor": "CAP",
+    "ingredient": "8008-57-9"
+  },
+  {
+    "name": "Lemon Lime",
+    "vendor": "CAP",
+    "ingredient": "8008-26-2"
+  },
+  {
+    "name": "Lime",
+    "vendor": "CAP",
+    "ingredient": "8008-26-2"
+  },
+  {
+    "name": "Meringue",
+    "vendor": "CAP",
+    "ingredient": "56038-13-2"
+  },
+  {
+    "name": "Orange Creamsicle",
+    "vendor": "CAP",
+    "ingredient": "8008-57-9"
+  },
+  {
+    "name": "Peppermint",
+    "vendor": "CAP",
+    "ingredient": "8006-90-4"
+  },
+  {
+    "name": "Rainbow Candy",
+    "vendor": "CAP",
+    "ingredient": "8008-26-2"
+  },
+  {
+    "name": "Super Sweet",
+    "vendor": "CAP",
+    "ingredient": "56038-13-2"
+  },
+  {
+    "name": "Sweet Mango",
+    "vendor": "CAP",
+    "ingredient": "8008-57-9"
+  },
+  {
+    "name": "Sweet Tangerine",
+    "vendor": "CAP",
+    "ingredient": "8008-57-9"
+  },
+  {
+    "name": "Vanilla Custard",
+    "vendor": "CAP",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "RY4 Asian",
+    "vendor": "TPA",
+    "ingredient": "98-0-0"
+  },
+  {
+    "name": "Orange Mango With Stevia",
+    "vendor": "CAP",
+    "ingredient": "8008-57-9"
+  },
+  {
+    "name": "555 Tobacco",
+    "vendor": "FW",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Acai Berry",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Apple Jacks Type",
+    "vendor": "FW",
+    "ingredient": "8015-91-6"
+  },
+  {
+    "name": "Apple (Natural green)",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Banana Nut Bread",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Bananas Foster",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Banana Split",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Beetle Juice",
+    "vendor": "FW",
+    "ingredient": "8008-57-9"
+  },
+  {
+    "name": "Biscotti",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Blackberry Mojito",
+    "vendor": "FW",
+    "ingredient": "8008-26-2"
+  },
+  {
+    "name": "Blackberry Mojito",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Boom!",
+    "vendor": "FW",
+    "ingredient": "8008-26-2"
+  },
+  {
+    "name": "Boom!",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Butterscotch",
+    "vendor": "FW",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Cake (yellow)",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Candy Cane",
+    "vendor": "FW",
+    "ingredient": "8006-90-4"
+  },
+  {
+    "name": "Caramel Candy",
+    "vendor": "FW",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Caramel Cinnamon Roll",
+    "vendor": "FW",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Caramel (salted)",
+    "vendor": "FW",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Choco Coco Mocha",
+    "vendor": "FW",
+    "ingredient": "8002-31-1"
+  },
+  {
+    "name": "Cinnamon",
+    "vendor": "FW",
+    "ingredient": "8015-91-6"
+  },
+  {
+    "name": "Cinnamon Churro",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Cloud 9",
+    "vendor": "FW",
+    "ingredient": "8008-26-2"
+  },
+  {
+    "name": "Cloud 9",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Clove",
+    "vendor": "FW",
+    "ingredient": "8000-34-8"
+  },
+  {
+    "name": "Coconut Cream Pie",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Coffee",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Cola",
+    "vendor": "FW",
+    "ingredient": "8008-26-2"
+  },
+  {
+    "name": "Cookie Butter",
+    "vendor": "FW",
+    "ingredient": "7647-14-5"
+  },
+  {
+    "name": "Double Dutch Chocolate",
+    "vendor": "FW",
+    "ingredient": "8002-31-1"
+  },
+  {
+    "name": "Double Dutch Twister",
+    "vendor": "FW",
+    "ingredient": "8002-31-1"
+  },
+  {
+    "name": "Dragon Fruit",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Dutch Apple Pie",
+    "vendor": "FW",
+    "ingredient": "8052-35-5"
+  },
+  {
+    "name": "Extreme Ice",
+    "vendor": "FW",
+    "ingredient": "8006-90-4"
+  },
+  {
+    "name": "Fruity Flakes",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Fudge Brownie",
+    "vendor": "FW",
+    "ingredient": "8002-31-1"
+  },
+  {
+    "name": "Ginger Ale",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Goji Berry",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Grape Soda",
+    "vendor": "FW",
+    "ingredient": "56038-13-2"
+  },
+  {
+    "name": "Gummi Bear",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Hawaiian Limeade",
+    "vendor": "FW",
+    "ingredient": "8008-26-2"
+  },
+  {
+    "name": "Hawaiian Limeade",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Jack Fruit",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Jawbreaker",
+    "vendor": "FW",
+    "ingredient": "8008-57-9"
+  },
+  {
+    "name": "Kahlua",
+    "vendor": "FW",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Kiwi (natural)",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Lemon Meringue Pie",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Macadamia Nut",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Madagascar Vanilla",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Mango",
+    "vendor": "FW",
+    "ingredient": "8008-57-9"
+  },
+  {
+    "name": "Mango Guava",
+    "vendor": "FW",
+    "ingredient": "8008-57-9"
+  },
+  {
+    "name": "Mocha",
+    "vendor": "FW",
+    "ingredient": "8002-31-1"
+  },
+  {
+    "name": "Mojito",
+    "vendor": "FW",
+    "ingredient": "8008-26-2"
+  },
+  {
+    "name": "Mojito",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Moose Milk",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Nutella Type (hazelnut spread)",
+    "vendor": "FW",
+    "ingredient": "8002-31-1"
+  },
+  {
+    "name": "Orange Dream Bar",
+    "vendor": "FW",
+    "ingredient": "8008-57-9"
+  },
+  {
+    "name": "Pomberry",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Pomegranate",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Prickly Pear",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Rainbow Candy",
+    "vendor": "FW",
+    "ingredient": "8008-26-2"
+  },
+  {
+    "name": "Rainbow Line Gum",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Rainbow Sherbet",
+    "vendor": "FW",
+    "ingredient": "8008-57-9"
+  },
+  {
+    "name": "Rainbow Sherbet",
+    "vendor": "FW",
+    "ingredient": "8008-26-2"
+  },
+  {
+    "name": "Rainbow Sherbet",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Raspberry (natural)",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Rocky Road",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Salty Butter Balls",
+    "vendor": "FW",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Shirley Temple",
+    "vendor": "FW",
+    "ingredient": "56038-13-2"
+  },
+  {
+    "name": "Shirley Temple",
+    "vendor": "FW",
+    "ingredient": "8008-26-2"
+  },
+  {
+    "name": "Star Fruit",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Stick Gum (2xmint)",
+    "vendor": "FW",
+    "ingredient": "8006-90-4"
+  },
+  {
+    "name": "Strawberry Shortcake",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Swedish Fish Type",
+    "vendor": "FW",
+    "ingredient": "56038-13-2"
+  },
+  {
+    "name": "Swedish Fish Type",
+    "vendor": "FW",
+    "ingredient": "8008-57-9"
+  },
+  {
+    "name": "Sweet Cream",
+    "vendor": "FW",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Sweetener",
+    "vendor": "FW",
+    "ingredient": "56038-13-2"
+  },
+  {
+    "name": "Sweet Tarts Type",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Tiki Roar",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Toffee Dream Cream",
+    "vendor": "FW",
+    "ingredient": "8015-91-6"
+  },
+  {
+    "name": "Tres Leches",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Tropical Cream Breeze",
+    "vendor": "FW",
+    "ingredient": "8008-57-9"
+  },
+  {
+    "name": "Tropical Punch",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Tutti Fruitti",
+    "vendor": "FW",
+    "ingredient": "8008-57-9"
+  },
+  {
+    "name": "Unicorn Vomit",
+    "vendor": "FW",
+    "ingredient": "8008-57-9"
+  },
+  {
+    "name": "Watermelon(natural)",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Wine Merlot",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Yumberry",
+    "vendor": "FW",
+    "ingredient": "57-48-7"
+  },
+  {
+    "name": "Chocolate Deutsch",
+    "vendor": "FLV",
+    "ingredient": "8002-31-1"
+  },
+  {
+    "name": "Cookie Dough",
+    "vendor": "FLV",
+    "ingredient": "98-0-0"
+  },
+  {
+    "name": "Ginger Snap",
+    "vendor": "FLV",
+    "ingredient": "8029-43-4"
+  },
+  {
+    "name": "Irish Cream",
+    "vendor": "FLV",
+    "ingredient": "8002-31-1"
+  },
+  {
+    "name": "Sweet Cigarette",
+    "vendor": "FLV",
+    "ingredient": "8002-31-1"
+  },
+  {
+    "name": "Sweetness",
+    "vendor": "FLV",
+    "ingredient": "56038-13-2"
+  },
+  {
+    "name": "Toffee",
+    "vendor": "FLV",
+    "ingredient": "8002-31-1"
+  },
+  {
+    "name": "Cream",
+    "vendor": "FM",
+    "ingredient": "431-03-8"
+  },
+  {
+    "name": "Lime",
+    "vendor": "FM",
+    "ingredient": "8008-26-2"
+  },
+  {
+    "name": "Speculaas",
+    "vendor": "FM",
+    "ingredient": "8000-34-8"
+  },
+  {
+    "name": "Sweet Betsy Lime",
+    "vendor": "FM",
+    "ingredient": "8008-26-2"
+  },
+  {
+    "name": "Arabic Tobacco",
+    "vendor": "HS",
+    "ingredient": "22047-25-2"
+  },
+  {
+    "name": "Australian Chocolate",
+    "vendor": "HS",
+    "ingredient": "22047-25-2"
+  },
+  {
+    "name": "Cheesecake",
+    "vendor": "HS",
+    "ingredient": "22047-25-2"
+  },
+  {
+    "name": "Cheesecake",
+    "vendor": "HS",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Chocolate Cream",
+    "vendor": "HS",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Churchill",
+    "vendor": "HS",
+    "ingredient": "22047-25-2"
+  },
+  {
+    "name": "Cream",
+    "vendor": "HS",
+    "ingredient": "124-07-2"
+  },
+  {
+    "name": "Cream",
+    "vendor": "HS",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Cuba",
+    "vendor": "HS",
+    "ingredient": "22047-25-2"
+  },
+  {
+    "name": "Desert Ship",
+    "vendor": "HS",
+    "ingredient": "22047-25-2"
+  },
+  {
+    "name": "Elder Captain",
+    "vendor": "HS",
+    "ingredient": "22047-25-2"
+  },
+  {
+    "name": "Hazelnut Coffee",
+    "vendor": "HS",
+    "ingredient": "77-93-0"
+  },
+  {
+    "name": "Hazelnut Coffee",
+    "vendor": "HS",
+    "ingredient": "22047-25-2"
+  },
+  {
+    "name": "Highway",
+    "vendor": "HS",
+    "ingredient": "22047-25-2"
+  },
+  {
+    "name": "Ice Cream",
+    "vendor": "HS",
+    "ingredient": "124-07-2"
+  },
+  {
+    "name": "Indian Tobacco",
+    "vendor": "HS",
+    "ingredient": "22047-25-2"
+  },
+  {
+    "name": "Irish Cream",
+    "vendor": "HS",
+    "ingredient": "124-07-2"
+  },
+  {
+    "name": "Italian Cream",
+    "vendor": "HS",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Lemonade",
+    "vendor": "HS",
+    "ingredient": "22047-25-2"
+  },
+  {
+    "name": "Magic Mix",
+    "vendor": "HS",
+    "ingredient": "22047-25-2"
+  },
+  {
+    "name": "Muffin",
+    "vendor": "HS",
+    "ingredient": "124-07-2"
+  },
+  {
+    "name": "Muffin",
+    "vendor": "HS",
+    "ingredient": "22047-25-2"
+  },
+  {
+    "name": "No. 5",
+    "vendor": "HS",
+    "ingredient": "22047-25-2"
+  },
+  {
+    "name": "RY1",
+    "vendor": "HS",
+    "ingredient": "22047-25-2"
+  },
+  {
+    "name": "RY3",
+    "vendor": "HS",
+    "ingredient": "22047-25-2"
+  },
+  {
+    "name": "Tab Blended",
+    "vendor": "HS",
+    "ingredient": "22047-25-2"
+  },
+  {
+    "name": "Turkish Blended",
+    "vendor": "HS",
+    "ingredient": "22047-25-2"
+  },
+  {
+    "name": "Natural Mint",
+    "vendor": "INW",
+    "ingredient": "8006-90-4"
+  },
+  {
+    "name": "Spearmint",
+    "vendor": "INW",
+    "ingredient": "8006-90-4"
+  },
+  {
+    "name": "Lemon",
+    "vendor": "NR",
+    "ingredient": "7647-14-5"
+  },
+  {
+    "name": "Aged Bourbon Cream",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Banana Foster",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Banana Foster",
+    "vendor": "RF",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Banana Split",
+    "vendor": "RF",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Bavarian Cream",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Blackberry Jam with Toast - SC",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Blueberry Jam with Toast - Super Concentrate",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Blueberry Muffin",
+    "vendor": "RF",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Blueberry Pastry – SC",
+    "vendor": "RF",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Blue Moon Ice Cream",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Bread Pudding",
+    "vendor": "RF",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Brown Sugar",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Butter Pecan Pie - Super Concentrate ",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Caramel",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Caramel Apple",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Caramel Cappuccino",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Cherry Limeade",
+    "vendor": "RF",
+    "ingredient": "8008-26-2"
+  },
+  {
+    "name": "Cherry Pie",
+    "vendor": "RF",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Chocolate Milkshake",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Cinnamon Custard",
+    "vendor": "RF",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Cinnamon Donut",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Cinnamon Roll",
+    "vendor": "RF",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Cinnamon Toast",
+    "vendor": "RF",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Coconut Spiced Rum – Super Concentrate",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Cream Cheese",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Cream Cheese",
+    "vendor": "RF",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Creme Brulee - SC ",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Deep Fried Cookies and Cream – Super Concentrate",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Deep Fried Spongecake – Super Concentrate",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Dreamsicle",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Dulce de Leche",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Elephant Ear",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Elephant Ear",
+    "vendor": "RF",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "French Toast",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "French Toast",
+    "vendor": "RF",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "French Vanilla",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Fried Dough",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Frosted Animal Cookie - SC",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Frosted Cereal",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Fruit Cake",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Fruit Cake",
+    "vendor": "RF",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Fruit Danish",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Fruit Pebbles – Super Concentrate",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Fruity Circles",
+    "vendor": "RF",
+    "ingredient": "8008-26-2"
+  },
+  {
+    "name": "Funnel Cake",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Golden Cereal",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Golden Cereal",
+    "vendor": "RF",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Graham Cracker",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Hazelnut",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Key Lime Pie",
+    "vendor": "RF",
+    "ingredient": "8008-26-2"
+  },
+  {
+    "name": "Key Lime Pie",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Lime",
+    "vendor": "RF",
+    "ingredient": "8008-26-2"
+  },
+  {
+    "name": "Mango",
+    "vendor": "RF",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Marshmallow Candy - Super Concentrate",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Mojito",
+    "vendor": "RF",
+    "ingredient": "8008-26-2"
+  },
+  {
+    "name": "Neapolitan Ice Cream",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Paczki – Super Concentrate",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Peach Cobbler",
+    "vendor": "RF",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Peanut Brittle",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Peanut Butter",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Peanut Butter Cookie",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Peanut Butter Cup",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Pistachio",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Rainbow Candy",
+    "vendor": "RF",
+    "ingredient": "8008-26-2"
+  },
+  {
+    "name": "Rainbow Sherbet",
+    "vendor": "RF",
+    "ingredient": "8008-26-2"
+  },
+  {
+    "name": "Red, White And Blue Popsicle",
+    "vendor": "RF",
+    "ingredient": "8008-26-2"
+  },
+  {
+    "name": "Rice Pudding – Super Concentrate",
+    "vendor": "RF",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Rocky Road Ice Cream",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Samoa Cookie Type",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Silly Rabbit",
+    "vendor": "RF",
+    "ingredient": "8008-26-2"
+  },
+  {
+    "name": "S'mores",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Snickerdoodle",
+    "vendor": "RF",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Strawberry Gelato – Super Concentrate",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Strawberry Jam with Toast",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Strawberry Milkshake",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Strawberry Pastry",
+    "vendor": "RF",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Stuffed French Toast",
+    "vendor": "RF",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Super Ice Cream",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Tropical Punch",
+    "vendor": "RF",
+    "ingredient": "513-86-0"
+  },
+  {
+    "name": "Tropical Rainbow Candy",
+    "vendor": "RF",
+    "ingredient": "8008-26-2"
+  },
+  {
+    "name": "Vanilla Custard",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Vanilla Ice Cream",
+    "vendor": "RF",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Butterscotch",
+    "vendor": "TPA",
+    "ingredient": "98-0-0"
+  },
+  {
+    "name": "Cinnamon Sugar Cookie",
+    "vendor": "TPA",
+    "ingredient": "98-0-0"
+  },
+  {
+    "name": "Citrus Punch",
+    "vendor": "TPA",
+    "ingredient": "1406-18-4"
+  },
+  {
+    "name": "DX Brown Sugar",
+    "vendor": "TPA",
+    "ingredient": "98-0-0"
+  },
+  {
+    "name": "Graham Cracker",
+    "vendor": "TPA",
+    "ingredient": "8029-43-4"
+  },
+  {
+    "name": "Honey",
+    "vendor": "TPA",
+    "ingredient": "8028-89-5"
+  },
+  {
+    "name": "Jamaican Rum",
+    "vendor": "TPA",
+    "ingredient": "8028-89-5"
+  },
+  {
+    "name": "Key Lime",
+    "vendor": "TPA",
+    "ingredient": "1406-18-4"
+  },
+  {
+    "name": "Lemon Lime",
+    "vendor": "TPA",
+    "ingredient": "1406-18-4"
+  },
+  {
+    "name": "Orange Cream Bar",
+    "vendor": "TPA",
+    "ingredient": "98-0-0"
+  },
+  {
+    "name": "Pie Crust",
+    "vendor": "TPA",
+    "ingredient": "98-0-0"
+  },
+  {
+    "name": "Red Oak",
+    "vendor": "TPA",
+    "ingredient": "98-0-0"
+  },
+  {
+    "name": "Red Oak",
+    "vendor": "TPA",
+    "ingredient": "8028-89-5"
+  },
+  {
+    "name": "Sweetener",
+    "vendor": "TPA",
+    "ingredient": "56038-13-2"
+  },
+  {
+    "name": "Vanilla Bean Ice Cream",
+    "vendor": "TPA",
+    "ingredient": "600-14-6"
+  },
+  {
+    "name": "Sweet Candy",
+    "vendor": "CAP",
+    "ingredient": "56038-13-2"
+  },
+  {
+    "name": "Fizz Pop",
+    "vendor": "CAP",
+    "ingredient": "56038-13-2"
+  },
+  {
+    "name": "Island Mango",
+    "vendor": "WF",
+    "ingredient": "56038-13-2"
+  },
+  {
+    "name": "Sour Blue Raspberry Candy",
+    "vendor": "WF",
+    "ingredient": "56038-13-2"
+  },
+  {
+    "name": "Sour Watermelon Candy",
+    "vendor": "WF",
+    "ingredient": "56038-13-2"
+  },
+  {
+    "name": "Summertime Lemonade",
+    "vendor": "WF",
+    "ingredient": "56038-13-2"
+  },
+  {
+    "name": "Sweet and Sour Purple Drink",
+    "vendor": "WF",
+    "ingredient": "56038-13-2"
+  }
+]

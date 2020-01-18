@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Acetyl Propionyl",
+    "category": "Research",
+    "casNumber": "600-14-6"
+  },
+  {
+    "name": "Molasses",
+    "category": "Caution",
+    "casNumber": "8052-35-5"
+  },
+  {
+    "name": "Vitamin E",
+    "category": "Avoid",
+    "casNumber": "1406-18-4"
+  },
+  {
+    "name": "Acetoin",
+    "category": "Research",
+    "casNumber": "513-86-0"
+  },
+  {
+    "name": "Peppermint oil",
+    "category": "Avoid",
+    "casNumber": "8006-90-4"
+  },
+  {
+    "name": "Diacetyl",
+    "category": "Research",
+    "casNumber": "431-03-8"
+  },
+  {
+    "name": "Lime Oil",
+    "category": "Caution",
+    "casNumber": "8008-26-2"
+  },
+  {
+    "name": "Acetyl Pyrazine",
+    "category": "Research",
+    "casNumber": "22047-25-2"
+  },
+  {
+    "name": "Fructose",
+    "category": "Avoid",
+    "casNumber": "57-48-7"
+  },
+  {
+    "name": "Sucralose",
+    "category": "Avoid",
+    "casNumber": "56038-13-2"
+  },
+  {
+    "name": "Triethyl Citrate",
+    "category": "Research",
+    "casNumber": "77-93-0"
+  },
+  {
+    "name": "Caprylic Acid",
+    "category": "Research",
+    "casNumber": "124-07-2"
+  },
+  {
+    "name": "Cocoa Butter",
+    "category": "Avoid",
+    "casNumber": "8002-31-1"
+  },
+  {
+    "name": "Furfuryl alcohol",
+    "category": "Avoid",
+    "casNumber": "98-0-0"
+  },
+  {
+    "name": "Cinnamon leaf oil",
+    "category": "Avoid",
+    "casNumber": "8015-91-6"
+  },
+  {
+    "name": "Orange Oil",
+    "category": "Caution",
+    "casNumber": "8008-57-9"
+  },
+  {
+    "name": "Clove leaf oil",
+    "category": "Research",
+    "casNumber": "8000-34-8"
+  },
+  {
+    "name": "Sodium Chloride",
+    "category": "Caution",
+    "casNumber": "7647-14-5"
+  },
+  {
+    "name": "Caramel color",
+    "category": "Avoid",
+    "casNumber": "8028-89-5"
+  },
+  {
+    "name": "Corn Syrup",
+    "category": "Avoid",
+    "casNumber": "8029-43-4"
+  }
+]
