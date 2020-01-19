@@ -1,4 +1,3 @@
-import { Link } from 'gatsby';
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
@@ -52,10 +51,6 @@ class Index extends Component {
                   Flavors to Avoid
                 </a>{' '}
                 sheet to this site.
-              </p>
-              <p>
-                For now, you can view/search the scan results{' '}
-                <Link to="/search">here</Link>.
               </p>
             </Col>
           </Row>
