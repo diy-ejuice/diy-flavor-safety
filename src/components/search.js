@@ -8,7 +8,7 @@ export default class Search extends Component {
       vendor: PropTypes.string,
       flavor: PropTypes.string,
       ingredient: PropTypes.string,
-      category: PropTypes.string
+      category: PropTypes.arrayOf(PropTypes.string)
     }).isRequired,
     vendors: PropTypes.arrayOf(PropTypes.object),
     flavors: PropTypes.arrayOf(PropTypes.object),
@@ -42,7 +42,9 @@ export default class Search extends Component {
         this.props.onIngredientChange(value);
         break;
       case 'category':
-        this.props.onCategoryChange(value);
+        this.props.onCategoryChange(
+          Array.from(event.target.selectedOptions).map(option => option.value)
+        );
         break;
     }
   }
@@ -102,13 +104,14 @@ export default class Search extends Component {
               <Form.Control
                 name="category"
                 as="select"
+                multiple
                 value={selectedCategory}
                 onChange={this.handleChange}
               >
                 <option value="">Any</option>
-                <option>Avoid</option>
-                <option>Caution</option>
-                <option>Research</option>
+                <option value="Avoid">Avoid</option>
+                <option value="Caution">Caution</option>
+                <option value="Research">Research</option>
               </Form.Control>
             </Form.Group>
           </Row>

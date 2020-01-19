@@ -33,7 +33,7 @@ export default class SearchPage extends Component {
         vendor: '',
         flavor: '',
         ingredient: '',
-        category: ''
+        category: ['Avoid', 'Caution']
       },
       vendors: allVendorsJson.edges.map(node => node.node),
       flavors: allFlavorsJson.edges.map(node => node.node),
@@ -77,10 +77,10 @@ export default class SearchPage extends Component {
           (!selected?.ingredient ||
             ingredient.name.toLowerCase().includes(selected.ingredient) ||
             ingredient.casNumber.toLowerCase().includes(selected.ingredient)) &&
-          (!selected?.category ||
-            ingredient.category
-              .toLowerCase()
-              .includes(selected.category.toLowerCase()))
+          (!selected?.category?.length ||
+            selected.category.some(
+              category => category === ingredient.category
+            ))
         );
       })
       .map(flavor => ({
@@ -123,7 +123,9 @@ export default class SearchPage extends Component {
   }
 
   onCategoryChange(category) {
-    this.setSelectedState({ category });
+    this.setSelectedState({
+      category: Array.from([category].flat())
+    });
   }
 
   render() {
