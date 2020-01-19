@@ -1,19 +1,167 @@
 [
   {
+    "name": "Nature's Flavors",
+    "code": "NF"
+  },
+  {
+    "name": "Jungle Flavors",
+    "code": "JF"
+  },
+  {
+    "name": "Chef's Flavors",
+    "code": "CHF"
+  },
+  {
+    "name": "Lorann",
+    "code": "LA"
+  },
+  {
     "name": "Nicotine River",
     "code": "NR"
+  },
+  {
+    "name": "Flavor Bases",
+    "code": "BASE"
+  },
+  {
+    "name": "NicVape",
+    "code": "NV"
+  },
+  {
+    "name": "DIY Flavor Shack",
+    "code": "DFS"
+  },
+  {
+    "name": "Flavors Express",
+    "code": "FE"
+  },
+  {
+    "name": "Flavor Pheonix",
+    "code": "FP"
+  },
+  {
+    "name": "My Freedom Smokes",
+    "code": "MFS"
+  },
+  {
+    "name": "Liquid Nicotine",
+    "code": "LNW"
+  },
+  {
+    "name": "Seedman",
+    "code": "SMN"
+  },
+  {
+    "name": "DIY OR DIE",
+    "code": "DOD"
+  },
+  {
+    "name": "The Broke Vaper",
+    "code": "TBV"
+  },
+  {
+    "name": "Chef's Choice",
+    "code": "CC"
+  },
+  {
+    "name": "Delosi",
+    "code": "DF"
+  },
+  {
+    "name": "Bickford",
+    "code": "BFD"
+  },
+  {
+    "name": "Note Flavors",
+    "code": "NTE"
+  },
+  {
+    "name": "IDE Flavors",
+    "code": "IDE"
+  },
+  {
+    "name": "Nude Nicotine",
+    "code": "NN"
+  },
+  {
+    "name": "LOP",
+    "code": "LOP"
+  },
+  {
+    "name": "Health Cabin",
+    "code": "HC"
   },
   {
     "name": "Inawera",
     "code": "INW"
   },
   {
+    "name": "One Drop Flavors",
+    "code": "ONE"
+  },
+  {
+    "name": "Great Lakes",
+    "code": "GL"
+  },
+  {
+    "name": "Sasami",
+    "code": "SI"
+  },
+  {
+    "name": "Faeries Finest",
+    "code": "FF"
+  },
+  {
+    "name": "German Flavors",
+    "code": "GF"
+  },
+  {
+    "name": "FlavourArt",
+    "code": "FA"
+  },
+  {
+    "name": "Super Concentrates",
+    "code": "SC"
+  },
+  {
+    "name": "Flavor Revolution",
+    "code": "FR"
+  },
+  {
     "name": "Hangsen",
     "code": "HS"
   },
   {
+    "name": "Vampire Vapes",
+    "code": "VV"
+  },
+  {
+    "name": "E Juice Makers",
+    "code": "EJM"
+  },
+  {
+    "name": "Stixx Mixx",
+    "code": "SM"
+  },
+  {
+    "name": "Purilum",
+    "code": "PUR"
+  },
+  {
+    "name": "SolubeArome",
+    "code": "SA"
+  },
+  {
+    "name": "One Stop DIY",
+    "code": "OSD"
+  },
+  {
     "name": "Capella",
     "code": "CAP"
+  },
+  {
+    "name": "Vaping Zone",
+    "code": "VZ"
   },
   {
     "name": "Flavorah",
@@ -24,8 +172,48 @@
     "code": "TPA"
   },
   {
+    "name": "Other",
+    "code": "OTHR"
+  },
+  {
+    "name": "MT Baker",
+    "code": "MTB"
+  },
+  {
+    "name": "Vape Train",
+    "code": "VT"
+  },
+  {
+    "name": "Molinberry",
+    "code": "MB"
+  },
+  {
+    "name": "T-Juice",
+    "code": "TJ"
+  },
+  {
+    "name": "Frandy Flavours",
+    "code": "FRA"
+  },
+  {
+    "name": "DuoMei",
+    "code": "DUO"
+  },
+  {
     "name": "Flavormonks",
     "code": "FM"
+  },
+  {
+    "name": "Euro Flavors",
+    "code": "EUR"
+  },
+  {
+    "name": "Twisted Sketch",
+    "code": "TS"
+  },
+  {
+    "name": "Baker Flavors",
+    "code": "BF"
   },
   {
     "name": "Real Flavors",
@@ -36,7 +224,51 @@
     "code": "WF"
   },
   {
+    "name": "Tasty Puff",
+    "code": "TP"
+  },
+  {
     "name": "Flavor West",
     "code": "FW"
+  },
+  {
+    "name": "Decadent Vapours",
+    "code": "DV"
+  },
+  {
+    "name": "One On One",
+    "code": "OOO"
+  },
+  {
+    "name": "HiLiq",
+    "code": "HLQ"
+  },
+  {
+    "name": "Liquid Barn",
+    "code": "LB"
+  },
+  {
+    "name": "DKS",
+    "code": "DKS"
+  },
+  {
+    "name": "Totally Wicked",
+    "code": "TW"
+  },
+  {
+    "name": "Mom and Pop Vapor Shop",
+    "code": "MPV"
+  },
+  {
+    "name": "Silver Cloud",
+    "code": "SCE"
+  },
+  {
+    "name": "Clyrolinx",
+    "code": "CLY"
+  },
+  {
+    "name": "Medicine Flower",
+    "code": "MF"
   }
 ]
