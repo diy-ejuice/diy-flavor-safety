@@ -67,10 +67,10 @@ export default class Search extends Component {
               <Form.Label>Vendor (Name/Code)</Form.Label>
               <Form.Control
                 name="vendor"
-                type="input"
-                value={selectedVendor}
                 onChange={this.handleChange}
                 placeholder="Flavorah"
+                type="input"
+                value={selectedVendor}
               />
             </Form.Group>
           </Row>
@@ -79,10 +79,10 @@ export default class Search extends Component {
               <Form.Label>Flavor Name</Form.Label>
               <Form.Control
                 name="flavor"
-                type="input"
-                value={selectedFlavor}
                 onChange={this.handleChange}
                 placeholder="Cookie Butter"
+                type="input"
+                value={selectedFlavor}
               />
             </Form.Group>
           </Row>
@@ -91,10 +91,10 @@ export default class Search extends Component {
               <Form.Label>Ingredient Name</Form.Label>
               <Form.Control
                 name="ingredient"
-                type="input"
-                value={selectedIngredient}
                 onChange={this.handleChange}
                 placeholder="Diacetyl"
+                type="input"
+                value={selectedIngredient}
               />
             </Form.Group>
           </Row>
@@ -102,11 +102,11 @@ export default class Search extends Component {
             <Form.Group as={Col}>
               <Form.Label>Ingredient Category</Form.Label>
               <Form.Control
-                name="category"
                 as="select"
                 multiple
-                value={selectedCategory}
+                name="category"
                 onChange={this.handleChange}
+                value={selectedCategory}
               >
                 <option value="">Any</option>
                 <option value="Avoid">Avoid</option>
