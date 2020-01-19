@@ -4,10 +4,10 @@ import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { Card, Container, Row, Col, Table } from 'react-bootstrap';
 
-import Layout from '~components/layout';
-import Search from '~components/search';
-import SEO from '~components/seo';
-import CategoryInfo from '~components/categoryInfo';
+import Layout from '~components/Layout';
+import SearchForm from '~components/SearchForm';
+import SEO from '~components/SEO';
+import CategoryInfo from '~components/CategoryInfo';
 
 const debounceLeading = (fn, delay = 250) =>
   debounce(fn, delay, { leading: true });
@@ -141,7 +141,7 @@ export default class SearchPage extends Component {
                 <Card.Title>
                   <h3>Search Flavors</h3>
                 </Card.Title>
-                <Search
+                <SearchForm
                   vendors={vendors}
                   flavors={flavors}
                   ingredients={ingredients}

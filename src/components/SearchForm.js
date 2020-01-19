@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { Container, Row, Col, Form } from 'react-bootstrap';
 
-export default class Search extends Component {
+export default class SearchForm extends Component {
   static propTypes = {
     selected: PropTypes.shape({
       vendor: PropTypes.string,

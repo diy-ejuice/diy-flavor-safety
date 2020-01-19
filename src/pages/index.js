@@ -2,8 +2,8 @@ import { Link } from 'gatsby';
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
-import Layout from '~components/layout';
-import SEO from '~components/seo';
+import Layout from '~components/Layout';
+import SEO from '~components/SEO';
 
 class Index extends Component {
   render() {
