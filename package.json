@@ -21,8 +21,12 @@
     "deploy": "gatsby build && gh-pages -d public -r \"https://$GITHUB_TOKEN@github.com/$TRAVIS_REPO_SLUG\""
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/react-fontawesome": "^0.1.8",
     "bootstrap": "^4.3.1",
     "bootswatch": "^4.3.1",
+    "classnames": "^2.2.6",
     "date-fns": "^2.9.0",
     "gatsby": "^2.18.12",
     "gatsby-image": "^2.2.34",
