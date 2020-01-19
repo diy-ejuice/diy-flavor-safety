@@ -11,8 +11,14 @@ const Header = ({ siteTitle }) => (
     <Navbar.Toggle />
     <Navbar.Collapse>
       <Nav>
-        <Nav.Link as={Link} to="/search">
-          Search
+        <Nav.Link as={Link} to="/flavors">
+          Browse Flavors
+        </Nav.Link>
+        <Nav.Link as={Link} to="/vendors">
+          Vendor Score
+        </Nav.Link>
+        <Nav.Link as={Link} to="/ingredients">
+          Ingredient Info
         </Nav.Link>
       </Nav>
       <Nav className="ml-auto">
