@@ -133,7 +133,7 @@ export default class SearchPage extends Component {
 
     return (
       <Layout>
-        <SEO title="Search" />
+        <SEO title="Browse Flavors" />
         <Container>
           <Row>
             <Col>
