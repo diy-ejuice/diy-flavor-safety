@@ -1,6 +1,6 @@
-import { graphql } from 'gatsby';
 import { debounce } from 'lodash';
 import PropTypes from 'prop-types';
+import { graphql, Link } from 'gatsby';
 import React, { Component } from 'react';
 import { Card, Container, Row, Col, Table } from 'react-bootstrap';
 
@@ -12,12 +12,21 @@ import CategoryInfo from '~components/CategoryInfo';
 const debounceLeading = (fn, delay = 250) =>
   debounce(fn, delay, { leading: true });
 
-export default class SearchPage extends Component {
+const NodesType = PropTypes.shape({
+  nodes: PropTypes.arrayOf(PropTypes.object)
+});
+
+export default class FlavorsPage extends Component {
   static propTypes = {
     data: PropTypes.shape({
-      allVendorsJson: PropTypes.arrayOf(PropTypes.object),
-      allFlavorsJson: PropTypes.arrayOf(PropTypes.object),
-      allIngredientsJson: PropTypes.arrayOf(PropTypes.object)
+      vendors: NodesType.isRequired,
+      flavors: NodesType.isRequired,
+      ingredients: NodesType.isRequired
+    }).isRequired,
+    location: PropTypes.shape({
+      state: PropTypes.shape({
+        selectedIngredient: PropTypes.string
+      })
     }).isRequired
   };
 
@@ -25,19 +34,20 @@ export default class SearchPage extends Component {
     super(props);
 
     const {
-      data: { allVendorsJson, allFlavorsJson, allIngredientsJson }
+      location: { state: linkState },
+      data: { vendors, flavors, ingredients }
     } = this.props;
 
     this.state = {
       selected: {
         vendor: '',
         flavor: '',
-        ingredient: '',
+        ingredient: linkState?.selectedIngredient || '',
         category: ['Avoid', 'Caution']
       },
-      vendors: allVendorsJson.edges.map(node => node.node),
-      flavors: allFlavorsJson.edges.map(node => node.node),
-      ingredients: allIngredientsJson.edges.map(node => node.node),
+      vendors: vendors.nodes,
+      flavors: flavors.nodes,
+      ingredients: ingredients.nodes,
       results: []
     };
 
@@ -54,42 +64,52 @@ export default class SearchPage extends Component {
 
   refreshResults() {
     const { vendors, flavors, ingredients, selected } = this.state;
-    const results = flavors
-      .filter(flavor => {
-        const {
-          vendor: vendorCode,
-          name: flavorName,
-          ingredient: ingredientCas
-        } = flavor;
-        const vendor = vendors.find(vend => vend.code === vendorCode);
-        const ingredient = ingredients.find(
-          ingr => ingr.casNumber === ingredientCas
-        );
-
-        return (
-          (!selected?.flavor ||
-            flavorName.toLowerCase().includes(selected.flavor.toLowerCase())) &&
-          (!selected?.vendor ||
-            vendor.name.toLowerCase().includes(selected.vendor.toLowerCase()) ||
-            vendor.code
-              .toLowerCase()
-              .includes(selected.vendor.toLowerCase())) &&
-          (!selected?.ingredient ||
-            ingredient.name.toLowerCase().includes(selected.ingredient) ||
-            ingredient.casNumber.toLowerCase().includes(selected.ingredient)) &&
-          (!selected?.category?.length ||
-            selected.category.some(
-              category => category === ingredient.category
-            ))
-        );
-      })
-      .map(flavor => ({
-        flavor,
-        vendor: vendors.find(vendor => vendor.code === flavor.vendor),
-        ingredient: ingredients.find(
-          ingredient => ingredient.casNumber === flavor.ingredient
+    const results = flavors.flatMap(flavor => {
+      const {
+        vendor: vendorCode,
+        name: flavorName,
+        ingredients: flavorIngredients
+      } = flavor;
+      const vendor = vendors.find(vend => vend.code === vendorCode);
+      const matchingIngredients = flavorIngredients
+        .map(casNumber =>
+          ingredients.find(ingredient => ingredient.casNumber === casNumber)
         )
-      }));
+        .filter(
+          ingredient =>
+            !selected?.category?.length ||
+            selected.category.includes(ingredient.category)
+        );
+      const flavorMatches =
+        (!selected?.flavor ||
+          flavorName.toLowerCase().includes(selected.flavor.toLowerCase())) &&
+        (!selected?.vendor ||
+          vendor.name.toLowerCase().includes(selected.vendor.toLowerCase()) ||
+          vendor.code.toLowerCase().includes(selected.vendor.toLowerCase())) &&
+        (!selected?.ingredient ||
+          matchingIngredients.some(ingredient =>
+            ingredient.name
+              .toLowerCase()
+              .includes(selected.ingredient.toLowerCase())
+          )) &&
+        (!selected?.category?.length ||
+          selected.category.some(category =>
+            matchingIngredients.some(
+              ingredient => category === ingredient.category
+            )
+          ) ||
+          selected.category[0] === '');
+
+      return flavorMatches
+        ? [
+            {
+              flavor,
+              vendor,
+              ingredients: matchingIngredients
+            }
+          ]
+        : [];
+    });
 
     results.sort(
       (a, b) =>
@@ -125,6 +145,40 @@ export default class SearchPage extends Component {
   onCategoryChange(category) {
     this.setSelectedState({
       category: Array.from([category].flat())
+    });
+  }
+
+  renderFlavor(result) {
+    const { flavor, vendor, ingredients } = result;
+    const flavorLink = `/flavor/${vendor.code}-${flavor.name}`
+      .replace(/\s+/g, '-')
+      .toLowerCase();
+    const vendorLink = `/vendor/${vendor.code}-${vendor.name}`
+      .replace(/\s+/g, '-')
+      .toLowerCase();
+
+    return ingredients.map(ingredient => {
+      const key = `${vendor.code}-${flavor.name}-${ingredient.casNumber}`;
+      const ingredientLink = `/ingredient/${ingredient.name}`
+        .replace(/\s+/g, '-')
+        .toLowerCase();
+
+      return (
+        <tr key={key}>
+          <td>
+            <Link to={vendorLink}>{vendor.name}</Link>
+          </td>
+          <td>
+            <Link to={flavorLink}>{flavor.name}</Link>
+          </td>
+          <td>
+            <Link to={ingredientLink}>{ingredient.name}</Link>
+          </td>
+          <td>
+            <CategoryInfo category={ingredient.category} />
+          </td>
+        </tr>
+      );
     });
   }
 
@@ -165,22 +219,7 @@ export default class SearchPage extends Component {
                     <th>Category</th>
                   </tr>
                 </thead>
-                <tbody>
-                  {results.map(result => {
-                    const key = `${result.vendor.code}-${result.flavor.name}-${result.ingredient.casNumber}`;
-
-                    return (
-                      <tr key={key}>
-                        <td>{result.vendor.name}</td>
-                        <td>{result.flavor.name}</td>
-                        <td>{result.ingredient.name}</td>
-                        <td>
-                          <CategoryInfo category={result.ingredient.category} />
-                        </td>
-                      </tr>
-                    );
-                  })}
-                </tbody>
+                <tbody>{results.map(this.renderFlavor)}</tbody>
               </Table>
             </Col>
           </Row>
@@ -191,33 +230,25 @@ export default class SearchPage extends Component {
 }
 
 export const query = graphql`
-  query AllResultsQuery {
-    allFlavorsJson {
-      edges {
-        node {
-          name
-          vendor
-          ingredient
-        }
+  query FlavorsSearchQuery {
+    vendors: allVendorsJson {
+      nodes {
+        code
+        name
       }
     }
-
-    allIngredientsJson {
-      edges {
-        node {
-          name
-          category
-          casNumber
-        }
+    flavors: allFlavorsJson {
+      nodes {
+        ingredients
+        name
+        vendor
       }
     }
-
-    allVendorsJson {
-      edges {
-        node {
-          name
-          code
-        }
+    ingredients: allIngredientsJson {
+      nodes {
+        casNumber
+        category
+        name
       }
     }
   }
