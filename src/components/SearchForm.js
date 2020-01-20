@@ -108,7 +108,6 @@ export default class SearchForm extends Component {
                 onChange={this.handleChange}
                 value={selectedCategory}
               >
-                <option value="">Any</option>
                 <option value="Avoid">Avoid</option>
                 <option value="Caution">Caution</option>
                 <option value="Research">Research</option>

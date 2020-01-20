@@ -98,8 +98,7 @@ export default class FlavorsPage extends Component {
             matchingIngredients.some(
               ingredient => category === ingredient.category
             )
-          ) ||
-          selected.category[0] === '');
+          ));
 
       return flavorMatches
         ? [
