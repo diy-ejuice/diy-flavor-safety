@@ -107,6 +107,7 @@ export const query = graphql`
       name
     }
     vendor: vendorsJson(code: { eq: $vendor }) {
+      code
       name
     }
     ingredients: allIngredientsJson(

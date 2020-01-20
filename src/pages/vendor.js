@@ -63,12 +63,14 @@ export const query = graphql`
       nodes {
         name
         ingredients
+        vendor
       }
     }
     ingredients: allIngredientsJson {
       nodes {
-        name
         casNumber
+        category
+        name
       }
     }
   }
