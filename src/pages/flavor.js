@@ -24,7 +24,7 @@ export default class FlavorPage extends Component {
 
     const {
       data: { flavor, vendor, ingredients }
-    } = props;
+    } = this.props;
 
     this.state = {
       flavor,
