@@ -12,13 +12,13 @@ const Header = ({ siteTitle }) => (
     <Navbar.Collapse>
       <Nav>
         <Nav.Link as={Link} to="/flavors">
-          Browse Flavors
+          Flavors
         </Nav.Link>
         <Nav.Link as={Link} to="/vendors">
-          Vendor Score
+          Vendors
         </Nav.Link>
         <Nav.Link as={Link} to="/ingredients">
-          Ingredient Info
+          Ingredients
         </Nav.Link>
       </Nav>
       <Nav className="ml-auto">
