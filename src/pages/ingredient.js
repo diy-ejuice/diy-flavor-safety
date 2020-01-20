@@ -9,18 +9,24 @@ import IngredientCard from '~components/IngredientCard';
 
 export default class IngredientPage extends Component {
   static propTypes = {
-    data: PropTypes.object.isRequired,
-    location: PropTypes.shape({
-      state: PropTypes.shape({
-        casNumber: PropTypes.string.isRequired
-      })
-    })
+    data: PropTypes.object.isRequired
   };
 
-  render() {
+  constructor(props) {
+    super(props);
+
     const {
-      data: { ingredient }
+      data: { ingredient, flavors }
     } = this.props;
+
+    this.state = {
+      ingredient,
+      flavors: flavors.nodes
+    };
+  }
+
+  render() {
+    const { ingredient, flavors } = this.state;
 
     return (
       <Layout>
@@ -28,7 +34,7 @@ export default class IngredientPage extends Component {
         <Container>
           <Row>
             <Col>
-              <IngredientCard ingredient={ingredient} />
+              <IngredientCard {...ingredient} flavors={flavors} />
             </Col>
           </Row>
         </Container>
@@ -48,6 +54,18 @@ export const query = graphql`
         title
       }
       name
+    }
+    flavors: allFlavorsJson(filter: { ingredients: { in: [$casNumber] } }) {
+      nodes {
+        name
+        vendor
+      }
+    }
+    vendors: allVendorsJson {
+      nodes {
+        code
+        name
+      }
     }
   }
 `;

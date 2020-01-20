@@ -1,20 +1,71 @@
-import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import React, { Component } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { graphql, Link } from 'gatsby';
+import React, { Component, Fragment } from 'react';
+import {
+  Card,
+  Col,
+  Container,
+  ListGroup,
+  ListGroupItem,
+  Row
+} from 'react-bootstrap';
 
 import Layout from '~components/Layout';
 import SEO from '~components/SEO';
+import { getCategoryVariant, getIngredientSlug, getVendorSlug } from '~utils';
 
 export default class FlavorPage extends Component {
   static propTypes = {
     data: PropTypes.object.isRequired
   };
 
-  render() {
+  constructor(props) {
+    super(props);
+
     const {
       data: { flavor, vendor, ingredients }
-    } = this.props;
+    } = props;
+
+    this.state = {
+      flavor,
+      ingredients: ingredients.nodes,
+      vendor
+    };
+  }
+
+  get vendor() {
+    const { vendor } = this.state;
+
+    return <Link to={getVendorSlug(vendor)}>Go to vendor page</Link>;
+  }
+
+  get ingredients() {
+    const { ingredients } = this.state;
+
+    return (
+      <Fragment>
+        <h6 className="mt-3">
+          This flavor contains the following concerning ingredients:
+        </h6>
+        <ListGroup activeKey="">
+          {ingredients.map(ingredient => (
+            <ListGroupItem
+              action
+              key={ingredient.name}
+              as={Link}
+              to={getIngredientSlug(ingredient)}
+              variant={getCategoryVariant(ingredient.category)}
+            >
+              {ingredient.name}{' '}
+            </ListGroupItem>
+          ))}
+        </ListGroup>
+      </Fragment>
+    );
+  }
+
+  render() {
+    const { flavor, vendor } = this.state;
 
     return (
       <Layout>
@@ -22,10 +73,17 @@ export default class FlavorPage extends Component {
         <Container>
           <Row>
             <Col>
-              <p>{vendor.name}</p>
-              {ingredients.map(ingredient => (
-                <p key={ingredient.name}>{ingredient.name}</p>
-              ))}
+              <Card>
+                <Card.Header>
+                  <h3>
+                    {vendor.name} {flavor.name}
+                  </h3>
+                </Card.Header>
+                <Card.Body>
+                  {this.vendor}
+                  {this.ingredients}
+                </Card.Body>
+              </Card>
             </Col>
           </Row>
         </Container>
@@ -43,14 +101,16 @@ export const query = graphql`
     flavor: flavorsJson(vendor: { eq: $vendor }, name: { eq: $name }) {
       name
     }
-
     vendor: vendorsJson(code: { eq: $vendor }) {
       name
     }
-
-    ingredients: ingredientsJson(casNumber: { in: $ingredients }) {
-      name
-      category
+    ingredients: allIngredientsJson(
+      filter: { casNumber: { in: $ingredients } }
+    ) {
+      nodes {
+        name
+        category
+      }
     }
   }
 `;

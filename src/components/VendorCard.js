@@ -1,8 +1,11 @@
+import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React, { Component, Fragment } from 'react';
 import { Card, ListGroupItem, ListGroup, Badge } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
+
+import { getCategoryVariant, getFlavorSlug, getIngredientSlug } from '~utils';
 
 export default class VendorCard extends Component {
   static propTypes = {
@@ -31,7 +34,12 @@ export default class VendorCard extends Component {
         <h6 className="my-3">Flavors with concerning ingredients</h6>
         <ListGroup activeKey="">
           {flavors.map(flavor => (
-            <ListGroupItem key={flavor.name} action>
+            <ListGroupItem
+              action
+              as={Link}
+              key={flavor.name}
+              to={getFlavorSlug(flavor)}
+            >
               {flavor.name}
             </ListGroupItem>
           ))}
@@ -52,28 +60,17 @@ export default class VendorCard extends Component {
       <Fragment>
         <h6 className="my-3">Ingredients used by this vendor</h6>
         <ListGroup activeKey="">
-          {ingredients.map(ingredient => {
-            let badgeVariant;
-
-            switch (ingredient.category) {
-              case 'Avoid':
-                badgeVariant = 'danger';
-                break;
-              case 'Caution':
-                badgeVariant = 'warning';
-                break;
-              default:
-                badgeVariant = 'info';
-                break;
-            }
-
-            return (
-              <ListGroupItem key={ingredient.casNumber} action>
-                {ingredient.name}{' '}
-                <Badge variant={badgeVariant}>{ingredient.category}</Badge>
-              </ListGroupItem>
-            );
-          })}
+          {ingredients.map(ingredient => (
+            <ListGroupItem
+              action
+              as={Link}
+              key={ingredient.casNumber}
+              to={getIngredientSlug(ingredient)}
+              variant={getCategoryVariant(ingredient.category)}
+            >
+              {ingredient.name}
+            </ListGroupItem>
+          ))}
         </ListGroup>
       </Fragment>
     ) : null;
@@ -85,14 +82,19 @@ export default class VendorCard extends Component {
     return (
       <Card className="my-3">
         <Card.Header>
-          <span>{name}</span> <Badge variant="secondary">{code}</Badge>
-          {link ? (
-            <span className="ml-auto">
-              <a href={link.href} target="_blank" rel="noopener noreferrer">
-                {link.title}
-              </a>
-            </span>
-          ) : null}
+          <h3>
+            <span>{name}</span>
+            {link ? (
+              <span className="ml-auto">
+                <a href={link.href} target="_blank" rel="noopener noreferrer">
+                  {link.title}
+                </a>
+              </span>
+            ) : null}
+            <Badge variant="secondary" className="float-right">
+              {code}
+            </Badge>
+          </h3>
         </Card.Header>
         <Card.Body>
           {this.description}

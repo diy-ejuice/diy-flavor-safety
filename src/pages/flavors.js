@@ -8,6 +8,7 @@ import Layout from '~components/Layout';
 import SearchForm from '~components/SearchForm';
 import SEO from '~components/SEO';
 import CategoryInfo from '~components/CategoryInfo';
+import { getFlavorSlug, getVendorSlug, getIngredientSlug } from '~utils';
 
 const debounceLeading = (fn, delay = 250) =>
   debounce(fn, delay, { leading: true });
@@ -150,18 +151,12 @@ export default class FlavorsPage extends Component {
 
   renderFlavor(result) {
     const { flavor, vendor, ingredients } = result;
-    const flavorLink = `/flavor/${vendor.code}-${flavor.name}`
-      .replace(/\s+/g, '-')
-      .toLowerCase();
-    const vendorLink = `/vendor/${vendor.code}-${vendor.name}`
-      .replace(/\s+/g, '-')
-      .toLowerCase();
+    const flavorLink = getFlavorSlug(flavor);
+    const vendorLink = getVendorSlug(vendor);
 
     return ingredients.map(ingredient => {
       const key = `${vendor.code}-${flavor.name}-${ingredient.casNumber}`;
-      const ingredientLink = `/ingredient/${ingredient.name}`
-        .replace(/\s+/g, '-')
-        .toLowerCase();
+      const ingredientLink = getIngredientSlug(ingredient);
 
       return (
         <tr key={key}>

@@ -1,14 +1,19 @@
-const { resolve } = require(`path`);
+const { resolve } = require('path');
+const {
+  getFlavorSlug,
+  getIngredientSlug,
+  getVendorSlug
+} = require('./src/utils');
 
 const createPages = async (
-  baseUrl,
-  component,
+  pageName,
   query,
   slugBuilder,
   { actions, graphql, reporter }
 ) => {
   const { createPage } = actions;
   const result = await graphql(query);
+  const component = resolve(`src/pages/${pageName}.js`);
 
   if (result.errors) {
     reporter.panicOnBuild('Error while running GraphQL query.');
@@ -16,10 +21,7 @@ const createPages = async (
   }
 
   result.data.pageJson.nodes.forEach(node => {
-    const slug = slugBuilder(node)
-      .replace(/\s+/g, '-')
-      .toLowerCase();
-    const path = `/${baseUrl}/${slug}`;
+    const path = slugBuilder(node);
 
     reporter.info(`Created page for ${path}`);
     createPage({
@@ -33,7 +35,6 @@ const createPages = async (
 const createVendorPages = options =>
   createPages(
     'vendor',
-    resolve('src/pages/vendor.js'),
     `
 {
   pageJson: allVendorsJson {
@@ -44,14 +45,13 @@ const createVendorPages = options =>
   }
 }
 `,
-    node => `${node.code} ${node.name}`,
+    getVendorSlug,
     options
   );
 
 const createIngredientPages = options =>
   createPages(
     'ingredient',
-    resolve('src/pages/ingredient.js'),
     `
 {
   pageJson: allIngredientsJson {
@@ -62,14 +62,13 @@ const createIngredientPages = options =>
   }
 }
 `,
-    node => node.name,
+    getIngredientSlug,
     options
   );
 
 const createFlavorPages = options =>
   createPages(
     'flavor',
-    resolve('src/pages/flavor.js'),
     `
 {
   pageJson: allFlavorsJson {
@@ -81,7 +80,7 @@ const createFlavorPages = options =>
   }
 }
 `,
-    node => `${node.vendor} ${node.name}`,
+    getFlavorSlug,
     options
   );
 
@@ -96,7 +95,8 @@ exports.onCreateWebpackConfig = ({ actions }) => {
     resolve: {
       alias: {
         '~components': resolve(__dirname, 'src/components'),
-        '~pages': resolve(__dirname, 'src/pages')
+        '~pages': resolve(__dirname, 'src/pages'),
+        '~utils': resolve(__dirname, 'src/utils')
       }
     }
   });

@@ -1,8 +1,11 @@
+import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React, { Component, Fragment } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { Card, Badge, ListGroup, ListGroupItem } from 'react-bootstrap';
+
+import { getCategoryVariant, getFlavorSlug, getVendorSlug } from '~utils';
 
 export default class IngredientCard extends Component {
   static propTypes = {
@@ -60,9 +63,14 @@ export default class IngredientCard extends Component {
     return flavors?.length ? (
       <Fragment>
         <h6>Flavors with this ingredient</h6>
-        <ListGroup variant="flush">
+        <ListGroup>
           {flavors.map(flavor => (
-            <ListGroupItem key={flavor.name}>
+            <ListGroupItem
+              action
+              as={Link}
+              key={flavor.name}
+              to={getFlavorSlug(flavor)}
+            >
               {flavor.vendor} {flavor.name}
             </ListGroupItem>
           ))}
@@ -77,9 +85,16 @@ export default class IngredientCard extends Component {
     return vendors?.length ? (
       <Fragment>
         <h6>Vendors using this ingredient</h6>
-        <ListGroup variant="flush" activeKey="">
+        <ListGroup>
           {vendors.map(vendor => (
-            <ListGroupItem key={vendor.code}>{vendor.name}</ListGroupItem>
+            <ListGroupItem
+              action
+              as={Link}
+              key={vendor.code}
+              to={getVendorSlug(vendor)}
+            >
+              {vendor.name}
+            </ListGroupItem>
           ))}
         </ListGroup>
       </Fragment>
@@ -89,37 +104,29 @@ export default class IngredientCard extends Component {
   render() {
     const { casNumber, category, name } = this.props;
 
-    let badgeVariant;
-
-    switch (category) {
-      case 'Avoid':
-        badgeVariant = 'danger';
-        break;
-      case 'Caution':
-        badgeVariant = 'warning';
-        break;
-      default:
-        badgeVariant = 'info';
-        break;
-    }
-
     return (
       <Card className="my-3">
         <Card.Header>
-          <span>
-            {name} (CAS #
-            <a
-              href={`http://www.commonchemistry.org/ChemicalDetail.aspx?ref=${casNumber}`}
-              target="_blank"
-              rel="noopener noreferrer"
+          <h3>
+            <span>
+              {name} (CAS #
+              <a
+                href={`http://www.commonchemistry.org/ChemicalDetail.aspx?ref=${casNumber}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {casNumber}{' '}
+                <FontAwesomeIcon icon={faExternalLinkAlt} size="xs" />
+              </a>
+              )
+            </span>
+            <Badge
+              variant={getCategoryVariant(category)}
+              className="float-right"
             >
-              {casNumber} <FontAwesomeIcon icon={faExternalLinkAlt} size="xs" />
-            </a>
-            )
-          </span>
-          <Badge variant={badgeVariant} className="float-right">
-            {category}
-          </Badge>
+              {category}
+            </Badge>
+          </h3>
         </Card.Header>
         <Card.Body>
           {this.description}
