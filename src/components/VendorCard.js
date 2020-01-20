@@ -2,8 +2,6 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React, { Component, Fragment } from 'react';
 import { Card, ListGroupItem, ListGroup, Badge } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
 
 import { getCategoryVariant, getFlavorSlug, getIngredientSlug } from '~utils';
 
@@ -45,12 +43,7 @@ export default class VendorCard extends Component {
           ))}
         </ListGroup>
       </Fragment>
-    ) : (
-      <p>
-        <FontAwesomeIcon icon={faExclamationTriangle} /> This vendor is not
-        using (or disclosing) any concerning ingredients!
-      </p>
-    );
+    ) : null;
   }
 
   get ingredients() {

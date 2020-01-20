@@ -20,7 +20,7 @@ export default class VendorsPage extends Component {
     } = this.props;
 
     this.state = {
-      vendors: vendors.nodes.map(vendor => {
+      vendors: vendors.nodes.flatMap(vendor => {
         const vendorFlavors = flavors.nodes.filter(
           flavorNode => flavorNode.vendor === vendor.code
         );
@@ -30,11 +30,15 @@ export default class VendorsPage extends Component {
           )
         );
 
-        return {
-          ...vendor,
-          flavors: vendorFlavors,
-          ingredients: vendorIngredients
-        };
+        return vendorFlavors.length
+          ? [
+              {
+                ...vendor,
+                flavors: vendorFlavors,
+                ingredients: vendorIngredients
+              }
+            ]
+          : [];
       })
     };
 
