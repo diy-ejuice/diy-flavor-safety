@@ -1,5 +1,5 @@
-import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
+import { graphql, Link } from 'gatsby';
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
@@ -32,6 +32,12 @@ export default class IngredientPage extends Component {
       <Layout>
         <SEO title={`Ingredient Info - ${ingredient.name}`} />
         <Container>
+          <Row className="mb-3">
+            <Col>
+              <Link to="/ingredients">Ingredients</Link> &raquo;{' '}
+              {ingredient.name}
+            </Col>
+          </Row>
           <Row>
             <Col>
               <IngredientCard {...ingredient} flavors={flavors} />

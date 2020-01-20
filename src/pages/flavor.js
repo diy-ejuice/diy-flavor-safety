@@ -71,6 +71,11 @@ export default class FlavorPage extends Component {
       <Layout>
         <SEO title={`Flavor Info - ${flavor.name}`} />
         <Container>
+          <Row className="mb-3">
+            <Col>
+              <Link to="/flavors">Flavors</Link> &raquo; {flavor.name}
+            </Col>
+          </Row>
           <Row>
             <Col>
               <Card>

@@ -33,8 +33,10 @@ export default class VendorPage extends Component {
       <Layout>
         <SEO title={`Vendor Info - ${vendor.name}`} />
         <Container>
-          <Row>
-            <Link to="/vendors">&laquo; Back</Link>
+          <Row className="mb-3">
+            <Col>
+              <Link to="/vendors">Vendors</Link> &raquo; {vendor.name}
+            </Col>
           </Row>
           <Row>
             <Col>
