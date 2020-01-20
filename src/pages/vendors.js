@@ -50,10 +50,10 @@ export default class VendorsPage extends Component {
 
     return (
       <Layout>
-        <SEO title="Vendor Score" />
+        <SEO title="Vendor Info" />
         <Container>
           <Row>
-            <h1>Vendor Score</h1>
+            <h1>Vendor Info</h1>
           </Row>
           {vendors.map(vendor => (
             <VendorCard
