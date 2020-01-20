@@ -23,11 +23,6 @@ export default class FlavorsPage extends Component {
       vendors: NodesType.isRequired,
       flavors: NodesType.isRequired,
       ingredients: NodesType.isRequired
-    }).isRequired,
-    location: PropTypes.shape({
-      state: PropTypes.shape({
-        selectedIngredient: PropTypes.string
-      })
     }).isRequired
   };
 
@@ -35,7 +30,6 @@ export default class FlavorsPage extends Component {
     super(props);
 
     const {
-      location: { state: linkState },
       data: { vendors, flavors, ingredients }
     } = this.props;
 
@@ -43,7 +37,7 @@ export default class FlavorsPage extends Component {
       selected: {
         vendor: '',
         flavor: '',
-        ingredient: linkState?.selectedIngredient || '',
+        ingredient: '',
         category: ['Avoid', 'Caution']
       },
       vendors: vendors.nodes,
@@ -213,7 +207,18 @@ export default class FlavorsPage extends Component {
                     <th>Category</th>
                   </tr>
                 </thead>
-                <tbody>{results.map(this.renderFlavor)}</tbody>
+                <tbody>
+                  {results?.length ? (
+                    results.map(this.renderFlavor)
+                  ) : (
+                    <tr>
+                      <td colSpan={4} className="text-center">
+                        No flavors were found with your current search
+                        parameters!
+                      </td>
+                    </tr>
+                  )}
+                </tbody>
               </Table>
             </Col>
           </Row>
