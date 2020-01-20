@@ -174,7 +174,8 @@ module.exports = {
     'import/resolver': {
       alias: [
         ['~components', './src/components'],
-        ['~pages', './src/pages']
+        ['~pages', './src/pages'],
+        ['~utils', './src/utils']
       ]
     }
   }
