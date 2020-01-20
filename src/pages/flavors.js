@@ -72,8 +72,12 @@ export default class FlavorsPage extends Component {
         )
         .filter(
           ingredient =>
-            !selected?.category?.length ||
-            selected.category.includes(ingredient.category)
+            (!selected?.category?.length ||
+              selected.category.includes(ingredient.category)) &&
+            (!selected?.ingredient ||
+              ingredient.name
+                .toLowerCase()
+                .includes(selected.ingredient.toLowerCase()))
         );
       const flavorMatches =
         (!selected?.flavor ||
