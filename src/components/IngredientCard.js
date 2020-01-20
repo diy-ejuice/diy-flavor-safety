@@ -29,7 +29,7 @@ export default class IngredientCard extends Component {
     return links?.length ? (
       <Fragment>
         <h6>More Reading</h6>
-        <ListGroup variant="flush" activeKey="">
+        <ListGroup className="my-3" activeKey="">
           {links.map(link => (
             <ListGroupItem
               action
@@ -62,13 +62,13 @@ export default class IngredientCard extends Component {
 
     return flavors?.length ? (
       <Fragment>
-        <h6>Flavors with this ingredient</h6>
+        <h6 className="mb-3">Flavors with this ingredient</h6>
         <ListGroup>
           {flavors.map(flavor => (
             <ListGroupItem
               action
               as={Link}
-              key={flavor.name}
+              key={`${flavor.vendor} ${flavor.name}`}
               to={getFlavorSlug(flavor)}
             >
               {flavor.vendor} {flavor.name}
@@ -85,7 +85,7 @@ export default class IngredientCard extends Component {
     return vendors?.length ? (
       <Fragment>
         <h6>Vendors using this ingredient</h6>
-        <ListGroup>
+        <ListGroup className="my-3">
           {vendors.map(vendor => (
             <ListGroupItem
               action
