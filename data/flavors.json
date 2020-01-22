@@ -29,6 +29,13 @@
     ]
   },
   {
+    "name": "Chocolate Glazed Doughnut",
+    "vendor": "CAP",
+    "ingredients": [
+      "8002-31-1"
+    ]
+  },
+  {
     "name": "Cool Mint",
     "vendor": "CAP",
     "ingredients": [
@@ -134,6 +141,83 @@
     ]
   },
   {
+    "name": "Crème de Menthe",
+    "vendor": "FW",
+    "ingredients": [
+      "8006-90-4"
+    ]
+  },
+  {
+    "name": "Coffee w/ Cream",
+    "vendor": "FW",
+    "ingredients": [
+      "57-48-7"
+    ]
+  },
+  {
+    "name": "Tobacco Bastards Mint",
+    "vendor": "FM",
+    "ingredients": [
+      "8006-90-4"
+    ]
+  },
+  {
+    "name": "Cactus Cupcake",
+    "vendor": "MB",
+    "ingredients": [
+      "56038-13-2"
+    ]
+  },
+  {
+    "name": "Chocolate Peanut Butter Milk",
+    "vendor": "MB",
+    "ingredients": [
+      "56038-13-2"
+    ]
+  },
+  {
+    "name": "Double Mocca Coffee",
+    "vendor": "MB",
+    "ingredients": [
+      "56038-13-2"
+    ]
+  },
+  {
+    "name": "Dr. Beat",
+    "vendor": "MB",
+    "ingredients": [
+      "56038-13-2"
+    ]
+  },
+  {
+    "name": "Red Dragon Grapes",
+    "vendor": "MB",
+    "ingredients": [
+      "56038-13-2"
+    ]
+  },
+  {
+    "name": "S'mores Marshmallow Brownie",
+    "vendor": "MB",
+    "ingredients": [
+      "56038-13-2"
+    ]
+  },
+  {
+    "name": "Stranger Things",
+    "vendor": "MB",
+    "ingredients": [
+      "56038-13-2"
+    ]
+  },
+  {
+    "name": "Strawberry Brownie",
+    "vendor": "MB",
+    "ingredients": [
+      "56038-13-2"
+    ]
+  },
+  {
     "name": "Orange Mango With Stevia",
     "vendor": "CAP",
     "ingredients": [
@@ -224,6 +308,13 @@
     "vendor": "FW",
     "ingredients": [
       "513-86-0"
+    ]
+  },
+  {
+    "name": "Cake Batter Dip",
+    "vendor": "FW",
+    "ingredients": [
+      "57-48-7"
     ]
   },
   {
@@ -432,6 +523,13 @@
     ]
   },
   {
+    "name": "Key Lime",
+    "vendor": "FW",
+    "ingredients": [
+      "57-48-7"
+    ]
+  },
+  {
     "name": "Kiwi (natural)",
     "vendor": "FW",
     "ingredients": [
@@ -503,6 +601,13 @@
     ]
   },
   {
+    "name": "Orange",
+    "vendor": "FW",
+    "ingredients": [
+      "8006-90-4"
+    ]
+  },
+  {
     "name": "Orange Dream Bar",
     "vendor": "FW",
     "ingredients": [
@@ -561,6 +666,13 @@
     ]
   },
   {
+    "name": "Red White And Blue",
+    "vendor": "FW",
+    "ingredients": [
+      "57-48-7"
+    ]
+  },
+  {
     "name": "Rocky Road",
     "vendor": "FW",
     "ingredients": [
@@ -580,6 +692,13 @@
     "ingredients": [
       "56038-13-2",
       "8008-26-2"
+    ]
+  },
+  {
+    "name": "Spearmint",
+    "vendor": "FW",
+    "ingredients": [
+      "8006-90-4"
     ]
   },
   {
