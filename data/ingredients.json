@@ -56,20 +56,6 @@
     "links": null
   },
   {
-    "name": "Lime Oil",
-    "category": "Caution",
-    "casNumber": "8008-26-2",
-    "description": null,
-    "links": null
-  },
-  {
-    "name": "Orange Oil",
-    "category": "Caution",
-    "casNumber": "8008-57-9",
-    "description": null,
-    "links": null
-  },
-  {
     "name": "Triethyl Citrate",
     "category": "Research",
     "casNumber": "77-93-0",
@@ -167,6 +153,20 @@
     "category": "Caution",
     "casNumber": "7647-14-5",
     "description": "High concentrations may affect alveolar chemistry",
+    "links": null
+  },
+  {
+    "name": "Lime Oil",
+    "category": "Research",
+    "casNumber": "8008-26-2",
+    "description": null,
+    "links": null
+  },
+  {
+    "name": "Orange Oil",
+    "category": "Research",
+    "casNumber": "8008-57-9",
+    "description": null,
     "links": null
   }
 ]
