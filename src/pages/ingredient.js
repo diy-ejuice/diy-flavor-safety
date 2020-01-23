@@ -34,8 +34,8 @@ export default class IngredientPage extends Component {
         <Container>
           <Row className="mb-3">
             <Col>
-              <Link to="/ingredients">Ingredients</Link> &raquo;{' '}
-              {ingredient.name}
+              <Link to="/ingredients">Ingredients</Link>
+              <span> &raquo; {ingredient.name}</span>
             </Col>
           </Row>
           <Row>

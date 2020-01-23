@@ -56,7 +56,7 @@ export default class FlavorPage extends Component {
               to={getIngredientSlug(ingredient)}
               variant={getCategoryVariant(ingredient.category)}
             >
-              {ingredient.name}{' '}
+              {ingredient.name}
             </ListGroupItem>
           ))}
         </ListGroup>
