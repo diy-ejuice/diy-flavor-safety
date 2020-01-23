@@ -29,7 +29,9 @@ export default class VendorCard extends Component {
 
     return flavors?.length ? (
       <Fragment>
-        <h6 className="my-3">Flavors with concerning ingredients</h6>
+        <h6 className="my-3">
+          Flavors with concerning ingredients ({flavors.length})
+        </h6>
         <ListGroup activeKey="">
           {flavors.map(flavor => (
             <ListGroupItem
@@ -59,7 +61,9 @@ export default class VendorCard extends Component {
 
     return sortedIngredients?.length ? (
       <Fragment>
-        <h6 className="my-3">Ingredients used by this vendor</h6>
+        <h6 className="my-3">
+          Ingredients used by this vendor ({sortedIngredients.length})
+        </h6>
         <ListGroup activeKey="">
           {sortedIngredients.map(ingredient => (
             <ListGroupItem
