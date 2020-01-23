@@ -9,6 +9,7 @@ export default class VendorCard extends Component {
   static propTypes = {
     name: PropTypes.string.isRequired,
     code: PropTypes.string.isRequired,
+    flavorCount: PropTypes.number.isRequired,
     link: PropTypes.shape({
       title: PropTypes.string.isRequired,
       href: PropTypes.string.isRequired
@@ -82,7 +83,7 @@ export default class VendorCard extends Component {
   }
 
   render() {
-    const { code, link, name } = this.props;
+    const { code, link, name, flavorCount } = this.props;
 
     return (
       <Card className="my-3">
@@ -96,8 +97,9 @@ export default class VendorCard extends Component {
                 </a>
               </span>
             ) : null}
+            <span> ({code})</span>
             <Badge variant="secondary" className="float-right">
-              {code}
+              {flavorCount} flavors
             </Badge>
           </h3>
         </Card.Header>
