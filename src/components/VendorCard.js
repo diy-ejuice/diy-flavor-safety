@@ -49,11 +49,19 @@ export default class VendorCard extends Component {
   get ingredients() {
     const { ingredients } = this.props;
 
-    return ingredients?.length ? (
+    const sortedIngredients = [...ingredients];
+
+    sortedIngredients.sort(
+      (a, b) =>
+        a.category.toLowerCase().localeCompare(b.category.toLowerCase()) ||
+        a.name.toLowerCase().localeCompare(b.name.toLowerCase())
+    );
+
+    return sortedIngredients?.length ? (
       <Fragment>
         <h6 className="my-3">Ingredients used by this vendor</h6>
         <ListGroup activeKey="">
-          {ingredients.map(ingredient => (
+          {sortedIngredients.map(ingredient => (
             <ListGroupItem
               action
               as={Link}
