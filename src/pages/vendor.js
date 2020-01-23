@@ -58,6 +58,7 @@ export const query = graphql`
     vendor: vendorsJson(code: { eq: $code }) {
       name
       code
+      flavorCount
     }
     flavors: allFlavorsJson(filter: { vendor: { eq: $code } }) {
       nodes {
