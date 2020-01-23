@@ -166,7 +166,7 @@ export default class FlavorsPage extends Component {
           <td>
             <Link to={ingredientLink}>{ingredient.name}</Link>
           </td>
-          <td>
+          <td className="text-center">
             <CategoryInfo category={ingredient.category} />
           </td>
         </tr>
