@@ -134,6 +134,13 @@
     ]
   },
   {
+    "name": "Burley",
+    "vendor": "INW",
+    "ingredients": [
+      "8013-17-0"
+    ]
+  },
+  {
     "name": "RY4 Asian",
     "vendor": "TPA",
     "ingredients": [
@@ -218,10 +225,31 @@
     ]
   },
   {
+    "name": "Yuzu",
+    "vendor": "NR",
+    "ingredients": [
+      "7647-14-5"
+    ]
+  },
+  {
+    "name": "Super Sweetener",
+    "vendor": "TPA",
+    "ingredients": [
+      "56038-13-2"
+    ]
+  },
+  {
     "name": "Orange Mango With Stevia",
     "vendor": "CAP",
     "ingredients": [
       "8008-57-9"
+    ]
+  },
+  {
+    "name": "Fresh Puff",
+    "vendor": "INW",
+    "ingredients": [
+      "8006-90-4"
     ]
   },
   {
@@ -601,17 +629,17 @@
     ]
   },
   {
-    "name": "Orange",
-    "vendor": "FW",
-    "ingredients": [
-      "8006-90-4"
-    ]
-  },
-  {
     "name": "Orange Dream Bar",
     "vendor": "FW",
     "ingredients": [
       "8008-57-9"
+    ]
+  },
+  {
+    "name": "Peppermint",
+    "vendor": "FW",
+    "ingredients": [
+      "8006-90-4"
     ]
   },
   {
@@ -850,6 +878,13 @@
     ]
   },
   {
+    "name": "Orange Citrus",
+    "vendor": "FLV",
+    "ingredients": [
+      "8029-43-4"
+    ]
+  },
+  {
     "name": "Sweet Cigarette",
     "vendor": "FLV",
     "ingredients": [
@@ -1078,10 +1113,60 @@
     ]
   },
   {
-    "name": "Spearmint",
+    "name": "Pepper Mint",
     "vendor": "INW",
     "ingredients": [
       "8006-90-4"
+    ]
+  },
+  {
+    "name": "Spearmint",
+    "vendor": "INW",
+    "ingredients": [
+      "8013-17-0",
+      "8006-90-4"
+    ]
+  },
+  {
+    "name": "Tobacco C",
+    "vendor": "INW",
+    "ingredients": [
+      "8029-43-4"
+    ]
+  },
+  {
+    "name": "Tobacco Dark Fire",
+    "vendor": "INW",
+    "ingredients": [
+      "8028-89-5"
+    ]
+  },
+  {
+    "name": "Tobacco Turkish",
+    "vendor": "INW",
+    "ingredients": [
+      "8028-89-5"
+    ]
+  },
+  {
+    "name": "Tobacco Us Light Mix",
+    "vendor": "INW",
+    "ingredients": [
+      "8013-17-0"
+    ]
+  },
+  {
+    "name": "Tobacco Us Red Mix",
+    "vendor": "INW",
+    "ingredients": [
+      "8013-17-0"
+    ]
+  },
+  {
+    "name": "Pineapple Lassi",
+    "vendor": "MB",
+    "ingredients": [
+      "56038-13-2"
     ]
   },
   {
@@ -1701,11 +1786,27 @@
     ]
   },
   {
+    "name": "Rainbow Sherbet",
+    "vendor": "TPA",
+    "ingredients": [
+      "98-0-0"
+    ]
+  },
+  {
     "name": "Red Oak",
     "vendor": "TPA",
     "ingredients": [
       "98-0-0",
       "8028-89-5"
+    ]
+  },
+  {
+    "name": "Slim Mint Cookie",
+    "vendor": "TPA",
+    "ingredients": [
+      "8002-31-1",
+      "58-86-6",
+      "8006-90-4"
     ]
   },
   {
@@ -1723,6 +1824,20 @@
     ]
   },
   {
+    "name": "Almond Cookie SC",
+    "vendor": "WF",
+    "ingredients": [
+      "56038-13-2"
+    ]
+  },
+  {
+    "name": "Blackcherry Jelly Bean SC",
+    "vendor": "WF",
+    "ingredients": [
+      "56038-13-2"
+    ]
+  },
+  {
     "name": "Sweet Candy",
     "vendor": "CAP",
     "ingredients": [
@@ -1737,7 +1852,42 @@
     ]
   },
   {
+    "name": "Caramel Rice Crispy Treats",
+    "vendor": "WF",
+    "ingredients": [
+      "56038-13-2"
+    ]
+  },
+  {
+    "name": "Crème Brûlée Cookie SC",
+    "vendor": "WF",
+    "ingredients": [
+      "56038-13-2"
+    ]
+  },
+  {
     "name": "Island Mango",
+    "vendor": "WF",
+    "ingredients": [
+      "56038-13-2"
+    ]
+  },
+  {
+    "name": "Puff Cereal (Cocoa) SC",
+    "vendor": "WF",
+    "ingredients": [
+      "56038-13-2"
+    ]
+  },
+  {
+    "name": "Puff Cereal (Frosted) SC",
+    "vendor": "WF",
+    "ingredients": [
+      "56038-13-2"
+    ]
+  },
+  {
+    "name": "Shortbread Cookies SC",
     "vendor": "WF",
     "ingredients": [
       "56038-13-2"
@@ -1766,6 +1916,13 @@
   },
   {
     "name": "Sweet and Sour Purple Drink",
+    "vendor": "WF",
+    "ingredients": [
+      "56038-13-2"
+    ]
+  },
+  {
+    "name": "Sweetener SC",
     "vendor": "WF",
     "ingredients": [
       "56038-13-2"

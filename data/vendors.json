@@ -1,274 +1,322 @@
 [
   {
     "name": "Nature's Flavors",
-    "code": "NF"
+    "code": "NF",
+    "flavorCount": 330
   },
   {
     "name": "Jungle Flavors",
-    "code": "JF"
+    "code": "JF",
+    "flavorCount": 56
   },
   {
     "name": "Chef's Flavors",
-    "code": "CHF"
+    "code": "CHF",
+    "flavorCount": 55
   },
   {
     "name": "Lorann",
-    "code": "LA"
+    "code": "LA",
+    "flavorCount": 92
   },
   {
     "name": "Nicotine River",
-    "code": "NR"
-  },
-  {
-    "name": "Flavor Bases",
-    "code": "BASE"
+    "code": "NR",
+    "flavorCount": 86
   },
   {
     "name": "NicVape",
-    "code": "NV"
+    "code": "NV",
+    "flavorCount": 11
   },
   {
     "name": "DIY Flavor Shack",
-    "code": "DFS"
+    "code": "DFS",
+    "flavorCount": 373
   },
   {
     "name": "Flavors Express",
-    "code": "FE"
+    "code": "FE",
+    "flavorCount": 140
   },
   {
     "name": "Flavor Pheonix",
-    "code": "FP"
+    "code": "FP",
+    "flavorCount": 253
   },
   {
     "name": "My Freedom Smokes",
-    "code": "MFS"
+    "code": "MFS",
+    "flavorCount": 34
   },
   {
     "name": "Liquid Nicotine",
-    "code": "LNW"
+    "code": "LNW",
+    "flavorCount": 21
   },
   {
     "name": "Seedman",
-    "code": "SMN"
+    "code": "SMN",
+    "flavorCount": 8
   },
   {
     "name": "DIY OR DIE",
-    "code": "DOD"
+    "code": "DOD",
+    "flavorCount": 22
   },
   {
     "name": "The Broke Vaper",
-    "code": "TBV"
+    "code": "TBV",
+    "flavorCount": 6
   },
   {
     "name": "Chef's Choice",
-    "code": "CC"
+    "code": "CC",
+    "flavorCount": 74
   },
   {
     "name": "Delosi",
-    "code": "DF"
+    "code": "DF",
+    "flavorCount": 107
   },
   {
     "name": "Bickford",
-    "code": "BFD"
+    "code": "BFD",
+    "flavorCount": 6
   },
   {
     "name": "Note Flavors",
-    "code": "NTE"
+    "code": "NTE",
+    "flavorCount": 4
   },
   {
     "name": "IDE Flavors",
-    "code": "IDE"
+    "code": "IDE",
+    "flavorCount": 83
   },
   {
     "name": "Nude Nicotine",
-    "code": "NN"
+    "code": "NN",
+    "flavorCount": 88
   },
   {
     "name": "LOP",
-    "code": "LOP"
+    "code": "LOP",
+    "flavorCount": 46
   },
   {
     "name": "Health Cabin",
-    "code": "HC"
+    "code": "HC",
+    "flavorCount": 126
   },
   {
     "name": "Inawera",
-    "code": "INW"
+    "code": "INW",
+    "flavorCount": 401
   },
   {
     "name": "One Drop Flavors",
-    "code": "ONE"
+    "code": "ONE",
+    "flavorCount": 16
   },
   {
     "name": "Great Lakes",
-    "code": "GL"
+    "code": "GL",
+    "flavorCount": 29
   },
   {
     "name": "Sasami",
-    "code": "SI"
+    "code": "SI",
+    "flavorCount": 263
   },
   {
     "name": "Faeries Finest",
-    "code": "FF"
+    "code": "FF",
+    "flavorCount": 2
   },
   {
     "name": "German Flavors",
-    "code": "GF"
+    "code": "GF",
+    "flavorCount": 301
   },
   {
     "name": "FlavourArt",
-    "code": "FA"
+    "code": "FA",
+    "flavorCount": 359
   },
   {
     "name": "Super Concentrates",
-    "code": "SC"
+    "code": "SC",
+    "flavorCount": 100
   },
   {
     "name": "Flavor Revolution",
-    "code": "FR"
+    "code": "FR",
+    "flavorCount": 54
   },
   {
     "name": "Hangsen",
-    "code": "HS"
+    "code": "HS",
+    "flavorCount": 146
   },
   {
     "name": "Vampire Vapes",
-    "code": "VV"
+    "code": "VV",
+    "flavorCount": 42
   },
   {
     "name": "E Juice Makers",
-    "code": "EJM"
+    "code": "EJM",
+    "flavorCount": 58
   },
   {
     "name": "Stixx Mixx",
-    "code": "SM"
+    "code": "SM",
+    "flavorCount": 38
   },
   {
     "name": "Purilum",
-    "code": "PUR"
+    "code": "PUR",
+    "flavorCount": 93
   },
   {
     "name": "SolubeArome",
-    "code": "SA"
+    "code": "SA",
+    "flavorCount": 285
   },
   {
     "name": "One Stop DIY",
-    "code": "OSD"
+    "code": "OSD",
+    "flavorCount": 25
   },
   {
     "name": "Capella",
-    "code": "CAP"
+    "code": "CAP",
+    "flavorCount": 227
   },
   {
     "name": "Vaping Zone",
-    "code": "VZ"
+    "code": "VZ",
+    "flavorCount": 109
   },
   {
     "name": "Flavorah",
-    "code": "FLV"
+    "code": "FLV",
+    "flavorCount": 213
   },
   {
     "name": "The Flavor Apprentice",
-    "code": "TPA"
+    "code": "TPA",
+    "flavorCount": 400
   },
   {
     "name": "Other",
-    "code": "OTHR"
-  },
-  {
-    "name": "MT Baker",
-    "code": "MTB"
+    "code": "OTHR",
+    "flavorCount": 16
   },
   {
     "name": "Vape Train",
-    "code": "VT"
+    "code": "VT",
+    "flavorCount": 226
   },
   {
     "name": "Molinberry",
-    "code": "MB"
+    "code": "MB",
+    "flavorCount": 93
   },
   {
     "name": "T-Juice",
-    "code": "TJ"
-  },
-  {
-    "name": "Frandy Flavours",
-    "code": "FRA"
+    "code": "TJ",
+    "flavorCount": 35
   },
   {
     "name": "DuoMei",
-    "code": "DUO"
+    "code": "DUO",
+    "flavorCount": 1
   },
   {
     "name": "Flavormonks",
-    "code": "FM"
+    "code": "FM",
+    "flavorCount": 71
   },
   {
     "name": "Euro Flavors",
-    "code": "EUR"
+    "code": "EUR",
+    "flavorCount": 24
   },
   {
     "name": "Twisted Sketch",
-    "code": "TS"
+    "code": "TS",
+    "flavorCount": 95
   },
   {
     "name": "Baker Flavors",
-    "code": "BF"
+    "code": "BF",
+    "flavorCount": 124
   },
   {
     "name": "Real Flavors",
-    "code": "RF"
+    "code": "RF",
+    "flavorCount": 581
   },
   {
     "name": "Wonder Flavours",
-    "code": "WF"
+    "code": "WF",
+    "flavorCount": 161
   },
   {
     "name": "Tasty Puff",
-    "code": "TP"
+    "code": "TP",
+    "flavorCount": 48
   },
   {
     "name": "Flavor West",
-    "code": "FW"
+    "code": "FW",
+    "flavorCount": 344
   },
   {
     "name": "Decadent Vapours",
-    "code": "DV"
+    "code": "DV",
+    "flavorCount": 101
   },
   {
     "name": "One On One",
-    "code": "OOO"
+    "code": "OOO",
+    "flavorCount": 586
   },
   {
     "name": "HiLiq",
-    "code": "HLQ"
+    "code": "HLQ",
+    "flavorCount": 121
   },
   {
     "name": "Liquid Barn",
-    "code": "LB"
+    "code": "LB",
+    "flavorCount": 48
   },
   {
     "name": "DKS",
-    "code": "DKS"
+    "code": "DKS",
+    "flavorCount": 55
   },
   {
     "name": "Totally Wicked",
-    "code": "TW"
+    "code": "TW",
+    "flavorCount": 93
   },
   {
     "name": "Mom and Pop Vapor Shop",
-    "code": "MPV"
+    "code": "MPV",
+    "flavorCount": 115
   },
   {
     "name": "Silver Cloud",
-    "code": "SCE"
-  },
-  {
-    "name": "Clyrolinx",
-    "code": "CLY"
+    "code": "SCE",
+    "flavorCount": 119
   },
   {
     "name": "Medicine Flower",
-    "code": "MF"
+    "code": "MF",
+    "flavorCount": 64
   }
 ]
