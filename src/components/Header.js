@@ -2,11 +2,15 @@ import React from 'react';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import { Navbar, Nav } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
 
 const Header = ({ siteTitle }) => (
   <Navbar variant="dark" bg="danger" expand="lg">
     <Navbar.Brand>
-      <Link to="/">{siteTitle}</Link>
+      <Link to="/">
+        <FontAwesomeIcon icon={faExclamationTriangle} /> {siteTitle}
+      </Link>
     </Navbar.Brand>
     <Navbar.Toggle />
     <Navbar.Collapse>
