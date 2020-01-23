@@ -1,26 +1,31 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import { OverlayTrigger, Tooltip } from 'react-bootstrap';
+import { Badge, OverlayTrigger, Tooltip } from 'react-bootstrap';
+
+import { getCategoryVariant } from '~utils';
 
 export default class CategoryInfo extends Component {
   static propTypes = {
+    badgeProps: PropTypes.object,
     category: PropTypes.string.isRequired
   };
 
-  render() {
-    const { category } = this.props;
+  static defaultProps = {
+    badgeProps: {}
+  };
 
-    let textColor = 'info';
+  render() {
+    const { badgeProps, category } = this.props;
+
+    const badgeVariant = getCategoryVariant(category);
 
     let textTooltip =
       'The vape toxicity of this ingredient is currently being researched.';
 
     if (category === 'Caution') {
-      textColor = 'warning';
       textTooltip =
         'There is evidence that this ingredient can be toxic when vaped.';
     } else if (category === 'Avoid') {
-      textColor = 'danger';
       textTooltip =
         'There is evidence that this ingredient is toxic when vaped.';
     }
@@ -30,7 +35,9 @@ export default class CategoryInfo extends Component {
         placement="left"
         overlay={props => <Tooltip {...props}>{textTooltip}</Tooltip>}
       >
-        <span className={`text-${textColor}`}>{category}</span>
+        <Badge variant={badgeVariant} {...badgeProps}>
+          {category}
+        </Badge>
       </OverlayTrigger>
     );
   }
