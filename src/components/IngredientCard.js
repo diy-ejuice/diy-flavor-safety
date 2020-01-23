@@ -3,9 +3,10 @@ import PropTypes from 'prop-types';
 import React, { Component, Fragment } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
-import { Card, Badge, ListGroup, ListGroupItem } from 'react-bootstrap';
+import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
 
-import { getCategoryVariant, getFlavorSlug, getVendorSlug } from '~utils';
+import CategoryInfo from '~components/CategoryInfo';
+import { getFlavorSlug, getVendorSlug } from '~utils';
 
 export default class IngredientCard extends Component {
   static propTypes = {
@@ -122,12 +123,10 @@ export default class IngredientCard extends Component {
               </a>
               )
             </span>
-            <Badge
-              variant={getCategoryVariant(category)}
-              className="float-right"
-            >
-              {category}
-            </Badge>
+            <CategoryInfo
+              category={category}
+              badgeProps={{ className: 'float-right' }}
+            />
           </h3>
         </Card.Header>
         <Card.Body>
