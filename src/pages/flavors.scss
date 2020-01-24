@@ -1,0 +1,13 @@
+.diy-search-modal {
+  > div {
+    height: 100%;
+  }
+
+  .diy-spinner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    text-align: center;
+  }
+}

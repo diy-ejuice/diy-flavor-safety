@@ -1,21 +1,30 @@
-import { debounce } from 'lodash';
+import debounce from 'lodash/debounce';
 import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
 import React, { Component } from 'react';
-import { Card, Container, Row, Col, Table } from 'react-bootstrap';
+import {
+  Card,
+  Container,
+  Row,
+  Col,
+  Table,
+  Modal,
+  Spinner
+} from 'react-bootstrap';
 
+import CategoryInfo from '~components/CategoryInfo';
 import Layout from '~components/Layout';
 import SearchForm from '~components/SearchForm';
 import SEO from '~components/SEO';
-import CategoryInfo from '~components/CategoryInfo';
+import SortIcon from '~components/SortIcon';
 import { getFlavorSlug, getVendorSlug, getIngredientSlug } from '~utils';
-
-const debounceLeading = (fn, delay = 250) =>
-  debounce(fn, delay, { leading: true });
+import SortWorker from '~workers/sortWorker';
 
 const NodesType = PropTypes.shape({
   nodes: PropTypes.arrayOf(PropTypes.object)
 });
+
+import '~pages/flavors.scss';
 
 export default class FlavorsPage extends Component {
   static propTypes = {
@@ -30,8 +39,38 @@ export default class FlavorsPage extends Component {
     super(props);
 
     const {
-      data: { vendors, flavors, ingredients }
+      data: {
+        vendors: { nodes: vendors },
+        flavors: { nodes: flavors },
+        ingredients: { nodes: ingredients }
+      }
     } = this.props;
+    const rows = [];
+
+    for (const flavor of flavors) {
+      const { vendor: vendorCode, ingredients: flavorIngredients } = flavor;
+      const vendor = vendors.find(vend => vend.code === vendorCode);
+      const matchingIngredients = flavorIngredients.map(casNumber =>
+        ingredients.find(ingredient => ingredient.casNumber === casNumber)
+      );
+
+      for (const ingredient of matchingIngredients) {
+        rows.push({
+          flavor: {
+            ...flavor,
+            slug: getFlavorSlug(flavor)
+          },
+          vendor: {
+            ...vendor,
+            slug: getVendorSlug(vendor)
+          },
+          ingredient: {
+            ...ingredient,
+            slug: getIngredientSlug(ingredient)
+          }
+        });
+      }
+    }
 
     this.state = {
       selected: {
@@ -40,83 +79,75 @@ export default class FlavorsPage extends Component {
         ingredient: '',
         category: ['Avoid', 'Caution']
       },
-      vendors: vendors.nodes,
-      flavors: flavors.nodes,
-      ingredients: ingredients.nodes,
-      results: []
+      rows,
+      results: [],
+      sort: {
+        column: null,
+        direction: false
+      },
+      sorting: false
     };
 
-    this.onVendorChange = this.onVendorChange.bind(this);
+    this.sortWorker = SortWorker;
+    this.onCategoryChange = this.onCategoryChange.bind(this);
     this.onFlavorChange = this.onFlavorChange.bind(this);
     this.onIngredientChange = this.onIngredientChange.bind(this);
-    this.onCategoryChange = this.onCategoryChange.bind(this);
+    this.onVendorChange = this.onVendorChange.bind(this);
+    this.onSortChange = this.onSortChange.bind(this);
     this.refreshResults = this.refreshResults.bind(this);
+    this.startSort = this.startSort.bind(this);
+    this.finishSort = this.finishSort.bind(this);
+    this.flavorMatches = this.flavorMatches.bind(this);
   }
 
   componentDidMount() {
+    this.sortWorker.addEventListener('message', ({ data: results }) => {
+      this.setState({ results, sorting: false });
+    });
+
     this.refreshResults();
   }
 
-  refreshResults() {
-    const { vendors, flavors, ingredients, selected } = this.state;
-    const results = flavors.flatMap(flavor => {
-      const {
-        vendor: vendorCode,
-        name: flavorName,
-        ingredients: flavorIngredients
-      } = flavor;
-      const vendor = vendors.find(vend => vend.code === vendorCode);
-      const matchingIngredients = flavorIngredients
-        .map(casNumber =>
-          ingredients.find(ingredient => ingredient.casNumber === casNumber)
-        )
-        .filter(
-          ingredient =>
-            (!selected?.category?.length ||
-              selected.category.includes(ingredient.category)) &&
-            (!selected?.ingredient ||
-              ingredient.name
-                .toLowerCase()
-                .includes(selected.ingredient.toLowerCase()))
-        );
-      const flavorMatches =
-        (!selected?.flavor ||
-          flavorName.toLowerCase().includes(selected.flavor.toLowerCase())) &&
-        (!selected?.vendor ||
-          vendor.name.toLowerCase().includes(selected.vendor.toLowerCase()) ||
-          vendor.code.toLowerCase().includes(selected.vendor.toLowerCase())) &&
-        (!selected?.ingredient ||
-          matchingIngredients.some(ingredient =>
-            ingredient.name
-              .toLowerCase()
-              .includes(selected.ingredient.toLowerCase())
-          )) &&
-        (!selected?.category?.length ||
-          selected.category.some(category =>
-            matchingIngredients.some(
-              ingredient => category === ingredient.category
-            )
-          ));
+  componentWillUnmount() {
+    this.sortWorker.removeEventListener('message');
+  }
 
-      return flavorMatches
-        ? [
-            {
-              flavor,
-              vendor,
-              ingredients: matchingIngredients
-            }
-          ]
-        : [];
-    });
+  flavorMatches({ flavor, vendor, ingredient }) {
+    const { selected } = this.state;
 
-    results.sort(
-      (a, b) =>
-        a.vendor.code.localeCompare(b.vendor.code) ||
-        a.flavor.name.localeCompare(b.flavor.name) ||
-        a.ingredient.name.localeCompare(b.ingredient.name)
+    return (
+      (!selected?.flavor ||
+        flavor.name.toLowerCase().includes(selected.flavor.toLowerCase())) &&
+      (!selected?.vendor ||
+        vendor.name.toLowerCase().includes(selected.vendor.toLowerCase()) ||
+        vendor.code.toLowerCase().includes(selected.vendor.toLowerCase())) &&
+      (!selected?.ingredient ||
+        ingredient.name
+          .toLowerCase()
+          .includes(selected.ingredient.toLowerCase())) &&
+      (!selected?.category?.length ||
+        selected.category.some(category => category === ingredient.category))
     );
+  }
 
-    this.setState({ results });
+  refreshResults() {
+    const { rows } = this.state;
+
+    this.startSort(rows.filter(row => this.flavorMatches(row)));
+  }
+
+  startSort(results) {
+    this.setState({ sorting: results.length > 100 }, () =>
+      this.finishSort(results)
+    );
+  }
+
+  finishSort(results) {
+    const {
+      sort: { column, direction }
+    } = this.state;
+
+    this.sortWorker.postMessage({ results, column, direction });
   }
 
   setSelectedState(state) {
@@ -125,7 +156,7 @@ export default class FlavorsPage extends Component {
       ...state
     };
 
-    this.setState({ selected }, this.refreshResults);
+    this.setState({ selected }, debounce(this.refreshResults, 250));
   }
 
   onVendorChange(vendor) {
@@ -146,40 +177,60 @@ export default class FlavorsPage extends Component {
     });
   }
 
-  renderFlavor(result) {
-    const { flavor, vendor, ingredients } = result;
-    const flavorLink = getFlavorSlug(flavor);
-    const vendorLink = getVendorSlug(vendor);
-
-    return ingredients.map(ingredient => {
-      const key = `${vendor.code}-${flavor.name}-${ingredient.casNumber}`;
-      const ingredientLink = getIngredientSlug(ingredient);
-
-      return (
-        <tr key={key}>
-          <td>
-            <Link to={vendorLink}>{vendor.name}</Link>
-          </td>
-          <td>
-            <Link to={flavorLink}>{flavor.name}</Link>
-          </td>
-          <td>
-            <Link to={ingredientLink}>{ingredient.name}</Link>
-          </td>
-          <td className="text-center">
-            <CategoryInfo category={ingredient.category} />
-          </td>
-        </tr>
-      );
+  onSortChange(column, direction) {
+    this.setState({ sort: { column, direction } }, () => {
+      this.startSort(this.state.results);
     });
   }
 
+  renderFlavor(result) {
+    const { flavor, vendor, ingredient } = result;
+    const key = `${vendor.code}-${flavor.name}-${ingredient.casNumber}`;
+
+    return (
+      <tr key={key}>
+        <td>
+          <Link to={vendor.slug}>{vendor.name}</Link>
+        </td>
+        <td>
+          <Link to={flavor.slug}>{flavor.name}</Link>
+        </td>
+        <td>
+          <Link to={ingredient.slug}>{ingredient.name}</Link>
+        </td>
+        <td className="text-center">
+          <CategoryInfo category={ingredient.category} />
+        </td>
+      </tr>
+    );
+  }
+
   render() {
-    const { selected, vendors, flavors, ingredients, results } = this.state;
+    const {
+      selected,
+      vendors,
+      flavors,
+      ingredients,
+      results,
+      sorting
+    } = this.state;
 
     return (
       <Layout>
         <SEO title="Browse Flavors" />
+        <Modal
+          show={sorting}
+          animation={false}
+          dialogAs="div"
+          className="diy-search-modal"
+        >
+          <div className="diy-spinner-container">
+            <div>
+              <Spinner animation="border" role="status" variant="danger" />
+              <h4 className="mt-2 text-light">Loading</h4>
+            </div>
+          </div>
+        </Modal>
         <Container>
           <Row>
             <Col>
@@ -191,10 +242,10 @@ export default class FlavorsPage extends Component {
                   vendors={vendors}
                   flavors={flavors}
                   ingredients={ingredients}
-                  onVendorChange={debounceLeading(this.onVendorChange)}
-                  onFlavorChange={debounceLeading(this.onFlavorChange)}
-                  onIngredientChange={debounceLeading(this.onIngredientChange)}
-                  onCategoryChange={debounceLeading(this.onCategoryChange)}
+                  onVendorChange={this.onVendorChange}
+                  onFlavorChange={this.onFlavorChange}
+                  onIngredientChange={this.onIngredientChange}
+                  onCategoryChange={this.onCategoryChange}
                   selected={selected}
                 />
               </Card>
@@ -205,10 +256,28 @@ export default class FlavorsPage extends Component {
               <Table striped bordered hover>
                 <thead>
                   <tr>
-                    <th>Vendor</th>
-                    <th>Flavor</th>
-                    <th>Ingredient</th>
-                    <th>Category</th>
+                    <th>
+                      Vendor{' '}
+                      <SortIcon column="vendor" onToggle={this.onSortChange} />
+                    </th>
+                    <th>
+                      Flavor{' '}
+                      <SortIcon column="flavor" onToggle={this.onSortChange} />
+                    </th>
+                    <th>
+                      Ingredient{' '}
+                      <SortIcon
+                        column="ingredient"
+                        onToggle={this.onSortChange}
+                      />
+                    </th>
+                    <th>
+                      Category{' '}
+                      <SortIcon
+                        column="category"
+                        onToggle={this.onSortChange}
+                      />
+                    </th>
                   </tr>
                 </thead>
                 <tbody>

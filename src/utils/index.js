@@ -27,7 +27,19 @@ const getCategoryVariant = category => {
   return badgeVariant;
 };
 
+const createWebWorker = worker => {
+  if (typeof window !== 'object') {
+    return;
+  }
+
+  const code = worker.toString();
+  const blob = new Blob([`(${code})()`]);
+
+  return new Worker(URL.createObjectURL(blob));
+};
+
 module.exports = {
+  createWebWorker,
   getFlavorSlug,
   getIngredientSlug,
   getVendorSlug,
