@@ -4,10 +4,9 @@ node_js:
   - 'stable'
 deploy:
   provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
+  token: $GITHUB_TOKEN
   local_dir: public
-  keep-history: true
+  keep_history: true
   on:
     branch: master
 cache:
