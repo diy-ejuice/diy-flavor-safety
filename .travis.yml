@@ -5,7 +5,7 @@ node_js:
 deploy:
   provider: pages
   skip_cleanup: true
-  token: $GITHUB_TOKEN
+  github_token: $GITHUB_TOKEN
   local_dir: public
   keep_history: true
   on:
