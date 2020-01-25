@@ -98,18 +98,20 @@ export default class FlavorsPage extends Component {
     this.startSort = this.startSort.bind(this);
     this.finishSort = this.finishSort.bind(this);
     this.flavorMatches = this.flavorMatches.bind(this);
+    this.syncResults = this.syncResults.bind(this);
   }
 
   componentDidMount() {
-    this.sortWorker.addEventListener('message', ({ data: results }) => {
-      this.setState({ results, sorting: false });
-    });
-
+    this.sortWorker.addEventListener('message', this.syncResults);
     this.refreshResults();
   }
 
   componentWillUnmount() {
-    this.sortWorker.removeEventListener('message');
+    this.sortWorker.removeEventListener('message', this.syncResults);
+  }
+
+  syncResults({ data: results }) {
+    this.setState({ results, sorting: false });
   }
 
   flavorMatches({ flavor, vendor, ingredient }) {
