@@ -4,6 +4,7 @@ node_js:
   - 'stable'
 deploy:
   provider: pages
+  cleanup: false
   token: $GITHUB_TOKEN
   local_dir: public
   keep_history: true
