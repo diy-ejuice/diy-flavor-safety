@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/fw-wine-merlot","result":{"data":{"flavor":{"name":"Wine Merlot"},"vendor":{"code":"FW","name":"Flavor West"},"ingredients":{"nodes":[{"name":"Fructose","category":"Avoid"}]}},"pageContext":{"isCreatedByStatefulCreatePages":false,"name":"Wine Merlot","vendor":"FW","ingredients":["57-48-7"]}}}
