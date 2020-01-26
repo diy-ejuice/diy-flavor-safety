@@ -9,7 +9,7 @@ import {
   faEyeDropper,
   faBuilding
 } from '@fortawesome/free-solid-svg-icons';
-import { faDiscord, faReddit } from '@fortawesome/free-brands-svg-icons';
+import { faDiscord, faRedditAlien } from '@fortawesome/free-brands-svg-icons';
 
 const Header = ({ siteTitle }) => (
   <Navbar variant="dark" bg="danger" expand="lg">
@@ -37,7 +37,7 @@ const Header = ({ siteTitle }) => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faReddit} size="lg" /> /r/DIY_eJuice
+          <FontAwesomeIcon icon={faRedditAlien} size="lg" /> /r/DIY_eJuice
         </Nav.Link>
         <Nav.Link
           href="http://link.diyejuice.org/discord"
