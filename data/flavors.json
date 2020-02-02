@@ -141,6 +141,20 @@
     ]
   },
   {
+    "name": "Cherimoya YC",
+    "vendor": "INW",
+    "ingredients": [
+      "513-86-0"
+    ]
+  },
+  {
+    "name": "Coconut Cookies",
+    "vendor": "INW",
+    "ingredients": [
+      "513-86-0"
+    ]
+  },
+  {
     "name": "RY4 Asian",
     "vendor": "TPA",
     "ingredients": [
@@ -1103,6 +1117,27 @@
     "vendor": "HS",
     "ingredients": [
       "22047-25-2"
+    ]
+  },
+  {
+    "name": "Coffee",
+    "vendor": "INW",
+    "ingredients": [
+      "600-14-6"
+    ]
+  },
+  {
+    "name": "Jamaica Rum",
+    "vendor": "INW",
+    "ingredients": [
+      "8008-57-9"
+    ]
+  },
+  {
+    "name": "Mint",
+    "vendor": "INW",
+    "ingredients": [
+      "84625-32-1"
     ]
   },
   {
