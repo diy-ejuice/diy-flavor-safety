@@ -1,3 +1,4 @@
+import pluralize from 'pluralize';
 import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
 import React, { Component, Fragment } from 'react';
@@ -45,7 +46,8 @@ export default class FlavorPage extends Component {
     return (
       <Fragment>
         <h6 className="mt-3">
-          This flavor contains the following concerning ingredients:
+          This flavor contains the following concerning{' '}
+          {pluralize('ingredient', ingredients.length)}:
         </h6>
         <ListGroup activeKey="">
           {ingredients.map(ingredient => (
@@ -65,11 +67,16 @@ export default class FlavorPage extends Component {
   }
 
   render() {
-    const { flavor, vendor } = this.state;
+    const { flavor, ingredients, vendor } = this.state;
+
+    const title = `Flavor Info - ${flavor.name}`;
+    const description = `${flavor.name} contains ${
+      ingredients.length
+    } concerning ${pluralize('ingredient', ingredients.length)}.`;
 
     return (
       <Layout>
-        <SEO title={`Flavor Info - ${flavor.name}`} />
+        <SEO title={title} description={description} />
         <Container>
           <Row className="mb-3">
             <Col>

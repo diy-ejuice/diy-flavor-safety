@@ -1,3 +1,4 @@
+import pluralize from 'pluralize';
 import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
 import React, { Component } from 'react';
@@ -29,9 +30,16 @@ export default class VendorPage extends Component {
   render() {
     const { flavors, ingredients, vendor } = this.state;
 
+    const title = `Vendor Info - ${vendor.name}`;
+    const description = `${vendor.name} uses ${
+      ingredients.length
+    } concerning ${pluralize('ingredient', ingredients.length)} in ${
+      flavors.length
+    } ${pluralize('flavor', flavors.length)}.`;
+
     return (
       <Layout>
-        <SEO title={`Vendor Info - ${vendor.name}`} />
+        <SEO title={title} description={description} />
         <Container>
           <Row className="mb-3">
             <Col>
