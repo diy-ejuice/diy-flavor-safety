@@ -1,6 +1,6 @@
 ---
 name: 'Feature request'
-about: 'Something should be different'
+about: 'Something should behave differently.'
 ---
 
 **NOTE:** Do not open a feature request for anything related to the vendors/flavors/ingredient categorization data. For that, please create a data issue. Feel free to remove this note before submitting your issue.

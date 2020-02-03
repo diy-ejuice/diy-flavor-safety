@@ -1,6 +1,6 @@
 ---
 name: 'Data problem'
-about: 'A flavor/ingredient is missing'
+about: 'A flavor/ingredient is missing.'
 ---
 
 ## Details
