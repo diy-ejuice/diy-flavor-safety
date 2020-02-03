@@ -9,7 +9,11 @@ import {
   faEyeDropper,
   faBuilding
 } from '@fortawesome/free-solid-svg-icons';
-import { faDiscord, faRedditAlien } from '@fortawesome/free-brands-svg-icons';
+import {
+  faDiscord,
+  faRedditAlien,
+  faGithub
+} from '@fortawesome/free-brands-svg-icons';
 
 const Header = ({ siteTitle }) => (
   <Navbar variant="dark" bg="danger" expand="lg">
@@ -45,6 +49,13 @@ const Header = ({ siteTitle }) => (
           rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faDiscord} size="lg" /> Discord
+        </Nav.Link>
+        <Nav.Link
+          href="https://github.com/diy-ejuice/diy-flavor-safety"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon icon={faGithub} size="lg" /> GitHub
         </Nav.Link>
       </Nav>
     </Navbar.Collapse>
