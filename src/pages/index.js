@@ -12,7 +12,7 @@ class Index extends Component {
         <Container>
           <Row>
             <Col>
-              <h2>Welcome to the Safety Compendium.</h2>
+              <h1>Welcome to the Safety Compendium.</h1>
             </Col>
           </Row>
           <Row>

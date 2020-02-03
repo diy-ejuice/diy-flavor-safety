@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import { graphql } from 'gatsby';
+import { Link, graphql } from 'gatsby';
 
 import Layout from '~components/Layout';
 import SEO from '~components/SEO';
+import { Container } from 'react-bootstrap';
 
 class NotFound extends Component {
   render() {
@@ -13,8 +14,13 @@ class NotFound extends Component {
     return (
       <Layout title={siteTitle}>
         <SEO title="404: Not Found" />
-        <h1>Not Found</h1>
-        <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+        <Container>
+          <h1 className="display-1">Not Found</h1>
+          <p>
+            Sorry, that page doesn&apos;t exist. Please go back to{' '}
+            <Link to="/">the index</Link> and try to find the page from there.
+          </p>
+        </Container>
       </Layout>
     );
   }
