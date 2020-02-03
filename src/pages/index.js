@@ -44,14 +44,6 @@ class Index extends Component {
                 . We scan the data sheets and query vendors for the presence of
                 32 different compounds.
               </p>
-              <p>
-                We are in the process of migrating all of the information from
-                the{' '}
-                <a href="https://docs.google.com/spreadsheets/d/1qtol0dyNh_rvXXG9R6uvlS7qK_zC2HKfBqU_bKTbvTQ/edit?usp=sharing">
-                  Flavors to Avoid
-                </a>{' '}
-                sheet to this site.
-              </p>
             </Col>
           </Row>
         </Container>
