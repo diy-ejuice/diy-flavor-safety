@@ -1,12 +1,5 @@
 [
   {
-    "name": "Acetoin",
-    "category": "Research",
-    "casNumber": "513-86-0",
-    "description": null,
-    "links": null
-  },
-  {
     "name": "Acetyl Propionyl",
     "category": "Research",
     "casNumber": "600-14-6",
@@ -188,6 +181,13 @@
     "category": "Caution",
     "casNumber": "84625-32-1",
     "description": null,
+    "links": null
+  },
+  {
+    "name": "Acetoin",
+    "category": "Research",
+    "casNumber": "513-86-0",
+    "description": "Can turn in to diacetyl",
     "links": null
   }
 ]
