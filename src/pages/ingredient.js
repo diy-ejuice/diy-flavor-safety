@@ -73,7 +73,7 @@ export const query = graphql`
       name
       updated
     }
-    flavors: allFlavorsJson(filter: { ingredients: { in: [$casNumber] } }) {
+    flavors: allFlavorsJson(filter: { casNumbers: { in: [$casNumber] } }) {
       nodes {
         name
         vendor

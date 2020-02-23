@@ -108,7 +108,7 @@ export const query = graphql`
   query FlavorSearchQuery(
     $vendor: String
     $name: String
-    $ingredients: [String]
+    $casNumbers: [String]
   ) {
     flavor: flavorsJson(vendor: { eq: $vendor }, name: { eq: $name }) {
       name
@@ -118,7 +118,7 @@ export const query = graphql`
       name
     }
     ingredients: allIngredientsJson(
-      filter: { casNumber: { in: $ingredients } }
+      filter: { casNumber: { in: $casNumbers } }
     ) {
       nodes {
         name
