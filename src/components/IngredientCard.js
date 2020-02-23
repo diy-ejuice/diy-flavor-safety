@@ -12,6 +12,7 @@ export default class IngredientCard extends Component {
   static propTypes = {
     casNumber: PropTypes.string.isRequired,
     category: PropTypes.string.isRequired,
+    created: PropTypes.string.isRequired,
     description: PropTypes.string,
     links: PropTypes.arrayOf(
       PropTypes.shape({
@@ -21,6 +22,7 @@ export default class IngredientCard extends Component {
     ),
     name: PropTypes.string.isRequired,
     flavors: PropTypes.arrayOf(PropTypes.object),
+    updated: PropTypes.string.isRequired,
     vendors: PropTypes.arrayOf(PropTypes.object)
   };
 
@@ -48,11 +50,14 @@ export default class IngredientCard extends Component {
   }
 
   get description() {
-    const { description } = this.props;
+    const { created, description, updated } = this.props;
 
     return description ? (
       <Fragment>
         <h6>Description</h6>
+        <span className="text-muted">
+          Added on {created}, updated on {updated}
+        </span>
         <p>{description}</p>
       </Fragment>
     ) : null;

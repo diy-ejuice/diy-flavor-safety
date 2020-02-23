@@ -64,12 +64,14 @@ export const query = graphql`
     ingredient: ingredientsJson(casNumber: { eq: $casNumber }) {
       category
       casNumber
+      created
       description
       links {
         href
         title
       }
       name
+      updated
     }
     flavors: allFlavorsJson(filter: { ingredients: { in: [$casNumber] } }) {
       nodes {

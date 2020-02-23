@@ -85,12 +85,14 @@ export const query = graphql`
       nodes {
         casNumber
         category
+        created
         description
         links {
           href
           title
         }
         name
+        updated
       }
     }
     vendors: allVendorsJson {
