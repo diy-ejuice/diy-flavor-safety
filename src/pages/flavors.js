@@ -55,9 +55,14 @@ export default class FlavorsPage extends Component {
       );
 
       for (const ingredient of matchingIngredients) {
+        const { created } = flavor.ingredients.find(
+          ingredientNode => ingredientNode.casNumber === ingredient.casNumber
+        );
+
         rows.push({
           flavor: {
             ...flavor,
+            created,
             slug: getFlavorSlug(flavor)
           },
           vendor: {
@@ -187,6 +192,9 @@ export default class FlavorsPage extends Component {
 
   renderFlavor(result) {
     const { flavor, vendor, ingredient } = result;
+    const { created } = flavor.ingredients.find(
+      ingredientNode => ingredientNode.casNumber === ingredient.casNumber
+    );
     const key = `${vendor.code}-${flavor.name}-${ingredient.casNumber}`;
 
     return (
@@ -200,6 +208,7 @@ export default class FlavorsPage extends Component {
         <td>
           <Link to={ingredient.slug}>{ingredient.name}</Link>
         </td>
+        <td>{created}</td>
         <td className="text-center">
           <CategoryInfo category={ingredient.category} />
         </td>
@@ -274,6 +283,10 @@ export default class FlavorsPage extends Component {
                       />
                     </th>
                     <th>
+                      Added{' '}
+                      <SortIcon column="created" onToggle={this.onSortChange} />
+                    </th>
+                    <th>
                       Category{' '}
                       <SortIcon
                         column="category"
@@ -287,7 +300,7 @@ export default class FlavorsPage extends Component {
                     results.map(this.renderFlavor)
                   ) : (
                     <tr>
-                      <td colSpan={4} className="text-center">
+                      <td colSpan={5} className="text-center">
                         No flavors were found with your current search
                         parameters!
                       </td>
@@ -314,6 +327,10 @@ export const query = graphql`
     flavors: allFlavorsJson {
       nodes {
         casNumbers
+        ingredients {
+          casNumber
+          created
+        }
         name
         vendor
       }

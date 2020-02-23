@@ -17,13 +17,14 @@ export default () => {
     vendor: sortOnField('vendor.name'),
     flavor: sortOnField('flavor.name'),
     ingredient: sortOnField('ingredient.name'),
-    category: sortOnField('ingredient.category')
+    category: sortOnField('ingredient.category'),
+    created: sortOnField('flavor.created')
   };
 
   const defaultSort = (a, b) =>
-    sortOnField('vendor', true)(a, b) ||
-    sortOnField('flavor', true)(a, b) ||
-    sortOnField('ingredient.name', true)(a, b);
+    sortFunctions.vendor(true)(a, b) ||
+    sortFunctions.flavor(true)(a, b) ||
+    sortFunctions.ingredient(true)(a, b);
 
   self.addEventListener(
     'message',
