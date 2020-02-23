@@ -3,2013 +3,3326 @@
     "name": "27 Bears",
     "vendor": "CAP",
     "ingredients": [
-      "8008-26-2",
-      "8008-57-9"
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-14",
+        "updated": "2020-01-14"
+      },
+      {
+        "casNumber": "8008-57-9",
+        "created": "2020-01-14",
+        "updated": "2020-01-14"
+      }
     ]
   },
   {
     "name": "Cupcake Batter",
     "vendor": "FLV",
     "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-15",
+        "updated": "2020-01-15"
+      }
     ]
   },
   {
     "name": "Bubble Gum",
     "vendor": "CAP",
     "ingredients": [
-      "8008-57-9"
+      {
+        "casNumber": "8008-57-9",
+        "created": "2020-01-14",
+        "updated": "2020-01-14"
+      }
     ]
   },
   {
     "name": "Cake Batter",
     "vendor": "CAP",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-14",
+        "updated": "2020-01-14"
+      }
     ]
   },
   {
     "name": "Chocolate Glazed Doughnut",
     "vendor": "CAP",
     "ingredients": [
-      "8002-31-1"
+      {
+        "casNumber": "8002-31-1",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Cool Mint",
     "vendor": "CAP",
     "ingredients": [
-      "8006-90-4"
+      {
+        "casNumber": "8006-90-4",
+        "created": "2020-01-14",
+        "updated": "2020-01-14"
+      }
     ]
   },
   {
     "name": "French Vanilla",
     "vendor": "CAP",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-14",
+        "updated": "2020-01-14"
+      }
     ]
   },
   {
     "name": "Horchata",
     "vendor": "CAP",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-14",
+        "updated": "2020-01-14"
+      }
     ]
   },
   {
     "name": "Juicy Orange",
     "vendor": "CAP",
     "ingredients": [
-      "8008-57-9"
+      {
+        "casNumber": "8008-57-9",
+        "created": "2020-01-14",
+        "updated": "2020-01-14"
+      }
     ]
   },
   {
     "name": "Lemon Lime",
     "vendor": "CAP",
     "ingredients": [
-      "8008-26-2"
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-14",
+        "updated": "2020-01-14"
+      }
     ]
   },
   {
     "name": "Lime",
     "vendor": "CAP",
     "ingredients": [
-      "8008-26-2"
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-14",
+        "updated": "2020-01-14"
+      }
     ]
   },
   {
     "name": "Meringue",
     "vendor": "CAP",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Orange Creamsicle",
     "vendor": "CAP",
     "ingredients": [
-      "8008-57-9"
+      {
+        "casNumber": "8008-57-9",
+        "created": "2020-01-14",
+        "updated": "2020-01-14"
+      }
     ]
   },
   {
     "name": "Peppermint",
     "vendor": "CAP",
     "ingredients": [
-      "8006-90-4"
+      {
+        "casNumber": "8006-90-4",
+        "created": "2020-01-14",
+        "updated": "2020-01-14"
+      }
     ]
   },
   {
     "name": "Rainbow Candy",
     "vendor": "CAP",
     "ingredients": [
-      "8008-26-2"
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-14",
+        "updated": "2020-01-14"
+      }
     ]
   },
   {
     "name": "Super Sweet",
     "vendor": "CAP",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Sweet Mango",
     "vendor": "CAP",
     "ingredients": [
-      "8008-57-9"
+      {
+        "casNumber": "8008-57-9",
+        "created": "2020-01-14",
+        "updated": "2020-01-14"
+      }
     ]
   },
   {
     "name": "Sweet Tangerine",
     "vendor": "CAP",
     "ingredients": [
-      "8008-57-9"
+      {
+        "casNumber": "8008-57-9",
+        "created": "2020-01-14",
+        "updated": "2020-01-14"
+      }
     ]
   },
   {
     "name": "Vanilla Custard",
     "vendor": "CAP",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-14",
+        "updated": "2020-01-14"
+      }
     ]
   },
   {
     "name": "Spearmint",
     "vendor": "FA",
     "ingredients": [
-      "8006-90-4"
+      {
+        "casNumber": "8006-90-4",
+        "created": "2020-02-18",
+        "updated": "2020-02-18"
+      }
     ]
   },
   {
     "name": "Burley",
     "vendor": "INW",
     "ingredients": [
-      "8013-17-0"
+      {
+        "casNumber": "8013-17-0",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Cherimoya YC",
     "vendor": "INW",
     "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-02-02",
+        "updated": "2020-02-02"
+      }
     ]
   },
   {
     "name": "Coconut Cookies",
     "vendor": "INW",
     "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-02-02",
+        "updated": "2020-02-02"
+      }
     ]
   },
   {
     "name": "RY4 Asian",
     "vendor": "TPA",
     "ingredients": [
-      "98-0-0"
+      {
+        "casNumber": "98-0-0",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Crème de Menthe",
     "vendor": "FW",
     "ingredients": [
-      "8006-90-4"
+      {
+        "casNumber": "8006-90-4",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Coffee w/ Cream",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Tobacco Bastards Mint",
     "vendor": "FM",
     "ingredients": [
-      "8006-90-4"
+      {
+        "casNumber": "8006-90-4",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Cactus Cupcake",
     "vendor": "MB",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Chocolate Peanut Butter Milk",
     "vendor": "MB",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Double Mocca Coffee",
     "vendor": "MB",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Dr. Beat",
     "vendor": "MB",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Red Dragon Grapes",
     "vendor": "MB",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "S'mores Marshmallow Brownie",
     "vendor": "MB",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Stranger Things",
     "vendor": "MB",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Strawberry Brownie",
     "vendor": "MB",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Bavarian Cream",
     "vendor": "WF",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-02-23",
+        "updated": "2020-02-23"
+      }
     ]
   },
   {
     "name": "Yuzu",
     "vendor": "NR",
     "ingredients": [
-      "7647-14-5"
+      {
+        "casNumber": "7647-14-5",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Super Sweetener",
     "vendor": "TPA",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Orange Mango With Stevia",
     "vendor": "CAP",
     "ingredients": [
-      "8008-57-9"
+      {
+        "casNumber": "8008-57-9",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Cookie Butter",
     "vendor": "WF",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-02-23",
+        "updated": "2020-02-23"
+      }
     ]
   },
   {
     "name": "Crispy Wafer",
     "vendor": "WF",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-02-23",
+        "updated": "2020-02-23"
+      }
     ]
   },
   {
     "name": "Fresh Puff",
     "vendor": "INW",
     "ingredients": [
-      "8006-90-4"
+      {
+        "casNumber": "8006-90-4",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
+    ]
+  },
+  {
+    "name": "Almond Cookie",
+    "vendor": "WF",
+    "ingredients": [
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-02-23",
+        "updated": "2020-02-23"
+      }
+    ]
+  },
+  {
+    "name": "Black Cherry Jelly Bean",
+    "vendor": "WF",
+    "ingredients": [
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-02-23",
+        "updated": "2020-02-23"
+      }
+    ]
+  },
+  {
+    "name": "Caramel Rice Krispy Treats",
+    "vendor": "WF",
+    "ingredients": [
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-02-23",
+        "updated": "2020-02-23"
+      }
     ]
   },
   {
     "name": "555 Tobacco",
     "vendor": "FW",
     "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Acai Berry",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Apple Jacks Type",
     "vendor": "FW",
     "ingredients": [
-      "8015-91-6"
+      {
+        "casNumber": "8015-91-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Apple (Natural green)",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Banana Nut Bread",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Bananas Foster",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Banana Split",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Beetle Juice",
     "vendor": "FW",
     "ingredients": [
-      "8008-57-9"
+      {
+        "casNumber": "8008-57-9",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Biscotti",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Blackberry Mojito",
     "vendor": "FW",
     "ingredients": [
-      "8008-26-2",
-      "57-48-7"
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Boom!",
     "vendor": "FW",
     "ingredients": [
-      "8008-26-2",
-      "57-48-7"
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Butterscotch",
     "vendor": "FW",
     "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Cake Batter Dip",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Cake (yellow)",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Candy Cane",
     "vendor": "FW",
     "ingredients": [
-      "8006-90-4"
+      {
+        "casNumber": "8006-90-4",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Caramel Candy",
     "vendor": "FW",
     "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Caramel Cinnamon Roll",
     "vendor": "FW",
     "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Caramel (salted)",
     "vendor": "FW",
     "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Choco Coco Mocha",
     "vendor": "FW",
     "ingredients": [
-      "8002-31-1"
+      {
+        "casNumber": "8002-31-1",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Cinnamon",
     "vendor": "FW",
     "ingredients": [
-      "8015-91-6"
+      {
+        "casNumber": "8015-91-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Cinnamon Churro",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Cloud 9",
     "vendor": "FW",
     "ingredients": [
-      "8008-26-2",
-      "57-48-7"
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Clove",
     "vendor": "FW",
     "ingredients": [
-      "8000-34-8"
+      {
+        "casNumber": "8000-34-8",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Coconut Cream Pie",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Coffee",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Cola",
     "vendor": "FW",
     "ingredients": [
-      "8008-26-2"
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Cookie Butter",
     "vendor": "FW",
     "ingredients": [
-      "7647-14-5"
+      {
+        "casNumber": "7647-14-5",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Double Dutch Chocolate",
     "vendor": "FW",
     "ingredients": [
-      "8002-31-1"
+      {
+        "casNumber": "8002-31-1",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Double Dutch Twister",
     "vendor": "FW",
     "ingredients": [
-      "8002-31-1"
+      {
+        "casNumber": "8002-31-1",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Dragon Fruit",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Dutch Apple Pie",
     "vendor": "FW",
     "ingredients": [
-      "8052-35-5"
+      {
+        "casNumber": "8052-35-5",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Extreme Ice",
     "vendor": "FW",
     "ingredients": [
-      "8006-90-4"
+      {
+        "casNumber": "8006-90-4",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Fruity Flakes",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Fudge Brownie",
     "vendor": "FW",
     "ingredients": [
-      "8002-31-1"
+      {
+        "casNumber": "8002-31-1",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Ginger Ale",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Goji Berry",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Grape Soda",
     "vendor": "FW",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Gummi Bear",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Hawaiian Limeade",
     "vendor": "FW",
     "ingredients": [
-      "8008-26-2",
-      "57-48-7"
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Jack Fruit",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Jawbreaker",
     "vendor": "FW",
     "ingredients": [
-      "8008-57-9"
+      {
+        "casNumber": "8008-57-9",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Kahlua",
     "vendor": "FW",
     "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Key Lime",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Kiwi (natural)",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Lemon Meringue Pie",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Macadamia Nut",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Madagascar Vanilla",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Mango",
     "vendor": "FW",
     "ingredients": [
-      "8008-57-9"
+      {
+        "casNumber": "8008-57-9",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Mango Guava",
     "vendor": "FW",
     "ingredients": [
-      "8008-57-9"
+      {
+        "casNumber": "8008-57-9",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Mocha",
     "vendor": "FW",
     "ingredients": [
-      "8002-31-1"
+      {
+        "casNumber": "8002-31-1",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Mojito",
     "vendor": "FW",
     "ingredients": [
-      "8008-26-2",
-      "57-48-7"
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Moose Milk",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Nutella Type (hazelnut spread)",
     "vendor": "FW",
     "ingredients": [
-      "8002-31-1"
+      {
+        "casNumber": "8002-31-1",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Orange Dream Bar",
     "vendor": "FW",
     "ingredients": [
-      "8008-57-9"
+      {
+        "casNumber": "8008-57-9",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Peppermint",
     "vendor": "FW",
     "ingredients": [
-      "8006-90-4"
+      {
+        "casNumber": "8006-90-4",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Pomberry",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Pomegranate",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Prickly Pear",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Rainbow Candy",
     "vendor": "FW",
     "ingredients": [
-      "8008-26-2"
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Rainbow Line Gum",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Rainbow Sherbet",
     "vendor": "FW",
     "ingredients": [
-      "8008-57-9",
-      "8008-26-2",
-      "57-48-7"
+      {
+        "casNumber": "8008-57-9",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Raspberry (natural)",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Red White And Blue",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Rocky Road",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Salty Butter Balls",
     "vendor": "FW",
     "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Shirley Temple",
     "vendor": "FW",
     "ingredients": [
-      "56038-13-2",
-      "8008-26-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Spearmint",
     "vendor": "FW",
     "ingredients": [
-      "8006-90-4"
+      {
+        "casNumber": "8006-90-4",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Star Fruit",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Stick Gum (2xmint)",
     "vendor": "FW",
     "ingredients": [
-      "8006-90-4"
+      {
+        "casNumber": "8006-90-4",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Strawberry Shortcake",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Swedish Fish Type",
     "vendor": "FW",
     "ingredients": [
-      "56038-13-2",
-      "8008-57-9"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "8008-57-9",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Sweet Cream",
     "vendor": "FW",
     "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Sweetener",
     "vendor": "FW",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Sweet Tarts Type",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Tiki Roar",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Toffee Dream Cream",
     "vendor": "FW",
     "ingredients": [
-      "8015-91-6"
+      {
+        "casNumber": "8015-91-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Tres Leches",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Tropical Cream Breeze",
     "vendor": "FW",
     "ingredients": [
-      "8008-57-9"
+      {
+        "casNumber": "8008-57-9",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Tropical Punch",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Tutti Fruitti",
     "vendor": "FW",
     "ingredients": [
-      "8008-57-9"
+      {
+        "casNumber": "8008-57-9",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Unicorn Vomit",
     "vendor": "FW",
     "ingredients": [
-      "8008-57-9"
+      {
+        "casNumber": "8008-57-9",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Watermelon(natural)",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Wine Merlot",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Yumberry",
     "vendor": "FW",
     "ingredients": [
-      "57-48-7"
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Chocolate Deutsch",
     "vendor": "FLV",
     "ingredients": [
-      "8002-31-1"
+      {
+        "casNumber": "8002-31-1",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Cookie Dough",
     "vendor": "FLV",
     "ingredients": [
-      "98-0-0"
+      {
+        "casNumber": "98-0-0",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Ginger Snap",
     "vendor": "FLV",
     "ingredients": [
-      "8029-43-4"
+      {
+        "casNumber": "8029-43-4",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Irish Cream",
     "vendor": "FLV",
     "ingredients": [
-      "8002-31-1"
+      {
+        "casNumber": "8002-31-1",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Orange Citrus",
     "vendor": "FLV",
     "ingredients": [
-      "8029-43-4"
+      {
+        "casNumber": "8029-43-4",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Sweet Cigarette",
     "vendor": "FLV",
     "ingredients": [
-      "8002-31-1"
+      {
+        "casNumber": "8002-31-1",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Sweetness",
     "vendor": "FLV",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Toffee",
     "vendor": "FLV",
     "ingredients": [
-      "8002-31-1"
+      {
+        "casNumber": "8002-31-1",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Cream",
     "vendor": "FM",
     "ingredients": [
-      "431-03-8"
+      {
+        "casNumber": "431-03-8",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Lime",
     "vendor": "FM",
     "ingredients": [
-      "8008-26-2"
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Speculaas",
     "vendor": "FM",
     "ingredients": [
-      "8000-34-8"
+      {
+        "casNumber": "8000-34-8",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Sweet Betsy Lime",
     "vendor": "FM",
     "ingredients": [
-      "8008-26-2"
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Arabic Tobacco",
     "vendor": "HS",
     "ingredients": [
-      "22047-25-2"
+      {
+        "casNumber": "22047-25-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Australian Chocolate",
     "vendor": "HS",
     "ingredients": [
-      "22047-25-2"
+      {
+        "casNumber": "22047-25-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Cheesecake",
     "vendor": "HS",
     "ingredients": [
-      "22047-25-2",
-      "513-86-0"
+      {
+        "casNumber": "22047-25-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      },
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Chocolate Cream",
     "vendor": "HS",
     "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Churchill",
     "vendor": "HS",
     "ingredients": [
-      "22047-25-2"
+      {
+        "casNumber": "22047-25-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Cream",
     "vendor": "HS",
     "ingredients": [
-      "124-07-2",
-      "513-86-0"
+      {
+        "casNumber": "124-07-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      },
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Cuba",
     "vendor": "HS",
     "ingredients": [
-      "22047-25-2"
+      {
+        "casNumber": "22047-25-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Desert Ship",
     "vendor": "HS",
     "ingredients": [
-      "22047-25-2"
+      {
+        "casNumber": "22047-25-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Elder Captain",
     "vendor": "HS",
     "ingredients": [
-      "22047-25-2"
+      {
+        "casNumber": "22047-25-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "French Vanilla Icecream",
     "vendor": "HS",
     "ingredients": [
-      "124-07-2"
+      {
+        "casNumber": "124-07-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Hazelnut Coffee",
     "vendor": "HS",
     "ingredients": [
-      "77-93-0",
-      "22047-25-2"
+      {
+        "casNumber": "77-93-0",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      },
+      {
+        "casNumber": "22047-25-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Highway",
     "vendor": "HS",
     "ingredients": [
-      "22047-25-2"
+      {
+        "casNumber": "22047-25-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Ice Cream",
     "vendor": "HS",
     "ingredients": [
-      "124-07-2"
+      {
+        "casNumber": "124-07-2",
+        "created": "2020-01-20",
+        "updated": "2020-01-20"
+      }
     ]
   },
   {
     "name": "Indian Tobacco",
     "vendor": "HS",
     "ingredients": [
-      "22047-25-2"
+      {
+        "casNumber": "22047-25-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Irish Cream",
     "vendor": "HS",
     "ingredients": [
-      "124-07-2"
+      {
+        "casNumber": "124-07-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Italian Cream",
     "vendor": "HS",
     "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Lemonade",
     "vendor": "HS",
     "ingredients": [
-      "22047-25-2"
+      {
+        "casNumber": "22047-25-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Magic Mix",
     "vendor": "HS",
     "ingredients": [
-      "22047-25-2"
+      {
+        "casNumber": "22047-25-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Muffin",
     "vendor": "HS",
     "ingredients": [
-      "124-07-2",
-      "22047-25-2"
+      {
+        "casNumber": "124-07-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      },
+      {
+        "casNumber": "22047-25-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "No. 5",
     "vendor": "HS",
     "ingredients": [
-      "22047-25-2"
+      {
+        "casNumber": "22047-25-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "RY1",
     "vendor": "HS",
     "ingredients": [
-      "22047-25-2"
+      {
+        "casNumber": "22047-25-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "RY3",
     "vendor": "HS",
     "ingredients": [
-      "22047-25-2"
+      {
+        "casNumber": "22047-25-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Tab Blended",
     "vendor": "HS",
     "ingredients": [
-      "22047-25-2"
+      {
+        "casNumber": "22047-25-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Turkish Blended",
     "vendor": "HS",
     "ingredients": [
-      "22047-25-2"
+      {
+        "casNumber": "22047-25-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Coffee",
     "vendor": "INW",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-02-02",
+        "updated": "2020-02-02"
+      }
     ]
   },
   {
     "name": "Eucalyptus With Mint",
     "vendor": "INW",
     "ingredients": [
-      "84625-32-1"
+      {
+        "casNumber": "84625-32-1",
+        "created": "2020-02-03",
+        "updated": "2020-02-03"
+      }
+    ]
+  },
+  {
+    "name": "Creme Brulee Cookie",
+    "vendor": "WF",
+    "ingredients": [
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-02-23",
+        "updated": "2020-02-23"
+      }
     ]
   },
   {
     "name": "Jamaica Rum",
     "vendor": "INW",
     "ingredients": [
-      "8008-57-9"
+      {
+        "casNumber": "8008-57-9",
+        "created": "2020-02-02",
+        "updated": "2020-02-02"
+      }
     ]
   },
   {
     "name": "Mint",
     "vendor": "INW",
     "ingredients": [
-      "84625-32-1"
+      {
+        "casNumber": "84625-32-1",
+        "created": "2020-02-02",
+        "updated": "2020-02-02"
+      }
     ]
   },
   {
     "name": "Natural Mint",
     "vendor": "INW",
     "ingredients": [
-      "8006-90-4"
+      {
+        "casNumber": "8006-90-4",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Pepper Mint",
     "vendor": "INW",
     "ingredients": [
-      "8006-90-4"
+      {
+        "casNumber": "8006-90-4",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
+    ]
+  },
+  {
+    "name": "Puff Cereal (Cocoa)",
+    "vendor": "WF",
+    "ingredients": [
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-02-23",
+        "updated": "2020-02-23"
+      }
     ]
   },
   {
     "name": "Spearmint",
     "vendor": "INW",
     "ingredients": [
-      "8013-17-0",
-      "8006-90-4"
+      {
+        "casNumber": "8013-17-0",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      },
+      {
+        "casNumber": "8006-90-4",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Tobacco C",
     "vendor": "INW",
     "ingredients": [
-      "8029-43-4"
+      {
+        "casNumber": "8029-43-4",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Tobacco Dark Fire",
     "vendor": "INW",
     "ingredients": [
-      "8028-89-5"
+      {
+        "casNumber": "8028-89-5",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Tobacco Turkish",
     "vendor": "INW",
     "ingredients": [
-      "8028-89-5"
+      {
+        "casNumber": "8028-89-5",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Tobacco Us Light Mix",
     "vendor": "INW",
     "ingredients": [
-      "8013-17-0"
+      {
+        "casNumber": "8013-17-0",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Tobacco Us Red Mix",
     "vendor": "INW",
     "ingredients": [
-      "8013-17-0"
+      {
+        "casNumber": "8013-17-0",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
+    ]
+  },
+  {
+    "name": "Puff Cereal (Frosted)",
+    "vendor": "WF",
+    "ingredients": [
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-02-23",
+        "updated": "2020-02-23"
+      }
+    ]
+  },
+  {
+    "name": "Shortbread Cookies",
+    "vendor": "WF",
+    "ingredients": [
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-02-23",
+        "updated": "2020-02-23"
+      }
     ]
   },
   {
     "name": "Pineapple Lassi",
     "vendor": "MB",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
+    ]
+  },
+  {
+    "name": "Sweetener",
+    "vendor": "WF",
+    "ingredients": [
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-02-23",
+        "updated": "2020-02-23"
+      }
     ]
   },
   {
     "name": "Lemon",
     "vendor": "NR",
     "ingredients": [
-      "7647-14-5"
+      {
+        "casNumber": "7647-14-5",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Aged Bourbon Cream",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Banana Foster",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6",
-      "513-86-0"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Banana Split",
     "vendor": "RF",
     "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Bavarian Cream",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Blackberry Jam with Toast - SC",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Blueberry Jam with Toast - Super Concentrate",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-02-23",
+        "updated": "2020-02-23"
+      }
     ]
   },
   {
     "name": "Blueberry Muffin",
     "vendor": "RF",
     "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Blueberry Pastry – SC",
     "vendor": "RF",
     "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Blue Moon Ice Cream",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Bread Pudding",
     "vendor": "RF",
     "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Brown Sugar",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Butter Pecan Pie - Super Concentrate ",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Caramel",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Caramel Apple",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Caramel Cappuccino",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Cherry Limeade",
     "vendor": "RF",
     "ingredients": [
-      "8008-26-2"
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Cherry Pie",
     "vendor": "RF",
     "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Chocolate Milkshake",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Cinnamon Custard",
     "vendor": "RF",
     "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Cinnamon Donut",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Cinnamon Roll",
     "vendor": "RF",
     "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Cinnamon Toast",
     "vendor": "RF",
     "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
-    "name": "Coconut Spiced Rum – Super Concentrate",
+    "name": "Coconut Spiced Rum – SC",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-02-05",
+        "updated": "2020-02-05"
+      }
     ]
   },
   {
     "name": "Cream Cheese",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6",
-      "513-86-0"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Creme Brulee - SC ",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Deep Fried Cookies and Cream – Super Concentrate",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-02-23",
+        "updated": "2020-02-23"
+      }
     ]
   },
   {
     "name": "Deep Fried Spongecake – Super Concentrate",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-02-23",
+        "updated": "2020-02-23"
+      }
     ]
   },
   {
     "name": "Dreamsicle",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Dulce de Leche",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Elephant Ear",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6",
-      "513-86-0"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "French Toast",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6",
-      "513-86-0"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "French Vanilla",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Fried Dough",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Frosted Animal Cookie - SC",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Frosted Cereal",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Fruit Cake",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6",
-      "513-86-0"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Fruit Danish",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Fruit Pebbles – Super Concentrate",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-02-23",
+        "updated": "2020-02-23"
+      }
     ]
   },
   {
     "name": "Fruity Circles",
     "vendor": "RF",
     "ingredients": [
-      "8008-26-2"
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Funnel Cake",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Golden Cereal",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6",
-      "513-86-0"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Graham Cracker",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Hazelnut",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Key Lime Pie",
     "vendor": "RF",
     "ingredients": [
-      "8008-26-2",
-      "600-14-6"
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Lime",
     "vendor": "RF",
     "ingredients": [
-      "8008-26-2"
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Mango",
     "vendor": "RF",
     "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Marshmallow Candy - Super Concentrate",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-02-23",
+        "updated": "2020-02-23"
+      }
     ]
   },
   {
     "name": "Mojito",
     "vendor": "RF",
     "ingredients": [
-      "8008-26-2"
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Neapolitan Ice Cream",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
-    "name": "Paczki – Super Concentrate",
+    "name": "Paczki – SC",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-02-05",
+        "updated": "2020-02-05"
+      }
     ]
   },
   {
     "name": "Peach Cobbler",
     "vendor": "RF",
     "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Peanut Brittle",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Peanut Butter",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Peanut Butter Cookie",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Peanut Butter Cup",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Pistachio",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Rainbow Candy",
     "vendor": "RF",
     "ingredients": [
-      "8008-26-2"
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Rainbow Sherbet",
     "vendor": "RF",
     "ingredients": [
-      "8008-26-2"
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Red, White And Blue Popsicle",
     "vendor": "RF",
     "ingredients": [
-      "8008-26-2"
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Red, White, & Blue Popsicle",
     "vendor": "RF",
     "ingredients": [
-      "8008-26-2"
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-02-18",
+        "updated": "2020-02-18"
+      }
     ]
   },
   {
     "name": "Rice Pudding - SC",
     "vendor": "RF",
     "ingredients": [
-      "513-86-0"
-    ]
-  },
-  {
-    "name": "Rice Pudding – Super Concentrate",
-    "vendor": "RF",
-    "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-02-05",
+        "updated": "2020-02-05"
+      }
     ]
   },
   {
     "name": "Rocky Road Ice Cream",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Samoa Cookie Type",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Silly Rabbit",
     "vendor": "RF",
     "ingredients": [
-      "8008-26-2"
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "S'mores",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Snickerdoodle",
     "vendor": "RF",
     "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Strawberry Gelato – Super Concentrate",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-02-23",
+        "updated": "2020-02-23"
+      }
     ]
   },
   {
     "name": "Strawberry Jam with Toast",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Strawberry Milkshake",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Strawberry Pastry",
     "vendor": "RF",
     "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Stuffed French Toast",
     "vendor": "RF",
     "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Super Ice Cream",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Tropical Punch",
     "vendor": "RF",
     "ingredients": [
-      "513-86-0"
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Tropical Rainbow Candy",
     "vendor": "RF",
     "ingredients": [
-      "8008-26-2"
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Vanilla Custard",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Vanilla Ice Cream",
     "vendor": "RF",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
     ]
   },
   {
     "name": "Butterscotch",
     "vendor": "TPA",
     "ingredients": [
-      "98-0-0"
+      {
+        "casNumber": "98-0-0",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Cinnamon Sugar Cookie",
     "vendor": "TPA",
     "ingredients": [
-      "98-0-0"
+      {
+        "casNumber": "98-0-0",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Citrus Punch",
     "vendor": "TPA",
     "ingredients": [
-      "1406-18-4"
+      {
+        "casNumber": "1406-18-4",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "DX Brown Sugar",
     "vendor": "TPA",
     "ingredients": [
-      "98-0-0"
+      {
+        "casNumber": "98-0-0",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Graham Cracker",
     "vendor": "TPA",
     "ingredients": [
-      "8029-43-4"
+      {
+        "casNumber": "8029-43-4",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Honey",
     "vendor": "TPA",
     "ingredients": [
-      "8028-89-5"
+      {
+        "casNumber": "8028-89-5",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Jamaican Rum",
     "vendor": "TPA",
     "ingredients": [
-      "8028-89-5"
+      {
+        "casNumber": "8028-89-5",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Key Lime",
     "vendor": "TPA",
     "ingredients": [
-      "1406-18-4"
+      {
+        "casNumber": "1406-18-4",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Lemon Lime",
     "vendor": "TPA",
     "ingredients": [
-      "1406-18-4"
+      {
+        "casNumber": "1406-18-4",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Orange Cream Bar",
     "vendor": "TPA",
     "ingredients": [
-      "98-0-0"
+      {
+        "casNumber": "98-0-0",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Pie Crust",
     "vendor": "TPA",
     "ingredients": [
-      "98-0-0"
+      {
+        "casNumber": "98-0-0",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Rainbow Sherbet",
     "vendor": "TPA",
     "ingredients": [
-      "98-0-0"
+      {
+        "casNumber": "98-0-0",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Red Oak",
     "vendor": "TPA",
     "ingredients": [
-      "98-0-0",
-      "8028-89-5"
+      {
+        "casNumber": "98-0-0",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      },
+      {
+        "casNumber": "8028-89-5",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Slim Mint Cookie",
     "vendor": "TPA",
     "ingredients": [
-      "8002-31-1",
-      "58-86-6",
-      "8006-90-4"
+      {
+        "casNumber": "8002-31-1",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      },
+      {
+        "casNumber": "58-86-6",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      },
+      {
+        "casNumber": "8006-90-4",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Sweetener",
     "vendor": "TPA",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Vanilla Bean Ice Cream",
     "vendor": "TPA",
     "ingredients": [
-      "600-14-6"
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-15",
+        "updated": "2020-01-15"
+      }
     ]
   },
   {
     "name": "Almond Cookie SC",
     "vendor": "WF",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Blackcherry Jelly Bean SC",
     "vendor": "WF",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Sweet Candy",
     "vendor": "CAP",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Fizz Pop",
     "vendor": "CAP",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Caramel Rice Crispy Treats",
     "vendor": "WF",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Crème Brûlée Cookie SC",
     "vendor": "WF",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Island Mango",
     "vendor": "WF",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Puff Cereal (Cocoa) SC",
     "vendor": "WF",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Puff Cereal (Frosted) SC",
     "vendor": "WF",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Shortbread Cookies SC",
     "vendor": "WF",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   },
   {
     "name": "Sour Blue Raspberry Candy",
     "vendor": "WF",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Sour Watermelon Candy",
     "vendor": "WF",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Summertime Lemonade",
     "vendor": "WF",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Sweet and Sour Purple Drink",
     "vendor": "WF",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      }
     ]
   },
   {
     "name": "Sweetener SC",
     "vendor": "WF",
     "ingredients": [
-      "56038-13-2"
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
     ]
   }
 ]
