@@ -48,9 +48,9 @@ export default class FlavorsPage extends Component {
     const rows = [];
 
     for (const flavor of flavors) {
-      const { vendor: vendorCode, ingredients: flavorIngredients } = flavor;
+      const { vendor: vendorCode, casNumbers } = flavor;
       const vendor = vendors.find(vend => vend.code === vendorCode);
-      const matchingIngredients = flavorIngredients.map(casNumber =>
+      const matchingIngredients = casNumbers.map(casNumber =>
         ingredients.find(ingredient => ingredient.casNumber === casNumber)
       );
 
@@ -313,7 +313,7 @@ export const query = graphql`
     }
     flavors: allFlavorsJson {
       nodes {
-        ingredients
+        casNumbers
         name
         vendor
       }

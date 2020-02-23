@@ -16,17 +16,21 @@ export default class VendorsPage extends Component {
     super(props);
 
     const {
-      data: { flavors, ingredients, vendors }
+      data: {
+        flavors: { nodes: flavors },
+        ingredients: { nodes: ingredients },
+        vendors: { nodes: vendors }
+      }
     } = this.props;
 
     this.state = {
-      vendors: vendors.nodes.flatMap(vendor => {
-        const vendorFlavors = flavors.nodes.filter(
-          flavorNode => flavorNode.vendor === vendor.code
+      vendors: vendors.flatMap(vendor => {
+        const vendorFlavors = flavors.filter(
+          flavor => flavor.vendor === vendor.code
         );
-        const vendorIngredients = ingredients.nodes.filter(ingredientNode =>
+        const vendorIngredients = ingredients.filter(ingredient =>
           vendorFlavors.some(vendorFlavor =>
-            vendorFlavor.ingredients.includes(ingredientNode.casNumber)
+            vendorFlavor.casNumbers.includes(ingredient.casNumber)
           )
         );
 
@@ -73,7 +77,7 @@ export const query = graphql`
   query VendorsSearchQuery {
     flavors: allFlavorsJson {
       nodes {
-        ingredients
+        casNumbers
         name
         vendor
       }

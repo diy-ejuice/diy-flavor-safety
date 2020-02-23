@@ -75,7 +75,12 @@ const createFlavorPages = options =>
     nodes {
       name
       vendor
-      ingredients
+      casNumbers
+      ingredients {
+        casNumber
+        created
+        updated
+      }
     }
   }
 }

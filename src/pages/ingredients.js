@@ -16,17 +16,21 @@ export default class IngredientsPage extends Component {
     super(props);
 
     const {
-      data: { flavors, ingredients, vendors }
+      data: {
+        flavors: { nodes: flavors },
+        ingredients: { nodes: ingredients },
+        vendors: { nodes: vendors }
+      }
     } = this.props;
 
     this.state = {
-      ingredients: ingredients.nodes.map(ingredient => {
-        const ingredientFlavors = flavors.nodes.filter(flavorNode =>
-          flavorNode.ingredients.includes(ingredient.casNumber)
+      ingredients: ingredients.map(ingredient => {
+        const ingredientFlavors = flavors.filter(flavor =>
+          flavor.casNumbers.includes(ingredient.casNumber)
         );
-        const ingredientVendors = vendors.nodes.filter(vendorNode =>
+        const ingredientVendors = vendors.filter(vendor =>
           ingredientFlavors.some(
-            ingredientFlavor => ingredientFlavor.vendor === vendorNode.code
+            ingredientFlavor => ingredientFlavor.vendor === vendor.code
           )
         );
 
@@ -72,7 +76,7 @@ export const query = graphql`
   query IngredientsSearchQuery {
     flavors: allFlavorsJson {
       nodes {
-        ingredients
+        casNumbers
         name
         vendor
       }

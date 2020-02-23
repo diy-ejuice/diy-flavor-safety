@@ -17,12 +17,16 @@ export default class VendorPage extends Component {
     super(props);
 
     const {
-      data: { flavors, ingredients, vendor }
+      data: {
+        flavors: { nodes: flavors },
+        ingredients: { nodes: ingredients },
+        vendor
+      }
     } = this.props;
 
     this.state = {
-      flavors: flavors.nodes,
-      ingredients: ingredients.nodes,
+      flavors,
+      ingredients,
       vendor
     };
   }
@@ -71,7 +75,7 @@ export const query = graphql`
     flavors: allFlavorsJson(filter: { vendor: { eq: $code } }) {
       nodes {
         name
-        ingredients
+        casNumbers
         vendor
       }
     }
