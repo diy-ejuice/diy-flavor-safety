@@ -246,6 +246,13 @@
     ]
   },
   {
+    "name": "Bavarian Cream",
+    "vendor": "WF",
+    "ingredients": [
+      "56038-13-2"
+    ]
+  },
+  {
     "name": "Yuzu",
     "vendor": "NR",
     "ingredients": [
@@ -264,6 +271,20 @@
     "vendor": "CAP",
     "ingredients": [
       "8008-57-9"
+    ]
+  },
+  {
+    "name": "Cookie Butter",
+    "vendor": "WF",
+    "ingredients": [
+      "56038-13-2"
+    ]
+  },
+  {
+    "name": "Crispy Wafer",
+    "vendor": "WF",
+    "ingredients": [
+      "56038-13-2"
     ]
   },
   {
