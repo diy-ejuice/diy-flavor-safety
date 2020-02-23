@@ -6,7 +6,7 @@ import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
 
 import CategoryInfo from '~components/CategoryInfo';
-import { getFlavorSlug, getVendorSlug } from '~utils';
+import { getFlavorSlug, getVendorSlug, getRelativeTime } from '~utils';
 
 export default class IngredientCard extends Component {
   static propTypes = {
@@ -49,15 +49,31 @@ export default class IngredientCard extends Component {
     ) : null;
   }
 
+  get times() {
+    const { created, updated } = this.props;
+
+    return (
+      <Fragment>
+        {' '}
+        <h6>
+          Added <abbr title={created}>{getRelativeTime(created)}</abbr>
+        </h6>
+        {created !== updated ? (
+          <h6>
+            Updated <abbr title={updated}></abbr>
+            {getRelativeTime(updated)}
+          </h6>
+        ) : null}
+      </Fragment>
+    );
+  }
+
   get description() {
-    const { created, description, updated } = this.props;
+    const { description } = this.props;
 
     return description ? (
       <Fragment>
-        <h6>Description</h6>
-        <span className="text-muted">
-          Added on {created}, updated on {updated}
-        </span>
+        <h6>Information / Notes</h6>
         <p>{description}</p>
       </Fragment>
     ) : null;
@@ -135,6 +151,7 @@ export default class IngredientCard extends Component {
           </h3>
         </Card.Header>
         <Card.Body>
+          {this.times}
           {this.description}
           {this.links}
           {this.vendors}

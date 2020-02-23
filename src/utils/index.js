@@ -1,3 +1,5 @@
+const { formatDistanceToNow, parseISO } = require('date-fns');
+
 const getSlug = slug => slug.replace(/\s+/g, '-').toLowerCase();
 
 const getFlavorSlug = flavor =>
@@ -38,10 +40,14 @@ const createWebWorker = worker => {
   return new Worker(URL.createObjectURL(blob));
 };
 
+const getRelativeTime = date =>
+  formatDistanceToNow(parseISO(date), { addSuffix: true });
+
 module.exports = {
   createWebWorker,
   getFlavorSlug,
   getIngredientSlug,
   getVendorSlug,
-  getCategoryVariant
+  getCategoryVariant,
+  getRelativeTime
 };
