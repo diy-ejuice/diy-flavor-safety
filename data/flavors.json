@@ -4028,20 +4028,6 @@
     ]
   },
   {
-    "name": "Blackcherry Jelly Bean SC",
-    "vendor": "WF",
-    "casNumbers": [
-      "56038-13-2"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "56038-13-2",
-        "created": "2020-01-22",
-        "updated": "2020-01-22"
-      }
-    ]
-  },
-  {
     "name": "Sweet Candy",
     "vendor": "CAP",
     "casNumbers": [
