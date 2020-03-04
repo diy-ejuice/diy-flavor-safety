@@ -157,7 +157,12 @@
     "description": "This is NOT Vitamin E Acetate, but it is still a lipid",
     "created": "2020-01-14",
     "updated": "2020-01-14",
-    "links": null
+    "links": [
+      {
+        "title": "The Flavor Apprentice Spec Sheet & Components",
+        "href": "https://shop.perfumersapprentice.com/specsheetlist.aspx?cas=1406-18-4"
+      }
+    ]
   },
   {
     "name": "Xylose",
