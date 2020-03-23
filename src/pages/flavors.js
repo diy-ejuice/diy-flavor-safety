@@ -263,6 +263,13 @@ export default class FlavorsPage extends Component {
             </Col>
           </Row>
           <Row>
+            <Col className="text-right text-muted mb-4">
+              {results?.length
+                ? `${results.length} results displayed (${this.state.rows.length} total)`
+                : null}
+            </Col>
+          </Row>
+          <Row>
             <Col>
               <Table striped bordered hover>
                 <thead>
