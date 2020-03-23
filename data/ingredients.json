@@ -347,7 +347,7 @@
   },
   {
     "name": "Citric Acid",
-    "category": "Avoid",
+    "category": "Caution",
     "casNumber": "77-92-9",
     "description": "Decomposes into citraconic anhydride at ~230C",
     "created": "2020-03-23",
