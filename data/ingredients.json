@@ -344,5 +344,14 @@
         "href": "https://shop.perfumersapprentice.com/specsheetlist.aspx?cas=513-86-0"
       }
     ]
+  },
+  {
+    "name": "Citric Acid",
+    "category": "Avoid",
+    "casNumber": "77-92-9",
+    "description": "Decomposes into citraconic anhydride at ~230C",
+    "created": "2020-03-23",
+    "updated": "2020-03-23",
+    "links": null
   }
 ]
