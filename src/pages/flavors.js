@@ -122,16 +122,18 @@ export default class FlavorsPage extends Component {
   flavorMatches({ flavor, vendor, ingredient }) {
     const { selected } = this.state;
 
+    const selectedFlavor = selected?.flavor?.toLowerCase?.();
+    const selectedVendor = selected?.vendor?.toLowerCase?.();
+    const selectedIngredient = selected?.ingredient?.toLowerCase?.();
+
     return (
-      (!selected?.flavor ||
-        flavor.name.toLowerCase().includes(selected.flavor.toLowerCase())) &&
-      (!selected?.vendor ||
-        vendor.name.toLowerCase().includes(selected.vendor.toLowerCase()) ||
-        vendor.code.toLowerCase().includes(selected.vendor.toLowerCase())) &&
-      (!selected?.ingredient ||
-        ingredient.name
-          .toLowerCase()
-          .includes(selected.ingredient.toLowerCase())) &&
+      (!selectedFlavor || flavor.name.toLowerCase().includes(selectedFlavor)) &&
+      (!selectedVendor ||
+        vendor.name.toLowerCase().includes(selectedVendor) ||
+        vendor.code.toLowerCase().includes(selectedVendor) ||
+        (vendor.code === 'TPA' && selectedVendor === 'tfa')) &&
+      (!selectedIngredient ||
+        ingredient.name.toLowerCase().includes(selectedIngredient)) &&
       (!selected?.category?.length ||
         selected.category.some(category => category === ingredient.category))
     );
