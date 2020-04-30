@@ -42,7 +42,7 @@
     "gatsby-transformer-json": "^2.3.0",
     "gatsby-transformer-remark": "^2.7.0",
     "gatsby-transformer-sharp": "^2.4.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "lodash": "^4.17.15",
     "node-sass": "^4.13.1",
     "pluralize": "^8.0.0",
