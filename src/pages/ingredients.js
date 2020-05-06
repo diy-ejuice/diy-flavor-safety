@@ -24,13 +24,13 @@ export default class IngredientsPage extends Component {
     } = this.props;
 
     this.state = {
-      ingredients: ingredients.map(ingredient => {
-        const ingredientFlavors = flavors.filter(flavor =>
+      ingredients: ingredients.map((ingredient) => {
+        const ingredientFlavors = flavors.filter((flavor) =>
           flavor.casNumbers.includes(ingredient.casNumber)
         );
-        const ingredientVendors = vendors.filter(vendor =>
+        const ingredientVendors = vendors.filter((vendor) =>
           ingredientFlavors.some(
-            ingredientFlavor => ingredientFlavor.vendor === vendor.code
+            (ingredientFlavor) => ingredientFlavor.vendor === vendor.code
           )
         );
 
@@ -58,7 +58,7 @@ export default class IngredientsPage extends Component {
           <Row>
             <h1>Ingredient Info</h1>
           </Row>
-          {ingredients.map(ingredient => (
+          {ingredients.map((ingredient) => (
             <IngredientCard
               {...ingredient}
               key={ingredient.casNumber}

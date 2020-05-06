@@ -24,12 +24,12 @@ export default class VendorsPage extends Component {
     } = this.props;
 
     this.state = {
-      vendors: vendors.flatMap(vendor => {
+      vendors: vendors.flatMap((vendor) => {
         const vendorFlavors = flavors.filter(
-          flavor => flavor.vendor === vendor.code
+          (flavor) => flavor.vendor === vendor.code
         );
-        const vendorIngredients = ingredients.filter(ingredient =>
-          vendorFlavors.some(vendorFlavor =>
+        const vendorIngredients = ingredients.filter((ingredient) =>
+          vendorFlavors.some((vendorFlavor) =>
             vendorFlavor.casNumbers.includes(ingredient.casNumber)
           )
         );
@@ -59,7 +59,7 @@ export default class VendorsPage extends Component {
           <Row>
             <h1>Vendor Info</h1>
           </Row>
-          {vendors.map(vendor => (
+          {vendors.map((vendor) => (
             <VendorCard
               {...vendor}
               key={vendor.code}

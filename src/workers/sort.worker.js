@@ -8,7 +8,7 @@ export default () => {
     return object === undefined ? defaultVal : object;
   };
 
-  const sortOnField = field => direction => (a, b) =>
+  const sortOnField = (field) => (direction) => (a, b) =>
     direction
       ? get(a, field)?.localeCompare?.(get(b, field))
       : get(b, field)?.localeCompare?.(get(a, field));

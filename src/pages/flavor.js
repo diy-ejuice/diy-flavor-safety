@@ -50,7 +50,7 @@ export default class FlavorPage extends Component {
           {pluralize('ingredient', ingredients.length)}:
         </h6>
         <ListGroup activeKey="">
-          {ingredients.map(ingredient => (
+          {ingredients.map((ingredient) => (
             <ListGroupItem
               action
               key={ingredient.name}

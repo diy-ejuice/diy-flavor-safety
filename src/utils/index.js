@@ -1,17 +1,17 @@
 const { formatDistanceToNow, parseISO } = require('date-fns');
 
-const getSlug = slug => slug.replace(/\s+/g, '-').toLowerCase();
+const getSlug = (slug) => slug.replace(/\s+/g, '-').toLowerCase();
 
-const getFlavorSlug = flavor =>
+const getFlavorSlug = (flavor) =>
   getSlug(`/flavor/${flavor.vendor} ${flavor.name}`);
 
-const getIngredientSlug = ingredient =>
+const getIngredientSlug = (ingredient) =>
   getSlug(`/ingredient/${ingredient.name}`);
 
-const getVendorSlug = vendor =>
+const getVendorSlug = (vendor) =>
   getSlug(`/vendor/${vendor.code} ${vendor.name}`);
 
-const getCategoryVariant = category => {
+const getCategoryVariant = (category) => {
   let badgeVariant;
 
   switch (category) {
@@ -29,7 +29,7 @@ const getCategoryVariant = category => {
   return badgeVariant;
 };
 
-const createWebWorker = worker => {
+const createWebWorker = (worker) => {
   if (typeof window !== 'object') {
     return;
   }
@@ -40,7 +40,7 @@ const createWebWorker = worker => {
   return new Worker(URL.createObjectURL(blob));
 };
 
-const getRelativeTime = date =>
+const getRelativeTime = (date) =>
   formatDistanceToNow(parseISO(date), { addSuffix: true });
 
 module.exports = {

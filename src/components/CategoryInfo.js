@@ -33,7 +33,7 @@ export default class CategoryInfo extends Component {
     return (
       <OverlayTrigger
         placement="left"
-        overlay={props => <Tooltip {...props}>{textTooltip}</Tooltip>}
+        overlay={(props) => <Tooltip {...props}>{textTooltip}</Tooltip>}
       >
         <Badge variant={badgeVariant} {...badgeProps}>
           {category}

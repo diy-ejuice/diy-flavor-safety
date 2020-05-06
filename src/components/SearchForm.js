@@ -43,7 +43,7 @@ export default class SearchForm extends Component {
         break;
       case 'category':
         this.props.onCategoryChange(
-          Array.from(event.target.selectedOptions).map(option => option.value)
+          Array.from(event.target.selectedOptions).map((option) => option.value)
         );
         break;
     }

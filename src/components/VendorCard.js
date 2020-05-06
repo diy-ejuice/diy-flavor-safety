@@ -34,7 +34,7 @@ export default class VendorCard extends Component {
           Flavors with concerning ingredients ({flavors.length})
         </h6>
         <ListGroup activeKey="">
-          {flavors.map(flavor => (
+          {flavors.map((flavor) => (
             <ListGroupItem
               action
               as={Link}
@@ -66,7 +66,7 @@ export default class VendorCard extends Component {
           Ingredients used by this vendor ({sortedIngredients.length})
         </h6>
         <ListGroup activeKey="">
-          {sortedIngredients.map(ingredient => (
+          {sortedIngredients.map((ingredient) => (
             <ListGroupItem
               action
               as={Link}

@@ -49,14 +49,14 @@ export default class FlavorsPage extends Component {
 
     for (const flavor of flavors) {
       const { vendor: vendorCode, casNumbers } = flavor;
-      const vendor = vendors.find(vend => vend.code === vendorCode);
-      const matchingIngredients = casNumbers.map(casNumber =>
-        ingredients.find(ingredient => ingredient.casNumber === casNumber)
+      const vendor = vendors.find((vend) => vend.code === vendorCode);
+      const matchingIngredients = casNumbers.map((casNumber) =>
+        ingredients.find((ingredient) => ingredient.casNumber === casNumber)
       );
 
       for (const ingredient of matchingIngredients) {
         const { created } = flavor.ingredients.find(
-          ingredientNode => ingredientNode.casNumber === ingredient.casNumber
+          (ingredientNode) => ingredientNode.casNumber === ingredient.casNumber
         );
 
         rows.push({
@@ -135,14 +135,14 @@ export default class FlavorsPage extends Component {
       (!selectedIngredient ||
         ingredient.name.toLowerCase().includes(selectedIngredient)) &&
       (!selected?.category?.length ||
-        selected.category.some(category => category === ingredient.category))
+        selected.category.some((category) => category === ingredient.category))
     );
   }
 
   refreshResults() {
     const { rows } = this.state;
 
-    this.startSort(rows.filter(row => this.flavorMatches(row)));
+    this.startSort(rows.filter((row) => this.flavorMatches(row)));
   }
 
   startSort(results) {
@@ -195,7 +195,7 @@ export default class FlavorsPage extends Component {
   renderFlavor(result) {
     const { flavor, vendor, ingredient } = result;
     const { created } = flavor.ingredients.find(
-      ingredientNode => ingredientNode.casNumber === ingredient.casNumber
+      (ingredientNode) => ingredientNode.casNumber === ingredient.casNumber
     );
     const key = `${vendor.code}-${flavor.name}-${ingredient.casNumber}`;
 
