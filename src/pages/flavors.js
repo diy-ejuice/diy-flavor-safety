@@ -135,7 +135,7 @@ export default class FlavorsPage extends Component {
       (!selectedIngredient ||
         ingredient.name.toLowerCase().includes(selectedIngredient)) &&
       (!selected?.category?.length ||
-        selected.category.some((category) => category === ingredient.category))
+        selected.category.some((category) => category === flavor.category))
     );
   }
 
@@ -212,7 +212,7 @@ export default class FlavorsPage extends Component {
         </td>
         <td>{created}</td>
         <td className="text-center">
-          <CategoryInfo category={ingredient.category} />
+          <CategoryInfo category={flavor.category} />
         </td>
       </tr>
     );
@@ -335,6 +335,7 @@ export const query = graphql`
     }
     flavors: allFlavorsJson {
       nodes {
+        category
         casNumbers
         ingredients {
           casNumber

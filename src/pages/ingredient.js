@@ -76,6 +76,7 @@ export const query = graphql`
     flavors: allFlavorsJson(filter: { casNumbers: { in: [$casNumber] } }) {
       nodes {
         name
+        category
         vendor
       }
     }

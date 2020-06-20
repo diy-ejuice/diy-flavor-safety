@@ -11,6 +11,7 @@ import {
   Row
 } from 'react-bootstrap';
 
+import CategoryInfo from '~components/CategoryInfo';
 import Layout from '~components/Layout';
 import SEO from '~components/SEO';
 import { getCategoryVariant, getIngredientSlug, getVendorSlug } from '~utils';
@@ -89,6 +90,10 @@ export default class FlavorPage extends Component {
                 <Card.Header>
                   <h3>
                     {vendor.name} {flavor.name}
+                    <CategoryInfo
+                      badgeProps={{ className: 'float-right' }}
+                      category={flavor.category}
+                    />
                   </h3>
                 </Card.Header>
                 <Card.Body>
@@ -112,6 +117,7 @@ export const query = graphql`
   ) {
     flavor: flavorsJson(vendor: { eq: $vendor }, name: { eq: $name }) {
       name
+      category
     }
     vendor: vendorsJson(code: { eq: $vendor }) {
       code

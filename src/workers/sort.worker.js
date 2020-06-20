@@ -17,7 +17,7 @@ export default () => {
     vendor: sortOnField('vendor.name'),
     flavor: sortOnField('flavor.name'),
     ingredient: sortOnField('ingredient.name'),
-    category: sortOnField('ingredient.category'),
+    category: sortOnField('flavor.category'),
     created: sortOnField('flavor.created')
   };
 

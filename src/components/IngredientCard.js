@@ -6,7 +6,12 @@ import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
 
 import CategoryInfo from '~components/CategoryInfo';
-import { getFlavorSlug, getVendorSlug, getRelativeTime } from '~utils';
+import {
+  getCategoryVariant,
+  getFlavorSlug,
+  getVendorSlug,
+  getRelativeTime
+} from '~utils';
 
 export default class IngredientCard extends Component {
   static propTypes = {
@@ -94,6 +99,7 @@ export default class IngredientCard extends Component {
               as={Link}
               key={`${flavor.vendor} ${flavor.name}`}
               to={getFlavorSlug(flavor)}
+              variant={getCategoryVariant(flavor.category)}
             >
               {flavor.vendor} {flavor.name}
             </ListGroupItem>
