@@ -20,7 +20,7 @@ const createPages = async (
     return;
   }
 
-  result.data.pageJson.nodes.forEach(node => {
+  result.data.pageJson.nodes.forEach((node) => {
     const path = slugBuilder(node);
 
     reporter.info(`Created page for ${path}`);
@@ -32,7 +32,7 @@ const createPages = async (
   });
 };
 
-const createVendorPages = options =>
+const createVendorPages = (options) =>
   createPages(
     'vendor',
     `
@@ -49,7 +49,7 @@ const createVendorPages = options =>
     options
   );
 
-const createIngredientPages = options =>
+const createIngredientPages = (options) =>
   createPages(
     'ingredient',
     `
@@ -66,7 +66,7 @@ const createIngredientPages = options =>
     options
   );
 
-const createFlavorPages = options =>
+const createFlavorPages = (options) =>
   createPages(
     'flavor',
     `
@@ -89,7 +89,7 @@ const createFlavorPages = options =>
     options
   );
 
-exports.createPages = async options => {
+exports.createPages = async (options) => {
   await createFlavorPages(options);
   await createVendorPages(options);
   await createIngredientPages(options);
