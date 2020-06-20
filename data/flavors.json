@@ -1591,19 +1591,19 @@
     "vendor": "FW",
     "category": "Research",
     "casNumbers": [
-      "8008-56-8",
-      "8008-26-2"
+      "8008-26-2",
+      "8008-56-8"
     ],
     "ingredients": [
-      {
-        "casNumber": "8008-56-8",
-        "created": "2020-06-20",
-        "updated": "2020-06-20"
-      },
       {
         "casNumber": "8008-26-2",
         "created": "2020-01-17",
         "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "8008-56-8",
+        "created": "2020-06-20",
+        "updated": "2020-06-20"
       }
     ]
   },
@@ -1970,6 +1970,36 @@
         "casNumber": "77-92-9",
         "created": "2020-03-23",
         "updated": "2020-03-23"
+      }
+    ]
+  },
+  {
+    "name": "Lemonade",
+    "vendor": "FW",
+    "category": "Avoid",
+    "casNumbers": [
+      "8008-56-8"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "8008-56-8",
+        "created": "2020-06-20",
+        "updated": "2020-06-20"
+      }
+    ]
+  },
+  {
+    "name": "Lemonade (pink)",
+    "vendor": "FW",
+    "category": "Avoid",
+    "casNumbers": [
+      "8008-56-8"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "8008-56-8",
+        "created": "2020-06-20",
+        "updated": "2020-06-20"
       }
     ]
   },
@@ -3316,17 +3346,17 @@
     "vendor": "HS",
     "category": "Research",
     "casNumbers": [
-      "124-07-2",
-      "22047-25-2"
+      "22047-25-2",
+      "124-07-2"
     ],
     "ingredients": [
       {
-        "casNumber": "124-07-2",
+        "casNumber": "22047-25-2",
         "created": "2020-01-18",
         "updated": "2020-01-18"
       },
       {
-        "casNumber": "22047-25-2",
+        "casNumber": "124-07-2",
         "created": "2020-01-18",
         "updated": "2020-01-18"
       }
@@ -3718,17 +3748,17 @@
     "vendor": "RF",
     "category": "Research",
     "casNumbers": [
-      "513-86-0",
-      "600-14-6"
+      "600-14-6",
+      "513-86-0"
     ],
     "ingredients": [
       {
-        "casNumber": "513-86-0",
+        "casNumber": "600-14-6",
         "created": "2020-01-17",
         "updated": "2020-01-17"
       },
       {
-        "casNumber": "600-14-6",
+        "casNumber": "513-86-0",
         "created": "2020-01-17",
         "updated": "2020-01-17"
       }
@@ -4489,17 +4519,17 @@
     "vendor": "RF",
     "category": "Research",
     "casNumbers": [
-      "513-86-0",
-      "600-14-6"
+      "600-14-6",
+      "513-86-0"
     ],
     "ingredients": [
       {
-        "casNumber": "513-86-0",
+        "casNumber": "600-14-6",
         "created": "2020-01-17",
         "updated": "2020-01-17"
       },
       {
-        "casNumber": "600-14-6",
+        "casNumber": "513-86-0",
         "created": "2020-01-17",
         "updated": "2020-01-17"
       }
@@ -4645,17 +4675,17 @@
     "vendor": "RF",
     "category": "Research",
     "casNumbers": [
-      "600-14-6",
-      "513-86-0"
+      "513-86-0",
+      "600-14-6"
     ],
     "ingredients": [
       {
-        "casNumber": "600-14-6",
+        "casNumber": "513-86-0",
         "created": "2020-01-17",
         "updated": "2020-01-17"
       },
       {
-        "casNumber": "513-86-0",
+        "casNumber": "600-14-6",
         "created": "2020-01-17",
         "updated": "2020-01-17"
       }
@@ -4792,17 +4822,17 @@
     "vendor": "RF",
     "category": "Research",
     "casNumbers": [
-      "513-86-0",
-      "600-14-6"
+      "600-14-6",
+      "513-86-0"
     ],
     "ingredients": [
       {
-        "casNumber": "513-86-0",
+        "casNumber": "600-14-6",
         "created": "2020-01-17",
         "updated": "2020-01-17"
       },
       {
-        "casNumber": "600-14-6",
+        "casNumber": "513-86-0",
         "created": "2020-01-17",
         "updated": "2020-01-17"
       }
