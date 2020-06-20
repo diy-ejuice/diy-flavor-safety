@@ -58,7 +58,7 @@ export default class IngredientCard extends Component {
         <h6>
           Added <abbr title={created}>{getRelativeTime(created)}</abbr>
         </h6>
-        {created !== updated ? (
+        {updated && created !== updated ? (
           <h6>
             Updated <abbr title={updated}></abbr>
             {getRelativeTime(updated)}
