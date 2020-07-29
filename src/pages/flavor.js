@@ -1,7 +1,7 @@
 import pluralize from 'pluralize';
 import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import {
   Card,
   Col,
@@ -38,14 +38,18 @@ export default class FlavorPage extends Component {
   get vendor() {
     const { vendor } = this.state;
 
-    return <Link to={getVendorSlug(vendor)}>Go to vendor page</Link>;
+    return (
+      <Col>
+        <Link to={getVendorSlug(vendor)}>Go to vendor page</Link>
+      </Col>
+    );
   }
 
   get ingredients() {
     const { ingredients } = this.state;
 
     return (
-      <Fragment>
+      <Col>
         <h6 className="mt-3">
           This flavor contains the following concerning{' '}
           {pluralize('ingredient', ingredients.length)}:
@@ -63,8 +67,31 @@ export default class FlavorPage extends Component {
             </ListGroupItem>
           ))}
         </ListGroup>
-      </Fragment>
+      </Col>
     );
+  }
+
+  get sdsUrl() {
+    const {
+      flavor: { manual, sdsUrl }
+    } = this.state;
+
+    if (manual) {
+      return <Col>This flavor was added to the database manually.</Col>;
+    }
+
+    if (sdsUrl) {
+      const fullUrl = `https://juicebook.net${sdsUrl}`;
+
+      return (
+        <Col>
+          Click <a href={fullUrl}>here</a> to view the SDS that generated this
+          finding.
+        </Col>
+      );
+    }
+
+    return null;
   }
 
   render() {
@@ -97,8 +124,9 @@ export default class FlavorPage extends Component {
                   </h3>
                 </Card.Header>
                 <Card.Body>
-                  {this.vendor}
-                  {this.ingredients}
+                  <Row>{this.sdsUrl}</Row>
+                  <Row>{this.vendor}</Row>
+                  <Row>{this.ingredients}</Row>
                 </Card.Body>
               </Card>
             </Col>
@@ -117,6 +145,8 @@ export const query = graphql`
   ) {
     flavor: flavorsJson(vendor: { eq: $vendor }, name: { eq: $name }) {
       name
+      manual
+      sdsUrl
       category
     }
     vendor: vendorsJson(code: { eq: $vendor }) {

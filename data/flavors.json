@@ -2,11 +2,13 @@
   {
     "name": "27 Bears",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": "/CAP/cap-27-bears.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-56-8",
-      "8008-26-2",
-      "8008-57-9"
+      "8008-57-9",
+      "8008-26-2"
     ],
     "ingredients": [
       {
@@ -15,12 +17,12 @@
         "updated": "2020-06-20"
       },
       {
-        "casNumber": "8008-26-2",
+        "casNumber": "8008-57-9",
         "created": "2020-01-14",
         "updated": "2020-01-14"
       },
       {
-        "casNumber": "8008-57-9",
+        "casNumber": "8008-26-2",
         "created": "2020-01-14",
         "updated": "2020-01-14"
       }
@@ -29,6 +31,8 @@
   {
     "name": "Blueberry Pomegranate",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": "/CAP/cap-blueberry-pomegranate.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -44,6 +48,8 @@
   {
     "name": "Bubble Gum",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": "/CAP/cap-bubble-gum.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-57-9"
@@ -59,6 +65,8 @@
   {
     "name": "Cake Batter",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": "/CAP/cap-cake-batter.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -74,6 +82,8 @@
   {
     "name": "Chocolate Glazed Doughnut",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8002-31-1"
@@ -89,6 +99,8 @@
   {
     "name": "Cool Mint",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": "/CAP/cap-cool-mint.pdf",
     "category": "Avoid",
     "casNumbers": [
       "8006-90-4"
@@ -104,6 +116,8 @@
   {
     "name": "Cranberry",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": "/CAP/cap-cranberry.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -119,6 +133,8 @@
   {
     "name": "French Vanilla",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": "/CAP/cap-french-vanilla.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -134,6 +150,8 @@
   {
     "name": "Grape Concord",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": "/CAP/cap-grape-concord.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -149,6 +167,8 @@
   {
     "name": "Green Apple",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": "/CAP/cap-green-apple.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -164,6 +184,8 @@
   {
     "name": "Green Apple",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": "/CAP/cap-green-apple.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-56-8"
@@ -179,6 +201,8 @@
   {
     "name": "Horchata",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": "/CAP/cap-horchata.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -194,6 +218,8 @@
   {
     "name": "Juicy Lemon",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": "/CAP/cap-juicy-lemon.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-56-8"
@@ -209,6 +235,8 @@
   {
     "name": "Juicy Orange",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": "/CAP/cap-juicy-orange.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-57-9"
@@ -224,6 +252,8 @@
   {
     "name": "Lemon Lime",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": "/CAP/cap-lemon-lime.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-56-8",
@@ -245,6 +275,8 @@
   {
     "name": "Lemon Meringue Pie",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": "/CAP/cap-lemon-meringue-pie.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-56-8"
@@ -260,6 +292,8 @@
   {
     "name": "Lime",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": "/CAP/cap-lime.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-26-2"
@@ -275,6 +309,8 @@
   {
     "name": "Meringue",
     "vendor": "CAP",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -290,6 +326,8 @@
   {
     "name": "Orange Creamsicle",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": "/CAP/cap-orange-creamsicle.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-57-9"
@@ -305,6 +343,8 @@
   {
     "name": "Peppermint",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": "/CAP/cap-peppermint.pdf",
     "category": "Avoid",
     "casNumbers": [
       "8006-90-4"
@@ -320,6 +360,8 @@
   {
     "name": "Pink Lemonade",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": "/CAP/cap-lemonade-pink.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-56-8"
@@ -335,6 +377,8 @@
   {
     "name": "Rainbow Candy",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": "/CAP/cap-rainbow-candy.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-26-2"
@@ -350,6 +394,8 @@
   {
     "name": "Super Sweet",
     "vendor": "CAP",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -365,6 +411,8 @@
   {
     "name": "Sweet Mango",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": "/CAP/cap-mango-sweet.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-57-9"
@@ -380,6 +428,8 @@
   {
     "name": "Sweet Tangerine",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": "/CAP/cap-sweet-tangerine.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-57-9"
@@ -395,6 +445,8 @@
   {
     "name": "Vanilla Custard",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": "/CAP/cap-vanilla-custard.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -410,6 +462,8 @@
   {
     "name": "Chocolate Deutsch",
     "vendor": "FLV",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8002-31-1"
@@ -425,6 +479,8 @@
   {
     "name": "Cookie Dough",
     "vendor": "FLV",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "98-0-0"
@@ -440,6 +496,8 @@
   {
     "name": "Cupcake Batter",
     "vendor": "FLV",
+    "manual": false,
+    "sdsUrl": "/FLV/flv-cupcake-batter.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -455,6 +513,8 @@
   {
     "name": "Ginger Snap",
     "vendor": "FLV",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8029-43-4"
@@ -470,6 +530,8 @@
   {
     "name": "Irish Cream",
     "vendor": "FLV",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8002-31-1"
@@ -485,6 +547,8 @@
   {
     "name": "Orange Citrus",
     "vendor": "FLV",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8029-43-4"
@@ -500,6 +564,8 @@
   {
     "name": "Sweetness",
     "vendor": "FLV",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -515,6 +581,8 @@
   {
     "name": "Toffee",
     "vendor": "FLV",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8002-31-1"
@@ -530,6 +598,8 @@
   {
     "name": "Aurora",
     "vendor": "FA",
+    "manual": false,
+    "sdsUrl": "/FA/fa-aurora.pdf",
     "category": "Research",
     "casNumbers": [
       "68916-84-7"
@@ -545,6 +615,8 @@
   {
     "name": "Cocoon",
     "vendor": "FA",
+    "manual": false,
+    "sdsUrl": "/FA/fa-cocoon.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-56-8"
@@ -560,6 +632,8 @@
   {
     "name": "Cola",
     "vendor": "FA",
+    "manual": false,
+    "sdsUrl": "/FA/fa-cola.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-26-2"
@@ -575,6 +649,8 @@
   {
     "name": "Florida Key Lime",
     "vendor": "FA",
+    "manual": false,
+    "sdsUrl": "/FA/fa-lime-florida-key.pdf",
     "category": "Research",
     "casNumbers": [
       "68916-84-7"
@@ -590,6 +666,8 @@
   {
     "name": "Labyrinth",
     "vendor": "FA",
+    "manual": false,
+    "sdsUrl": "/FA/fa-labyrinth.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-56-8"
@@ -605,6 +683,8 @@
   {
     "name": "Spearmint",
     "vendor": "FA",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8006-90-4"
@@ -620,6 +700,8 @@
   {
     "name": "Vanilla Ice Cream",
     "vendor": "FA",
+    "manual": false,
+    "sdsUrl": "/FA/fa-vanilla-ice-cream.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -635,6 +717,8 @@
   {
     "name": "Yogurt",
     "vendor": "FA",
+    "manual": false,
+    "sdsUrl": "/FA/fa-yogurt.pdf",
     "category": "Research",
     "casNumbers": [
       "431-03-8"
@@ -650,6 +734,8 @@
   {
     "name": "Burley",
     "vendor": "INW",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8013-17-0"
@@ -665,6 +751,8 @@
   {
     "name": "Cherimoya YC",
     "vendor": "INW",
+    "manual": false,
+    "sdsUrl": "/INW/inw-cherimoya.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -680,6 +768,8 @@
   {
     "name": "Coconut Cookies",
     "vendor": "INW",
+    "manual": false,
+    "sdsUrl": "/INW/inw-coconut-cookies.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -695,6 +785,8 @@
   {
     "name": "Coffee",
     "vendor": "INW",
+    "manual": false,
+    "sdsUrl": "/INW/inw-coffee.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -710,6 +802,8 @@
   {
     "name": "Cola",
     "vendor": "INW",
+    "manual": false,
+    "sdsUrl": "/INW/inw-cola.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-56-8"
@@ -725,6 +819,8 @@
   {
     "name": "Lime",
     "vendor": "INW",
+    "manual": false,
+    "sdsUrl": "/INW/inw-lime.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-56-8"
@@ -740,6 +836,8 @@
   {
     "name": "Mint",
     "vendor": "INW",
+    "manual": false,
+    "sdsUrl": "/INW/inw-mint.pdf",
     "category": "Caution",
     "casNumbers": [
       "84625-32-1"
@@ -755,6 +853,8 @@
   {
     "name": "Natural Mint",
     "vendor": "INW",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8006-90-4"
@@ -770,6 +870,8 @@
   {
     "name": "Butterscotch",
     "vendor": "TPA",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "98-0-0"
@@ -785,6 +887,8 @@
   {
     "name": "Cinnamon Sugar Cookie",
     "vendor": "TPA",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "98-0-0"
@@ -800,6 +904,8 @@
   {
     "name": "Citrus Punch",
     "vendor": "TPA",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "1406-18-4"
@@ -815,6 +921,8 @@
   {
     "name": "Graham Cracker",
     "vendor": "TPA",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8029-43-4"
@@ -830,6 +938,8 @@
   {
     "name": "Honey",
     "vendor": "TPA",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8028-89-5"
@@ -845,6 +955,8 @@
   {
     "name": "Jamaican Rum",
     "vendor": "TPA",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8028-89-5"
@@ -860,6 +972,8 @@
   {
     "name": "Key Lime",
     "vendor": "TPA",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "1406-18-4"
@@ -875,6 +989,8 @@
   {
     "name": "Lemon Lime",
     "vendor": "TPA",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "1406-18-4"
@@ -890,6 +1006,8 @@
   {
     "name": "Pie Crust",
     "vendor": "TPA",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "98-0-0"
@@ -905,6 +1023,8 @@
   {
     "name": "Rainbow Sherbet",
     "vendor": "TPA",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "98-0-0"
@@ -920,6 +1040,8 @@
   {
     "name": "Red Oak",
     "vendor": "TPA",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8028-89-5",
@@ -941,6 +1063,8 @@
   {
     "name": "RY4 Asian",
     "vendor": "TPA",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "98-0-0"
@@ -956,6 +1080,8 @@
   {
     "name": "Slim Mint Cookie",
     "vendor": "TPA",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8006-90-4",
@@ -983,6 +1109,8 @@
   {
     "name": "Sweetener",
     "vendor": "TPA",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -998,6 +1126,8 @@
   {
     "name": "Vanilla Bean Ice Cream",
     "vendor": "TPA",
+    "manual": false,
+    "sdsUrl": "/TPA/tpa-vanilla-bean-ice-cream.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -1013,6 +1143,8 @@
   {
     "name": "Fizz Pop",
     "vendor": "CAP",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -1028,6 +1160,8 @@
   {
     "name": "Orange Mango With Stevia",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": "/CAP/cap-orange-mango-with-stevia.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-57-9"
@@ -1043,6 +1177,8 @@
   {
     "name": "Sweet Candy",
     "vendor": "CAP",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -1058,6 +1194,8 @@
   {
     "name": "Lemon Meringue Pie V2",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": "/CAP/cap-v2-lemon-meringue-pie.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-56-8"
@@ -1073,6 +1211,8 @@
   {
     "name": "Energy Drink Rf",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": "/CAP/cap-rf-energy-drink.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -1088,6 +1228,8 @@
   {
     "name": "Pomegranate V2",
     "vendor": "CAP",
+    "manual": false,
+    "sdsUrl": "/CAP/cap-v2-pomegranate.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -1103,6 +1245,8 @@
   {
     "name": "555 Tobacco",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-555.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -1118,6 +1262,8 @@
   {
     "name": "Acai Berry",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-acai-berry.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -1133,6 +1279,8 @@
   {
     "name": "Apple Jacks Type",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-apple-jacks.pdf",
     "category": "Avoid",
     "casNumbers": [
       "8015-91-6"
@@ -1148,6 +1296,8 @@
   {
     "name": "Apple (Natural green)",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-green-apple-natural.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -1163,6 +1313,8 @@
   {
     "name": "Banana Nut Bread",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-banana-nut-bread.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -1178,6 +1330,8 @@
   {
     "name": "Bananas Foster",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-bananas-foster.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -1193,27 +1347,54 @@
   {
     "name": "Banana Split",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-banana-split.pdf",
     "category": "Avoid",
     "casNumbers": [
-      "57-48-7",
-      "8029-43-4"
+      "8029-43-4",
+      "57-48-7"
     ],
     "ingredients": [
-      {
-        "casNumber": "57-48-7",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      },
       {
         "casNumber": "8029-43-4",
         "created": "2020-07-03",
         "updated": "2020-07-03"
+      },
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
+    ]
+  },
+  {
+    "name": "Banana Split",
+    "vendor": "FW",
+    "manual": true,
+    "sdsUrl": null,
+    "category": "Avoid",
+    "casNumbers": [
+      "8029-43-4",
+      "57-48-7"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "8029-43-4",
+        "created": "2020-07-03",
+        "updated": "2020-07-03"
+      },
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
       }
     ]
   },
   {
     "name": "Beetle Juice",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-beetle-juice.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-57-9"
@@ -1229,6 +1410,31 @@
   {
     "name": "Biscotti",
     "vendor": "FW",
+    "manual": true,
+    "sdsUrl": null,
+    "category": "Avoid",
+    "casNumbers": [
+      "8029-43-4",
+      "57-48-7"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "8029-43-4",
+        "created": "2020-07-03",
+        "updated": "2020-07-03"
+      },
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
+    ]
+  },
+  {
+    "name": "Biscotti",
+    "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-biscotti.pdf",
     "category": "Avoid",
     "casNumbers": [
       "8029-43-4",
@@ -1250,6 +1456,8 @@
   {
     "name": "Blackberry Mojito",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-blackberry-mojito.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -1265,6 +1473,8 @@
   {
     "name": "Blackberry Mojito",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-blackberry-mojito.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-26-2"
@@ -1280,6 +1490,8 @@
   {
     "name": "Boom!",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-boom.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -1295,6 +1507,8 @@
   {
     "name": "Boom!",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-boom.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -1310,6 +1524,8 @@
   {
     "name": "Boom!",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-boom.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-56-8",
@@ -1331,6 +1547,8 @@
   {
     "name": "Butterscotch",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-butterscotch.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -1346,6 +1564,8 @@
   {
     "name": "Cake Batter Dip",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -1361,6 +1581,8 @@
   {
     "name": "Cake (yellow)",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-yellow-cake.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -1376,6 +1598,8 @@
   {
     "name": "Candy Cane",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-candy-cane.pdf",
     "category": "Avoid",
     "casNumbers": [
       "8006-90-4"
@@ -1391,6 +1615,8 @@
   {
     "name": "Caramel Candy",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-caramel-candy.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -1406,6 +1632,8 @@
   {
     "name": "Caramel Cinnamon Roll",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-caramel-cinnamon-roll.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -1421,6 +1649,8 @@
   {
     "name": "Caramel (salted)",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-salted-caramel.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -1436,6 +1666,8 @@
   {
     "name": "Choco Coco Mocha",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-choco-coco-mocha.pdf",
     "category": "Avoid",
     "casNumbers": [
       "8002-31-1"
@@ -1451,6 +1683,8 @@
   {
     "name": "Cinnamon",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-cinnamon.pdf",
     "category": "Avoid",
     "casNumbers": [
       "8015-91-6"
@@ -1466,102 +1700,8 @@
   {
     "name": "Cinnamon Churro",
     "vendor": "FW",
-    "category": "Avoid",
-    "casNumbers": [
-      "57-48-7",
-      "8029-43-4"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "57-48-7",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      },
-      {
-        "casNumber": "8029-43-4",
-        "created": "2020-07-03",
-        "updated": "2020-07-03"
-      }
-    ]
-  },
-  {
-    "name": "Citrus Soda",
-    "vendor": "FW",
-    "category": "Research",
-    "casNumbers": [
-      "8008-56-8"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "8008-56-8",
-        "created": "2020-06-20",
-        "updated": "2020-06-20"
-      }
-    ]
-  },
-  {
-    "name": "Cloud 9",
-    "vendor": "FW",
-    "category": "Avoid",
-    "casNumbers": [
-      "57-48-7"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "57-48-7",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      }
-    ]
-  },
-  {
-    "name": "Cloud 9",
-    "vendor": "FW",
-    "category": "Caution",
-    "casNumbers": [
-      "77-92-9"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "77-92-9",
-        "created": "2020-03-23",
-        "updated": "2020-03-23"
-      }
-    ]
-  },
-  {
-    "name": "Cloud 9",
-    "vendor": "FW",
-    "category": "Research",
-    "casNumbers": [
-      "8008-26-2"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "8008-26-2",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      }
-    ]
-  },
-  {
-    "name": "Clove",
-    "vendor": "FW",
-    "category": "Research",
-    "casNumbers": [
-      "8000-34-8"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "8000-34-8",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      }
-    ]
-  },
-  {
-    "name": "Coconut Cream Pie",
-    "vendor": "FW",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8029-43-4",
@@ -1581,8 +1721,164 @@
     ]
   },
   {
+    "name": "Cinnamon Churro",
+    "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-cinnamon-churro.pdf",
+    "category": "Avoid",
+    "casNumbers": [
+      "8029-43-4",
+      "57-48-7"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "8029-43-4",
+        "created": "2020-07-03",
+        "updated": "2020-07-03"
+      },
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
+    ]
+  },
+  {
+    "name": "Citrus Soda",
+    "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-citrus-soda.pdf",
+    "category": "Research",
+    "casNumbers": [
+      "8008-56-8"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "8008-56-8",
+        "created": "2020-06-20",
+        "updated": "2020-06-20"
+      }
+    ]
+  },
+  {
+    "name": "Cloud 9",
+    "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-cloud-9.pdf",
+    "category": "Avoid",
+    "casNumbers": [
+      "57-48-7"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
+    ]
+  },
+  {
+    "name": "Cloud 9",
+    "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-cloud-9.pdf",
+    "category": "Caution",
+    "casNumbers": [
+      "77-92-9"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "77-92-9",
+        "created": "2020-03-23",
+        "updated": "2020-03-23"
+      }
+    ]
+  },
+  {
+    "name": "Cloud 9",
+    "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-cloud-9.pdf",
+    "category": "Research",
+    "casNumbers": [
+      "8008-26-2"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
+    ]
+  },
+  {
+    "name": "Clove",
+    "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-clove.pdf",
+    "category": "Research",
+    "casNumbers": [
+      "8000-34-8"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "8000-34-8",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
+    ]
+  },
+  {
+    "name": "Coconut Cream Pie",
+    "vendor": "FW",
+    "manual": true,
+    "sdsUrl": null,
+    "category": "Avoid",
+    "casNumbers": [
+      "57-48-7",
+      "8029-43-4"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "8029-43-4",
+        "created": "2020-07-03",
+        "updated": "2020-07-03"
+      }
+    ]
+  },
+  {
+    "name": "Coconut Cream Pie",
+    "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-coconut-cream-pie.pdf",
+    "category": "Avoid",
+    "casNumbers": [
+      "57-48-7",
+      "8029-43-4"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "8029-43-4",
+        "created": "2020-07-03",
+        "updated": "2020-07-03"
+      }
+    ]
+  },
+  {
     "name": "Coffee",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-coffee.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -1598,6 +1894,8 @@
   {
     "name": "Coffee w/ Cream",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-coffee-w-cream.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -1613,27 +1911,31 @@
   {
     "name": "Cola",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-cola.pdf",
     "category": "Research",
     "casNumbers": [
-      "8008-56-8",
-      "8008-26-2"
+      "8008-26-2",
+      "8008-56-8"
     ],
     "ingredients": [
-      {
-        "casNumber": "8008-56-8",
-        "created": "2020-06-20",
-        "updated": "2020-06-20"
-      },
       {
         "casNumber": "8008-26-2",
         "created": "2020-01-17",
         "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "8008-56-8",
+        "created": "2020-06-20",
+        "updated": "2020-06-20"
       }
     ]
   },
   {
     "name": "Cookie Butter",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-cookie-butter.pdf",
     "category": "Caution",
     "casNumbers": [
       "7647-14-5"
@@ -1649,6 +1951,8 @@
   {
     "name": "Crème de Menthe",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8006-90-4"
@@ -1664,6 +1968,8 @@
   {
     "name": "Double Dutch Chocolate",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-double-dutch-chocolate.pdf",
     "category": "Avoid",
     "casNumbers": [
       "8002-31-1"
@@ -1679,6 +1985,8 @@
   {
     "name": "Double Dutch Twister",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-double-dutch-twister.pdf",
     "category": "Avoid",
     "casNumbers": [
       "8002-31-1"
@@ -1694,6 +2002,8 @@
   {
     "name": "Dragon Fruit",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-dragon-fruit.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -1709,6 +2019,8 @@
   {
     "name": "Dutch Apple Pie",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-dutch-apple-pie.pdf",
     "category": "Avoid",
     "casNumbers": [
       "8052-35-5"
@@ -1724,6 +2036,8 @@
   {
     "name": "Extreme Ice",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-extreme-ice.pdf",
     "category": "Avoid",
     "casNumbers": [
       "8006-90-4"
@@ -1739,6 +2053,8 @@
   {
     "name": "Fruity Flakes",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-fruity-flakes.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -1754,6 +2070,8 @@
   {
     "name": "Fudge Brownie",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-fudge-brownie.pdf",
     "category": "Avoid",
     "casNumbers": [
       "8002-31-1"
@@ -1769,6 +2087,8 @@
   {
     "name": "Ginger Ale",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-ginger-ale.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -1784,6 +2104,8 @@
   {
     "name": "Ginger Ale",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-ginger-ale.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -1799,6 +2121,8 @@
   {
     "name": "Goji Berry",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-goji-berry.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -1814,6 +2138,8 @@
   {
     "name": "Grape Soda",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-grape-soda.pdf",
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -1829,6 +2155,31 @@
   {
     "name": "Gummi Bear",
     "vendor": "FW",
+    "manual": true,
+    "sdsUrl": null,
+    "category": "Avoid",
+    "casNumbers": [
+      "57-48-7",
+      "8029-43-4"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "8029-43-4",
+        "created": "2020-07-03",
+        "updated": "2020-07-03"
+      }
+    ]
+  },
+  {
+    "name": "Gummi Bear",
+    "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-gummi-bear.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7",
@@ -1850,6 +2201,8 @@
   {
     "name": "Hawaiian Limeade",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-hawaiian-limeade.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -1865,6 +2218,8 @@
   {
     "name": "Hawaiian Limeade",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-hawaiian-limeade.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -1880,6 +2235,8 @@
   {
     "name": "Hawaiian Limeade",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-hawaiian-limeade.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-26-2"
@@ -1895,6 +2252,8 @@
   {
     "name": "Hibiscus",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-hibiscus.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -1910,6 +2269,8 @@
   {
     "name": "Jack Fruit",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-jack-fruit.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -1925,27 +2286,31 @@
   {
     "name": "Jawbreaker",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-jawbreaker.pdf",
     "category": "Research",
     "casNumbers": [
-      "8008-57-9",
-      "8008-56-8"
+      "8008-56-8",
+      "8008-57-9"
     ],
     "ingredients": [
-      {
-        "casNumber": "8008-57-9",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      },
       {
         "casNumber": "8008-56-8",
         "created": "2020-06-20",
         "updated": "2020-06-20"
+      },
+      {
+        "casNumber": "8008-57-9",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
       }
     ]
   },
   {
     "name": "Kahlua",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-kahlua.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -1961,6 +2326,31 @@
   {
     "name": "Key Lime",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": null,
+    "category": "Avoid",
+    "casNumbers": [
+      "57-48-7",
+      "8029-43-4"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      },
+      {
+        "casNumber": "8029-43-4",
+        "created": "2020-07-03",
+        "updated": "2020-07-03"
+      }
+    ]
+  },
+  {
+    "name": "Key Lime",
+    "vendor": "FW",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "57-48-7",
@@ -1982,6 +2372,8 @@
   {
     "name": "Kiwi (natural)",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-kiwi-natural.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -1997,6 +2389,8 @@
   {
     "name": "Kiwi (natural)",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-kiwi-natural.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -2012,6 +2406,8 @@
   {
     "name": "Lemonade",
     "vendor": "FW",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8008-56-8"
@@ -2027,6 +2423,8 @@
   {
     "name": "Lemonade (pink)",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8008-56-8"
@@ -2042,6 +2440,8 @@
   {
     "name": "Lemon Meringue Pie",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-lemon-meringue-pie.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -2057,6 +2457,8 @@
   {
     "name": "Macadamia Nut",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-macadamia-nut.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -2072,6 +2474,31 @@
   {
     "name": "Madagascar Vanilla",
     "vendor": "FW",
+    "manual": true,
+    "sdsUrl": null,
+    "category": "Avoid",
+    "casNumbers": [
+      "8029-43-4",
+      "57-48-7"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "8029-43-4",
+        "created": "2020-07-03",
+        "updated": "2020-07-03"
+      },
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
+    ]
+  },
+  {
+    "name": "Madagascar Vanilla",
+    "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-madagascar-vanilla.pdf",
     "category": "Avoid",
     "casNumbers": [
       "8029-43-4",
@@ -2093,6 +2520,8 @@
   {
     "name": "Mango",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-mango.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-57-9"
@@ -2108,6 +2537,8 @@
   {
     "name": "Mango Guava",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-mango-guava.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-57-9"
@@ -2123,6 +2554,8 @@
   {
     "name": "Mocha",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-mocha.pdf",
     "category": "Avoid",
     "casNumbers": [
       "8002-31-1"
@@ -2138,6 +2571,8 @@
   {
     "name": "Mojito",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-mojito.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -2153,6 +2588,8 @@
   {
     "name": "Mojito",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-mojito.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-26-2"
@@ -2168,6 +2605,8 @@
   {
     "name": "Moose Milk",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-moose-milk.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -2183,6 +2622,8 @@
   {
     "name": "Nutella Type (hazelnut spread)",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-nutella.pdf",
     "category": "Avoid",
     "casNumbers": [
       "8002-31-1"
@@ -2198,6 +2639,8 @@
   {
     "name": "Orange Dream Bar",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-orange-dream-bar.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-57-9"
@@ -2213,6 +2656,8 @@
   {
     "name": "Peppermint",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8006-90-4"
@@ -2228,6 +2673,8 @@
   {
     "name": "Plum",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-plum.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -2243,6 +2690,8 @@
   {
     "name": "Pomberry",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-pomberry.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -2258,6 +2707,8 @@
   {
     "name": "Pomberry",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-pomberry.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -2273,6 +2724,8 @@
   {
     "name": "Pomegranate",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-pomegranate.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -2288,6 +2741,8 @@
   {
     "name": "Pomegranate",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-pomegranate.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -2303,6 +2758,8 @@
   {
     "name": "Prickly Pear",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-prickly-pear.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -2318,6 +2775,8 @@
   {
     "name": "Prickly Pear",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-prickly-pear.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -2333,27 +2792,31 @@
   {
     "name": "Rainbow Candy",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-rainbow-candy.pdf",
     "category": "Research",
     "casNumbers": [
-      "8008-26-2",
-      "8008-56-8"
+      "8008-56-8",
+      "8008-26-2"
     ],
     "ingredients": [
-      {
-        "casNumber": "8008-26-2",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      },
       {
         "casNumber": "8008-56-8",
         "created": "2020-06-20",
         "updated": "2020-06-20"
+      },
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
       }
     ]
   },
   {
     "name": "Rainbow Candy (Natural)",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-rainbow-candy-natural.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -2369,27 +2832,71 @@
   {
     "name": "Rainbow Line Gum",
     "vendor": "FW",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
-      "57-48-7",
-      "8029-43-4"
+      "8029-43-4",
+      "57-48-7"
     ],
     "ingredients": [
-      {
-        "casNumber": "57-48-7",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      },
       {
         "casNumber": "8029-43-4",
         "created": "2020-07-03",
         "updated": "2020-07-03"
+      },
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
       }
     ]
   },
   {
     "name": "Rainbow Line Gum",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-rainbow-lined-gum.pdf",
+    "category": "Avoid",
+    "casNumbers": [
+      "8029-43-4",
+      "57-48-7"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "8029-43-4",
+        "created": "2020-07-03",
+        "updated": "2020-07-03"
+      },
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
+    ]
+  },
+  {
+    "name": "Rainbow Line Gum",
+    "vendor": "FW",
+    "manual": true,
+    "sdsUrl": null,
+    "category": "Research",
+    "casNumbers": [
+      "8008-56-8"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "8008-56-8",
+        "created": "2020-06-20",
+        "updated": "2020-06-20"
+      }
+    ]
+  },
+  {
+    "name": "Rainbow Line Gum",
+    "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-rainbow-lined-gum.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-56-8"
@@ -2405,6 +2912,8 @@
   {
     "name": "Rainbow Sherbet",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-rainbow-sherbet.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -2420,6 +2929,8 @@
   {
     "name": "Rainbow Sherbet",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-rainbow-sherbet.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -2435,19 +2946,21 @@
   {
     "name": "Rainbow Sherbet",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-rainbow-sherbet.pdf",
     "category": "Research",
     "casNumbers": [
-      "8008-26-2",
-      "8008-57-9"
+      "8008-57-9",
+      "8008-26-2"
     ],
     "ingredients": [
       {
-        "casNumber": "8008-26-2",
+        "casNumber": "8008-57-9",
         "created": "2020-01-17",
         "updated": "2020-01-17"
       },
       {
-        "casNumber": "8008-57-9",
+        "casNumber": "8008-26-2",
         "created": "2020-01-17",
         "updated": "2020-01-17"
       }
@@ -2456,6 +2969,8 @@
   {
     "name": "Raspberry (natural)",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-raspberry-natural.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -2471,6 +2986,8 @@
   {
     "name": "Raspberry (natural)",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-raspberry-natural.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -2486,6 +3003,8 @@
   {
     "name": "Red White And Blue",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -2501,6 +3020,8 @@
   {
     "name": "Rocky Road",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-rocky-road.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -2516,6 +3037,8 @@
   {
     "name": "Salty Butter Balls",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-salty-butter-balls.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -2531,6 +3054,8 @@
   {
     "name": "Shirley Temple",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-shirley-temple.pdf",
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -2546,6 +3071,8 @@
   {
     "name": "Shirley Temple",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-shirley-temple.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -2561,27 +3088,31 @@
   {
     "name": "Shirley Temple",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-shirley-temple.pdf",
     "category": "Research",
     "casNumbers": [
-      "8008-26-2",
-      "8008-56-8"
+      "8008-56-8",
+      "8008-26-2"
     ],
     "ingredients": [
-      {
-        "casNumber": "8008-26-2",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      },
       {
         "casNumber": "8008-56-8",
         "created": "2020-06-20",
         "updated": "2020-06-20"
+      },
+      {
+        "casNumber": "8008-26-2",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
       }
     ]
   },
   {
     "name": "Spearmint",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8006-90-4"
@@ -2597,6 +3128,8 @@
   {
     "name": "Star Fruit",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-star-fruit.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -2612,6 +3145,8 @@
   {
     "name": "Star Fruit",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-star-fruit.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -2627,6 +3162,8 @@
   {
     "name": "Stick Gum (2xmint)",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-stick-gum-2xmint.pdf",
     "category": "Avoid",
     "casNumbers": [
       "8006-90-4"
@@ -2642,6 +3179,8 @@
   {
     "name": "Strawberry Lemonade",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-strawberry-lemonade.pdf",
     "category": "Avoid",
     "casNumbers": [
       "8008-56-8"
@@ -2657,6 +3196,8 @@
   {
     "name": "Strawberry Shortcake",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-strawberry-shortcake.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -2672,6 +3213,8 @@
   {
     "name": "Swedish Fish Type",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-swedish-fish.pdf",
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -2687,6 +3230,8 @@
   {
     "name": "Swedish Fish Type",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-swedish-fish.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-57-9"
@@ -2702,6 +3247,8 @@
   {
     "name": "Sweet Cream",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-sweet-cream.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -2717,6 +3264,8 @@
   {
     "name": "Sweetener",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-sweetener.pdf",
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -2732,27 +3281,71 @@
   {
     "name": "Sweet Tarts Type",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-sweet-tarts.pdf",
     "category": "Avoid",
     "casNumbers": [
-      "57-48-7",
-      "8029-43-4"
+      "8029-43-4",
+      "57-48-7"
     ],
     "ingredients": [
-      {
-        "casNumber": "57-48-7",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      },
       {
         "casNumber": "8029-43-4",
         "created": "2020-07-03",
         "updated": "2020-07-03"
+      },
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
       }
     ]
   },
   {
     "name": "Sweet Tarts Type",
     "vendor": "FW",
+    "manual": true,
+    "sdsUrl": null,
+    "category": "Avoid",
+    "casNumbers": [
+      "8029-43-4",
+      "57-48-7"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "8029-43-4",
+        "created": "2020-07-03",
+        "updated": "2020-07-03"
+      },
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
+    ]
+  },
+  {
+    "name": "Sweet Tarts Type",
+    "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-sweet-tarts.pdf",
+    "category": "Caution",
+    "casNumbers": [
+      "77-92-9"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "77-92-9",
+        "created": "2020-03-23",
+        "updated": "2020-03-23"
+      }
+    ]
+  },
+  {
+    "name": "Sweet Tarts Type",
+    "vendor": "FW",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -2768,6 +3361,8 @@
   {
     "name": "Tiki Roar",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-tiki-roar.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -2783,6 +3378,8 @@
   {
     "name": "Toffee Dream Cream",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-toffee-dream-cream.pdf",
     "category": "Avoid",
     "casNumbers": [
       "8015-91-6"
@@ -2798,6 +3395,77 @@
   {
     "name": "Tres Leches",
     "vendor": "FW",
+    "manual": true,
+    "sdsUrl": null,
+    "category": "Avoid",
+    "casNumbers": [
+      "8029-43-4",
+      "57-48-7"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "8029-43-4",
+        "created": "2020-07-03",
+        "updated": "2020-07-03"
+      },
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
+    ]
+  },
+  {
+    "name": "Tres Leches",
+    "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-tres-leches.pdf",
+    "category": "Avoid",
+    "casNumbers": [
+      "8029-43-4",
+      "57-48-7"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "8029-43-4",
+        "created": "2020-07-03",
+        "updated": "2020-07-03"
+      },
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
+    ]
+  },
+  {
+    "name": "Tropical Cream Breeze",
+    "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-tropical-cream-breeze.pdf",
+    "category": "Research",
+    "casNumbers": [
+      "8008-56-8",
+      "8008-57-9"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "8008-56-8",
+        "created": "2020-06-20",
+        "updated": "2020-06-20"
+      },
+      {
+        "casNumber": "8008-57-9",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
+    ]
+  },
+  {
+    "name": "Tropical Punch",
+    "vendor": "FW",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "57-48-7",
@@ -2817,29 +3485,10 @@
     ]
   },
   {
-    "name": "Tropical Cream Breeze",
-    "vendor": "FW",
-    "category": "Research",
-    "casNumbers": [
-      "8008-57-9",
-      "8008-56-8"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "8008-57-9",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      },
-      {
-        "casNumber": "8008-56-8",
-        "created": "2020-06-20",
-        "updated": "2020-06-20"
-      }
-    ]
-  },
-  {
     "name": "Tropical Punch",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-tropical-punch.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7",
@@ -2861,6 +3510,8 @@
   {
     "name": "Tutti Fruitti",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-tutti-fruitti.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-56-8",
@@ -2882,6 +3533,8 @@
   {
     "name": "Unicorn Vomit",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-unicorn-vomit.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-57-9"
@@ -2897,6 +3550,8 @@
   {
     "name": "Watermelon(natural)",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-watermelon-natural.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -2912,6 +3567,8 @@
   {
     "name": "Watermelon(natural)",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-watermelon-natural.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -2927,6 +3584,8 @@
   {
     "name": "White Wine",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-white-wine.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -2942,6 +3601,8 @@
   {
     "name": "Wine Merlot",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-merlot.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -2957,6 +3618,8 @@
   {
     "name": "Wine Merlot",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-merlot.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -2972,6 +3635,8 @@
   {
     "name": "Yumberry",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-yumberry.pdf",
     "category": "Avoid",
     "casNumbers": [
       "57-48-7"
@@ -2987,6 +3652,8 @@
   {
     "name": "Yumberry",
     "vendor": "FW",
+    "manual": false,
+    "sdsUrl": "/FW/fw-yumberry.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -3002,6 +3669,8 @@
   {
     "name": "Sweet Cigarette",
     "vendor": "FLV",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8002-31-1"
@@ -3017,6 +3686,8 @@
   {
     "name": "Cream",
     "vendor": "FM",
+    "manual": false,
+    "sdsUrl": "/FM/fm-cream.pdf",
     "category": "Research",
     "casNumbers": [
       "431-03-8"
@@ -3032,6 +3703,8 @@
   {
     "name": "Lime",
     "vendor": "FM",
+    "manual": false,
+    "sdsUrl": "/FM/fm-lime.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-26-2"
@@ -3047,6 +3720,8 @@
   {
     "name": "Speculaas",
     "vendor": "FM",
+    "manual": false,
+    "sdsUrl": "/FM/fm-speculaas.pdf",
     "category": "Research",
     "casNumbers": [
       "8000-34-8"
@@ -3062,6 +3737,8 @@
   {
     "name": "Sweet Betsy Lime",
     "vendor": "FM",
+    "manual": false,
+    "sdsUrl": "/FM/fm-sweet-betsy-lime.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-26-2"
@@ -3077,6 +3754,8 @@
   {
     "name": "Custard Pi 3.14",
     "vendor": "FA",
+    "manual": false,
+    "sdsUrl": "/FA/fa-custard-pi.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-56-8"
@@ -3092,6 +3771,8 @@
   {
     "name": "Euphoria",
     "vendor": "FA",
+    "manual": false,
+    "sdsUrl": "/FA/fa-euphoria.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-56-8"
@@ -3107,6 +3788,8 @@
   {
     "name": "Lemon Iced Tea",
     "vendor": "FA",
+    "manual": false,
+    "sdsUrl": "/FA/fa-lemon-ice-tea.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-56-8"
@@ -3122,6 +3805,8 @@
   {
     "name": "Arabic Tobacco",
     "vendor": "HS",
+    "manual": false,
+    "sdsUrl": "/HS/hs-arabic.pdf",
     "category": "Research",
     "casNumbers": [
       "22047-25-2"
@@ -3137,6 +3822,8 @@
   {
     "name": "Australian Chocolate",
     "vendor": "HS",
+    "manual": false,
+    "sdsUrl": "/HS/hs-australian-chocolate.pdf",
     "category": "Research",
     "casNumbers": [
       "22047-25-2"
@@ -3152,6 +3839,8 @@
   {
     "name": "Cheesecake",
     "vendor": "HS",
+    "manual": false,
+    "sdsUrl": "/HS/hs-cheesecake.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0",
@@ -3173,6 +3862,8 @@
   {
     "name": "Chocolate Cream",
     "vendor": "HS",
+    "manual": false,
+    "sdsUrl": "/HS/hs-chocolate-cream.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -3188,6 +3879,8 @@
   {
     "name": "Churchill",
     "vendor": "HS",
+    "manual": false,
+    "sdsUrl": "/HS/hs-churchill.pdf",
     "category": "Research",
     "casNumbers": [
       "22047-25-2"
@@ -3203,19 +3896,21 @@
   {
     "name": "Cream",
     "vendor": "HS",
+    "manual": false,
+    "sdsUrl": "/HS/hs-cream.pdf",
     "category": "Research",
     "casNumbers": [
-      "124-07-2",
-      "513-86-0"
+      "513-86-0",
+      "124-07-2"
     ],
     "ingredients": [
       {
-        "casNumber": "124-07-2",
+        "casNumber": "513-86-0",
         "created": "2020-01-18",
         "updated": "2020-01-18"
       },
       {
-        "casNumber": "513-86-0",
+        "casNumber": "124-07-2",
         "created": "2020-01-18",
         "updated": "2020-01-18"
       }
@@ -3224,6 +3919,8 @@
   {
     "name": "Cuba",
     "vendor": "HS",
+    "manual": false,
+    "sdsUrl": "/HS/hs-cuba.pdf",
     "category": "Research",
     "casNumbers": [
       "22047-25-2"
@@ -3239,6 +3936,8 @@
   {
     "name": "Desert Ship",
     "vendor": "HS",
+    "manual": false,
+    "sdsUrl": "/HS/hs-desert-ship.pdf",
     "category": "Research",
     "casNumbers": [
       "22047-25-2"
@@ -3254,6 +3953,8 @@
   {
     "name": "Elder Captain",
     "vendor": "HS",
+    "manual": false,
+    "sdsUrl": "/HS/hs-elder-captain.pdf",
     "category": "Research",
     "casNumbers": [
       "22047-25-2"
@@ -3269,6 +3970,8 @@
   {
     "name": "French Vanilla Icecream",
     "vendor": "HS",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Research",
     "casNumbers": [
       "124-07-2"
@@ -3284,6 +3987,8 @@
   {
     "name": "Hazelnut Coffee",
     "vendor": "HS",
+    "manual": false,
+    "sdsUrl": "/HS/hs-hazelnut-coffee.pdf",
     "category": "Research",
     "casNumbers": [
       "77-93-0",
@@ -3305,6 +4010,8 @@
   {
     "name": "Highway",
     "vendor": "HS",
+    "manual": false,
+    "sdsUrl": "/HS/hs-highway.pdf",
     "category": "Research",
     "casNumbers": [
       "22047-25-2"
@@ -3320,6 +4027,8 @@
   {
     "name": "Ice Cream",
     "vendor": "HS",
+    "manual": false,
+    "sdsUrl": "/HS/hs-ice-cream.pdf",
     "category": "Research",
     "casNumbers": [
       "124-07-2"
@@ -3335,6 +4044,8 @@
   {
     "name": "Indian Tobacco",
     "vendor": "HS",
+    "manual": false,
+    "sdsUrl": "/HS/hs-indian.pdf",
     "category": "Research",
     "casNumbers": [
       "22047-25-2"
@@ -3350,6 +4061,8 @@
   {
     "name": "Irish Cream",
     "vendor": "HS",
+    "manual": false,
+    "sdsUrl": "/HS/hs-irish-cream.pdf",
     "category": "Research",
     "casNumbers": [
       "124-07-2"
@@ -3365,6 +4078,8 @@
   {
     "name": "Italian Cream",
     "vendor": "HS",
+    "manual": false,
+    "sdsUrl": "/HS/hs-italian-cream.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -3380,6 +4095,8 @@
   {
     "name": "Lemonade",
     "vendor": "HS",
+    "manual": false,
+    "sdsUrl": "/HS/hs-lemonade.pdf",
     "category": "Research",
     "casNumbers": [
       "22047-25-2"
@@ -3395,6 +4112,8 @@
   {
     "name": "Magic Mix",
     "vendor": "HS",
+    "manual": false,
+    "sdsUrl": "/HS/hs-magic-mix.pdf",
     "category": "Research",
     "casNumbers": [
       "22047-25-2"
@@ -3410,6 +4129,8 @@
   {
     "name": "Muffin",
     "vendor": "HS",
+    "manual": false,
+    "sdsUrl": "/HS/hs-muffin.pdf",
     "category": "Research",
     "casNumbers": [
       "22047-25-2",
@@ -3431,6 +4152,8 @@
   {
     "name": "No. 5",
     "vendor": "HS",
+    "manual": false,
+    "sdsUrl": "/HS/hs-no-5.pdf",
     "category": "Research",
     "casNumbers": [
       "22047-25-2"
@@ -3446,6 +4169,8 @@
   {
     "name": "RY1",
     "vendor": "HS",
+    "manual": false,
+    "sdsUrl": "/HS/hs-ry1.pdf",
     "category": "Research",
     "casNumbers": [
       "22047-25-2"
@@ -3461,6 +4186,8 @@
   {
     "name": "RY3",
     "vendor": "HS",
+    "manual": false,
+    "sdsUrl": "/HS/hs-ry3.pdf",
     "category": "Research",
     "casNumbers": [
       "22047-25-2"
@@ -3476,6 +4203,8 @@
   {
     "name": "Tab Blended",
     "vendor": "HS",
+    "manual": false,
+    "sdsUrl": "/HS/hs-tab-blended.pdf",
     "category": "Research",
     "casNumbers": [
       "22047-25-2"
@@ -3491,6 +4220,8 @@
   {
     "name": "Turkish Blended",
     "vendor": "HS",
+    "manual": false,
+    "sdsUrl": "/HS/hs-turkish-blended.pdf",
     "category": "Research",
     "casNumbers": [
       "22047-25-2"
@@ -3506,6 +4237,8 @@
   {
     "name": "Eucalyptus With Mint",
     "vendor": "INW",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Caution",
     "casNumbers": [
       "84625-32-1"
@@ -3521,6 +4254,8 @@
   {
     "name": "Ice Candy (yc)",
     "vendor": "INW",
+    "manual": false,
+    "sdsUrl": "/INW/inw-ice-candy.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-56-8"
@@ -3536,6 +4271,8 @@
   {
     "name": "Jamaica Rum",
     "vendor": "INW",
+    "manual": false,
+    "sdsUrl": "/INW/inw-jamaica-rum.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-57-9"
@@ -3551,6 +4288,8 @@
   {
     "name": "Pepper Mint",
     "vendor": "INW",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8006-90-4"
@@ -3566,6 +4305,8 @@
   {
     "name": "So Sour, So Good",
     "vendor": "INW",
+    "manual": false,
+    "sdsUrl": "/INW/inw-so-good.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-56-8"
@@ -3581,6 +4322,31 @@
   {
     "name": "Spearmint",
     "vendor": "INW",
+    "manual": true,
+    "sdsUrl": null,
+    "category": "Avoid",
+    "casNumbers": [
+      "8006-90-4",
+      "8013-17-0"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "8006-90-4",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
+      },
+      {
+        "casNumber": "8013-17-0",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
+    ]
+  },
+  {
+    "name": "Spearmint",
+    "vendor": "INW",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8006-90-4",
@@ -3602,6 +4368,8 @@
   {
     "name": "Tobacco Amaretto",
     "vendor": "INW",
+    "manual": false,
+    "sdsUrl": "/INW/inw-amaretto.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-56-8"
@@ -3617,6 +4385,8 @@
   {
     "name": "Tobacco C",
     "vendor": "INW",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8029-43-4"
@@ -3632,6 +4402,8 @@
   {
     "name": "Tobacco Dark Fire",
     "vendor": "INW",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8028-89-5"
@@ -3647,6 +4419,8 @@
   {
     "name": "Tobacco Turkish",
     "vendor": "INW",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8028-89-5"
@@ -3662,6 +4436,8 @@
   {
     "name": "Tobacco Us Light Mix",
     "vendor": "INW",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8013-17-0"
@@ -3677,6 +4453,8 @@
   {
     "name": "Tobacco Us Red Mix",
     "vendor": "INW",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8013-17-0"
@@ -3692,6 +4470,8 @@
   {
     "name": "Pineapple Lassi",
     "vendor": "MB",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -3707,6 +4487,8 @@
   {
     "name": "Lemon",
     "vendor": "NR",
+    "manual": false,
+    "sdsUrl": "/NR/nr-lemon.pdf",
     "category": "Caution",
     "casNumbers": [
       "7647-14-5"
@@ -3722,6 +4504,8 @@
   {
     "name": "Red Sour Cherry",
     "vendor": "NR",
+    "manual": false,
+    "sdsUrl": "/NR/nr-cherry.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -3737,6 +4521,8 @@
   {
     "name": "Aged Bourbon Cream",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-aged-bourbon-cream.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -3752,6 +4538,8 @@
   {
     "name": "Aged Bourbon Cream",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-aged-bourbon-cream.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -3767,6 +4555,8 @@
   {
     "name": "Apple Jam with Toast (SC)",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-apple-jam-with-toast.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -3782,6 +4572,8 @@
   {
     "name": "Baja Soda",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-baja-soda.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -3797,6 +4589,8 @@
   {
     "name": "Banana Foster",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-banana-foster.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -3812,6 +4606,8 @@
   {
     "name": "Banana Foster",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-banana-foster.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0",
@@ -3833,6 +4629,8 @@
   {
     "name": "Banana Split",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-banana-split.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -3848,6 +4646,8 @@
   {
     "name": "Bavarian Cream",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-bavarian-cream.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -3863,6 +4663,8 @@
   {
     "name": "Blackberry",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-blackberry.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -3878,6 +4680,8 @@
   {
     "name": "Blackberry Jam with Toast - SC",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-blackberry-jam-with-toast.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -3893,6 +4697,8 @@
   {
     "name": "Blackberry Jam with Toast - SC",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-blackberry-jam-with-toast.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -3908,6 +4714,8 @@
   {
     "name": "Blueberries & Cream",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-blueberries-_-cream.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -3923,6 +4731,8 @@
   {
     "name": "Blueberry",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-blueberry.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -3938,6 +4748,8 @@
   {
     "name": "Blueberry Acai Pomegranate",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-blueberry-acai-pomegranate.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -3953,6 +4765,8 @@
   {
     "name": "Blueberry Jam with Toast - Super Concentrate",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-blueberry-jam-with-toast.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -3968,6 +4782,8 @@
   {
     "name": "Blueberry Jam with Toast - Super Concentrate",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-blueberry-jam-with-toast.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -3983,6 +4799,8 @@
   {
     "name": "Blueberry Muffin",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-blueberry-muffin.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -3998,6 +4816,8 @@
   {
     "name": "Blueberry Muffin",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-blueberry-muffin.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -4013,6 +4833,8 @@
   {
     "name": "Blueberry Pastry – SC",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-blueberry-pastry.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -4028,6 +4850,8 @@
   {
     "name": "Blueberry Pastry – SC",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-blueberry-pastry.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -4043,6 +4867,8 @@
   {
     "name": "Blue Energy",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-blue-energy.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -4058,6 +4884,8 @@
   {
     "name": "Blue Moon Ice Cream",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-blue-moon-ice-cream.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -4073,6 +4901,8 @@
   {
     "name": "Blue Moon Ice Cream",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-blue-moon-ice-cream.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -4088,6 +4918,8 @@
   {
     "name": "Blue Raz",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-blue-raz.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -4103,6 +4935,8 @@
   {
     "name": "Blue Raz Cotton Candy",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-blue-raz-cotton-candy.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -4118,6 +4952,8 @@
   {
     "name": "Blue Raz Taffy",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-blue-raz-taffy.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -4133,6 +4969,8 @@
   {
     "name": "Boysenberry",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-boysenberry.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -4148,6 +4986,8 @@
   {
     "name": "Bread Pudding",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-bread-pudding.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -4163,6 +5003,8 @@
   {
     "name": "Brown Sugar",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-brown-sugar.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -4178,6 +5020,8 @@
   {
     "name": "Butter Pecan Pie - Super Concentrate ",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-butter-pecan-pie.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -4193,6 +5037,8 @@
   {
     "name": "Butter Pecan Pie - Super Concentrate ",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-butter-pecan-pie.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -4208,6 +5054,8 @@
   {
     "name": "Caramel",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-caramel.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -4223,6 +5071,8 @@
   {
     "name": "Caramel",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-caramel.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -4238,6 +5088,8 @@
   {
     "name": "Caramel Apple",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-caramel-apple.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -4253,6 +5105,8 @@
   {
     "name": "Caramel Apple",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-caramel-apple.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -4268,6 +5122,8 @@
   {
     "name": "Caramel Cappuccino",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-caramel-cappuccino.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -4283,6 +5139,8 @@
   {
     "name": "Caramel Cappuccino",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-caramel-cappuccino.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -4298,6 +5156,8 @@
   {
     "name": "Carrot Cake - Super Concentrate",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-carrot-cake.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -4313,6 +5173,8 @@
   {
     "name": "Carrot – SC",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-carrot.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -4328,6 +5190,8 @@
   {
     "name": "Cherry",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-cherry.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -4343,6 +5207,8 @@
   {
     "name": "Cherry Cola Type",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-cherry-cola.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -4358,6 +5224,8 @@
   {
     "name": "Cherry Limeade",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-cherry-limeade.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -4373,6 +5241,8 @@
   {
     "name": "Cherry Limeade",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-cherry-limeade.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-26-2"
@@ -4388,6 +5258,8 @@
   {
     "name": "Cherry Pie",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-cherry-pie.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -4403,6 +5275,8 @@
   {
     "name": "Cherry Pie",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-cherry-pie.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -4418,6 +5292,8 @@
   {
     "name": "Cherry Taffy - Super Concentrate",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-cherry-taffy.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -4433,6 +5309,8 @@
   {
     "name": "Chocolate Milkshake",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-chocolate-milkshake.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -4448,6 +5326,8 @@
   {
     "name": "Chocolate Passion",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-chocolate-passion.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -4463,6 +5343,8 @@
   {
     "name": "Cinnamon Custard",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-cinnamon-custard.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -4478,6 +5360,8 @@
   {
     "name": "Cinnamon Donut",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-cinnamon-donut.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -4493,6 +5377,8 @@
   {
     "name": "Cinnamon Roll",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-cinnamon-roll.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -4508,6 +5394,8 @@
   {
     "name": "Cinnamon Toast",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-cinnamon-toast.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -4523,6 +5411,8 @@
   {
     "name": "Coconut",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-coconut.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -4538,6 +5428,8 @@
   {
     "name": "Coconut Spiced Rum – SC",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-coconut-spiced-rum.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -4553,6 +5445,8 @@
   {
     "name": "Coconut Spiced Rum – SC",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-coconut-spiced-rum.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -4568,6 +5462,8 @@
   {
     "name": "Cream Cheese",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-cream-cheese.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -4583,198 +5479,8 @@
   {
     "name": "Cream Cheese",
     "vendor": "RF",
-    "category": "Research",
-    "casNumbers": [
-      "513-86-0",
-      "600-14-6"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "513-86-0",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      },
-      {
-        "casNumber": "600-14-6",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      }
-    ]
-  },
-  {
-    "name": "Cream Soda",
-    "vendor": "RF",
-    "category": "Caution",
-    "casNumbers": [
-      "77-92-9"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "77-92-9",
-        "created": "2020-03-23",
-        "updated": "2020-03-23"
-      }
-    ]
-  },
-  {
-    "name": "Creme Brulee - SC ",
-    "vendor": "RF",
-    "category": "Caution",
-    "casNumbers": [
-      "77-92-9"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "77-92-9",
-        "created": "2020-03-23",
-        "updated": "2020-03-23"
-      }
-    ]
-  },
-  {
-    "name": "Creme Brulee - SC ",
-    "vendor": "RF",
-    "category": "Research",
-    "casNumbers": [
-      "600-14-6"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "600-14-6",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      }
-    ]
-  },
-  {
-    "name": "Deep Fried Cookies and Cream – Super Concentrate",
-    "vendor": "RF",
-    "category": "Research",
-    "casNumbers": [
-      "600-14-6"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "600-14-6",
-        "created": "2020-02-23",
-        "updated": "2020-02-23"
-      }
-    ]
-  },
-  {
-    "name": "Deep Fried Spongecake – Super Concentrate",
-    "vendor": "RF",
-    "category": "Research",
-    "casNumbers": [
-      "600-14-6"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "600-14-6",
-        "created": "2020-02-23",
-        "updated": "2020-02-23"
-      }
-    ]
-  },
-  {
-    "name": "Dreamsicle",
-    "vendor": "RF",
-    "category": "Caution",
-    "casNumbers": [
-      "77-92-9"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "77-92-9",
-        "created": "2020-03-23",
-        "updated": "2020-03-23"
-      }
-    ]
-  },
-  {
-    "name": "Dreamsicle",
-    "vendor": "RF",
-    "category": "Research",
-    "casNumbers": [
-      "600-14-6"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "600-14-6",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      }
-    ]
-  },
-  {
-    "name": "Dulce de Leche",
-    "vendor": "RF",
-    "category": "Caution",
-    "casNumbers": [
-      "77-92-9"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "77-92-9",
-        "created": "2020-03-23",
-        "updated": "2020-03-23"
-      }
-    ]
-  },
-  {
-    "name": "Dulce de Leche",
-    "vendor": "RF",
-    "category": "Research",
-    "casNumbers": [
-      "600-14-6"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "600-14-6",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      }
-    ]
-  },
-  {
-    "name": "Elephant Ear",
-    "vendor": "RF",
-    "category": "Research",
-    "casNumbers": [
-      "513-86-0",
-      "600-14-6"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "513-86-0",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      },
-      {
-        "casNumber": "600-14-6",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      }
-    ]
-  },
-  {
-    "name": "French Toast",
-    "vendor": "RF",
-    "category": "Caution",
-    "casNumbers": [
-      "77-92-9"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "77-92-9",
-        "created": "2020-03-23",
-        "updated": "2020-03-23"
-      }
-    ]
-  },
-  {
-    "name": "French Toast",
-    "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-cream-cheese.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6",
@@ -4794,53 +5500,10 @@
     ]
   },
   {
-    "name": "French Vanilla",
+    "name": "Cream Soda",
     "vendor": "RF",
-    "category": "Research",
-    "casNumbers": [
-      "600-14-6"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "600-14-6",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      }
-    ]
-  },
-  {
-    "name": "Fried Dough",
-    "vendor": "RF",
-    "category": "Research",
-    "casNumbers": [
-      "600-14-6"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "600-14-6",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      }
-    ]
-  },
-  {
-    "name": "Frosted Animal Cookie - SC",
-    "vendor": "RF",
-    "category": "Research",
-    "casNumbers": [
-      "600-14-6"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "600-14-6",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      }
-    ]
-  },
-  {
-    "name": "Frosted Cereal",
-    "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-cream-soda.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -4854,23 +5517,10 @@
     ]
   },
   {
-    "name": "Frosted Cereal",
+    "name": "Creme Brulee - SC ",
     "vendor": "RF",
-    "category": "Research",
-    "casNumbers": [
-      "600-14-6"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "600-14-6",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      }
-    ]
-  },
-  {
-    "name": "Fruit Cake",
-    "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-creme-brulee.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -4884,8 +5534,169 @@
     ]
   },
   {
-    "name": "Fruit Cake",
+    "name": "Creme Brulee - SC ",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-creme-brulee.pdf",
+    "category": "Research",
+    "casNumbers": [
+      "600-14-6"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
+    ]
+  },
+  {
+    "name": "Deep Fried Cookies and Cream – Super Concentrate",
+    "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-deep-fried-cookies-_-cream.pdf",
+    "category": "Research",
+    "casNumbers": [
+      "600-14-6"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-02-23",
+        "updated": "2020-02-23"
+      }
+    ]
+  },
+  {
+    "name": "Deep Fried Spongecake – Super Concentrate",
+    "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-deep-fried-spongecake.pdf",
+    "category": "Research",
+    "casNumbers": [
+      "600-14-6"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-02-23",
+        "updated": "2020-02-23"
+      }
+    ]
+  },
+  {
+    "name": "Dreamsicle",
+    "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-dreamsicle.pdf",
+    "category": "Caution",
+    "casNumbers": [
+      "77-92-9"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "77-92-9",
+        "created": "2020-03-23",
+        "updated": "2020-03-23"
+      }
+    ]
+  },
+  {
+    "name": "Dreamsicle",
+    "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-dreamsicle.pdf",
+    "category": "Research",
+    "casNumbers": [
+      "600-14-6"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
+    ]
+  },
+  {
+    "name": "Dulce de Leche",
+    "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-dulce-de-leche.pdf",
+    "category": "Caution",
+    "casNumbers": [
+      "77-92-9"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "77-92-9",
+        "created": "2020-03-23",
+        "updated": "2020-03-23"
+      }
+    ]
+  },
+  {
+    "name": "Dulce de Leche",
+    "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-dulce-de-leche.pdf",
+    "category": "Research",
+    "casNumbers": [
+      "600-14-6"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
+    ]
+  },
+  {
+    "name": "Elephant Ear",
+    "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-elephant-ear.pdf",
+    "category": "Research",
+    "casNumbers": [
+      "600-14-6",
+      "513-86-0"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
+    ]
+  },
+  {
+    "name": "French Toast",
+    "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-french-toast.pdf",
+    "category": "Caution",
+    "casNumbers": [
+      "77-92-9"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "77-92-9",
+        "created": "2020-03-23",
+        "updated": "2020-03-23"
+      }
+    ]
+  },
+  {
+    "name": "French Toast",
+    "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-french-toast.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0",
@@ -4905,8 +5716,135 @@
     ]
   },
   {
+    "name": "French Vanilla",
+    "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-french-vanilla.pdf",
+    "category": "Research",
+    "casNumbers": [
+      "600-14-6"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
+    ]
+  },
+  {
+    "name": "Fried Dough",
+    "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-fried-dough.pdf",
+    "category": "Research",
+    "casNumbers": [
+      "600-14-6"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
+    ]
+  },
+  {
+    "name": "Frosted Animal Cookie - SC",
+    "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-frosted-animal-cookie.pdf",
+    "category": "Research",
+    "casNumbers": [
+      "600-14-6"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
+    ]
+  },
+  {
+    "name": "Frosted Cereal",
+    "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-frosted-cereal.pdf",
+    "category": "Caution",
+    "casNumbers": [
+      "77-92-9"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "77-92-9",
+        "created": "2020-03-23",
+        "updated": "2020-03-23"
+      }
+    ]
+  },
+  {
+    "name": "Frosted Cereal",
+    "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-frosted-cereal.pdf",
+    "category": "Research",
+    "casNumbers": [
+      "600-14-6"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
+    ]
+  },
+  {
+    "name": "Fruit Cake",
+    "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-fruit-cake.pdf",
+    "category": "Caution",
+    "casNumbers": [
+      "77-92-9"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "77-92-9",
+        "created": "2020-03-23",
+        "updated": "2020-03-23"
+      }
+    ]
+  },
+  {
+    "name": "Fruit Cake",
+    "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-fruit-cake.pdf",
+    "category": "Research",
+    "casNumbers": [
+      "600-14-6",
+      "513-86-0"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
+    ]
+  },
+  {
     "name": "Fruit Danish",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-fruit-danish.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -4922,6 +5860,8 @@
   {
     "name": "Fruit Danish",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-fruit-danish.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -4937,6 +5877,8 @@
   {
     "name": "Fruit Pebbles – Super Concentrate",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-fruit-pebbles.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -4952,6 +5894,8 @@
   {
     "name": "Fruity Circles",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-fruity-circles.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -4967,6 +5911,8 @@
   {
     "name": "Fruity Circles",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-fruity-circles.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-26-2"
@@ -4982,6 +5928,8 @@
   {
     "name": "Funnel Cake",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-funnel-cake.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -4997,6 +5945,8 @@
   {
     "name": "Golden Cereal",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-golden-cereal.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5012,6 +5962,8 @@
   {
     "name": "Golden Cereal",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-golden-cereal.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6",
@@ -5033,6 +5985,8 @@
   {
     "name": "Graham Cracker",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-graham-cracker.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -5048,6 +6002,8 @@
   {
     "name": "Gummy Candy",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-gummy-candy.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5063,6 +6019,8 @@
   {
     "name": "Hawaiian Drink",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-hawaiian-drink.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5078,6 +6036,8 @@
   {
     "name": "Hazelnut",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-hazelnut.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -5093,6 +6053,8 @@
   {
     "name": "Honey",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-honey.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5108,6 +6070,8 @@
   {
     "name": "Ice Cream Sandwich",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-ice-cream-sandwich.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5123,6 +6087,8 @@
   {
     "name": "Key Lime Pie",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-key-lime-pie.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-26-2",
@@ -5144,6 +6110,8 @@
   {
     "name": "Lime",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-lime.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-26-2"
@@ -5159,6 +6127,8 @@
   {
     "name": "Mango",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-mango.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -5174,6 +6144,8 @@
   {
     "name": "Marshmallow Candy - Super Concentrate",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-marshmallow-candy.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5189,6 +6161,8 @@
   {
     "name": "Marshmallow Candy - Super Concentrate",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-marshmallow-candy.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -5204,6 +6178,8 @@
   {
     "name": "Mixed Berries",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-mixed-berries.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5219,6 +6195,8 @@
   {
     "name": "Mojito",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-mojito.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-26-2"
@@ -5234,6 +6212,8 @@
   {
     "name": "Neapolitan Ice Cream",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-neapolitan-ice-cream.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -5249,6 +6229,8 @@
   {
     "name": "Paczki – SC",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-paczki.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -5264,6 +6246,8 @@
   {
     "name": "Peach",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-peach.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5279,6 +6263,8 @@
   {
     "name": "Peach Cobbler",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-peach-cobbler.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5294,6 +6280,8 @@
   {
     "name": "Peach Cobbler",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-peach-cobbler.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -5309,6 +6297,8 @@
   {
     "name": "Peaches & Cream",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-peaches-_-cream.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5324,6 +6314,8 @@
   {
     "name": "Peachy Mint",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-peachy-mint.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5339,6 +6331,8 @@
   {
     "name": "Peanut Brittle",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-peanut-brittle.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5354,6 +6348,8 @@
   {
     "name": "Peanut Brittle",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-peanut-brittle.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -5369,6 +6365,8 @@
   {
     "name": "Peanut Butter",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-peanut-butter.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -5384,6 +6382,8 @@
   {
     "name": "Peanut Butter Cookie",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-peanut-butter-cookie.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -5399,6 +6399,8 @@
   {
     "name": "Peanut Butter Cup",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-peanut-butter-cup.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -5414,6 +6416,8 @@
   {
     "name": "Pear",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-pear.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5429,6 +6433,8 @@
   {
     "name": "Pina Colada",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-pina-colada.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5444,6 +6450,8 @@
   {
     "name": "Pineapple",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-pineapple.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5459,6 +6467,8 @@
   {
     "name": "Pineapple Cake",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-pineapple-cake.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5474,6 +6484,8 @@
   {
     "name": "Pistachio",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-pistachio.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -5489,6 +6501,8 @@
   {
     "name": "Pomegranate",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-pomegranate.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5504,6 +6518,8 @@
   {
     "name": "Rainbow Candy",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-rainbow-candy.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-26-2"
@@ -5519,6 +6535,8 @@
   {
     "name": "Rainbow Sherbet",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-rainbow-sherbet.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5534,6 +6552,8 @@
   {
     "name": "Rainbow Sherbet",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-rainbow-sherbet.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-26-2"
@@ -5549,6 +6569,8 @@
   {
     "name": "Red Candy - Burst Type",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-red-candy.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5564,6 +6586,8 @@
   {
     "name": "Red Soda",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-red-soda.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5579,6 +6603,8 @@
   {
     "name": "Red, White And Blue Popsicle",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-red-white-_-blue-popsicle.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5594,6 +6620,8 @@
   {
     "name": "Red, White And Blue Popsicle",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-red-white-_-blue-popsicle.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-26-2"
@@ -5609,6 +6637,8 @@
   {
     "name": "Red, White, & Blue Popsicle",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Research",
     "casNumbers": [
       "8008-26-2"
@@ -5624,6 +6654,8 @@
   {
     "name": "Rhubarb",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-rhubarb.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5639,6 +6671,8 @@
   {
     "name": "Rice Pudding - SC",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-rice-pudding.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -5654,6 +6688,8 @@
   {
     "name": "Rocky Road Ice Cream",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-rocky-road-ice-cream.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5669,6 +6705,8 @@
   {
     "name": "Rocky Road Ice Cream",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-rocky-road-ice-cream.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -5684,6 +6722,8 @@
   {
     "name": "Samoa Cookie Type",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-samoa-cookie-type.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5699,6 +6739,8 @@
   {
     "name": "Samoa Cookie Type",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-samoa-cookie-type.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -5714,6 +6756,8 @@
   {
     "name": "Silly Rabbit",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-silly-rabbit.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5729,6 +6773,8 @@
   {
     "name": "Silly Rabbit",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-silly-rabbit.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-26-2"
@@ -5744,6 +6790,8 @@
   {
     "name": "S'mores",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-s_mores.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -5759,6 +6807,8 @@
   {
     "name": "Snickerdoodle",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-snickerdoodle.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -5774,6 +6824,8 @@
   {
     "name": "Soda Base",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-soda-base.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5789,6 +6841,8 @@
   {
     "name": "Strawberry Gelato – Super Concentrate",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-strawberry-gelato.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5804,6 +6858,8 @@
   {
     "name": "Strawberry Gelato – Super Concentrate",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-strawberry-gelato.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -5819,6 +6875,8 @@
   {
     "name": "Strawberry Jam with Toast",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-strawberry-jam-with-toast.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5834,6 +6892,8 @@
   {
     "name": "Strawberry Jam with Toast",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-strawberry-jam-with-toast.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -5849,6 +6909,8 @@
   {
     "name": "Strawberry Milkshake",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-strawberry-milkshake.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5864,6 +6926,8 @@
   {
     "name": "Strawberry Milkshake",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-strawberry-milkshake.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -5879,6 +6943,8 @@
   {
     "name": "Strawberry Pastry",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-strawberry-pastry.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -5894,6 +6960,8 @@
   {
     "name": "Strawberry Peach",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-strawberry-peach.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5909,6 +6977,8 @@
   {
     "name": "Strawberry Rhubarb",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-strawberry-rhubarb.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5924,6 +6994,8 @@
   {
     "name": "Stuffed French Toast",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-stuffed-french-toast.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5939,6 +7011,8 @@
   {
     "name": "Stuffed French Toast",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-stuffed-french-toast.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -5954,6 +7028,8 @@
   {
     "name": "Sugar Plum",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-sugar-plum.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5969,6 +7045,8 @@
   {
     "name": "Super Ice Cream",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-super-ice-cream.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -5984,6 +7062,8 @@
   {
     "name": "Super Ice Cream",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-super-ice-cream.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -5999,6 +7079,8 @@
   {
     "name": "Tropical Punch",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-tropical-punch.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -6014,6 +7096,8 @@
   {
     "name": "Tropical Punch",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-tropical-punch.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -6029,6 +7113,8 @@
   {
     "name": "Tropical Rainbow Candy",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-tropical-rainbow-candy.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -6044,6 +7130,8 @@
   {
     "name": "Tropical Rainbow Candy",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-tropical-rainbow-candy.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-26-2"
@@ -6059,6 +7147,8 @@
   {
     "name": "Vanilla Custard",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-vanilla-custard.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -6074,6 +7164,8 @@
   {
     "name": "Vanilla Ice Cream",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-vanilla-ice-cream.pdf",
     "category": "Research",
     "casNumbers": [
       "600-14-6"
@@ -6089,6 +7181,8 @@
   {
     "name": "Wild Cherry",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-wild-cherry.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -6104,6 +7198,8 @@
   {
     "name": "Yogurt Parfait",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-yogurt-parfait.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -6119,6 +7215,8 @@
   {
     "name": "Yumberry",
     "vendor": "RF",
+    "manual": false,
+    "sdsUrl": "/RF/rf-yumberry.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -6134,6 +7232,8 @@
   {
     "name": "DX Brown Sugar",
     "vendor": "TPA",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "98-0-0"
@@ -6149,6 +7249,8 @@
   {
     "name": "Orange Cream Bar",
     "vendor": "TPA",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "98-0-0"
@@ -6164,6 +7266,8 @@
   {
     "name": "Almond Cookie SC",
     "vendor": "WF",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6179,87 +7283,8 @@
   {
     "name": "Angel Cake SC",
     "vendor": "WF",
-    "category": "Research",
-    "casNumbers": [
-      "600-14-6",
-      "513-86-0"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "600-14-6",
-        "created": "2020-06-26",
-        "updated": "2020-06-26"
-      },
-      {
-        "casNumber": "513-86-0",
-        "created": "2020-06-26",
-        "updated": "2020-06-26"
-      }
-    ]
-  },
-  {
-    "name": "Banoffee Pie SC",
-    "vendor": "WF",
-    "category": "Research",
-    "casNumbers": [
-      "600-14-6"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "600-14-6",
-        "created": "2020-06-26",
-        "updated": "2020-06-26"
-      }
-    ]
-  },
-  {
-    "name": "Blackcherry Jelly Bean SC",
-    "vendor": "WF",
-    "category": "Avoid",
-    "casNumbers": [
-      "56038-13-2"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "56038-13-2",
-        "created": "2020-01-22",
-        "updated": "2020-01-22"
-      }
-    ]
-  },
-  {
-    "name": "Blackcherry Jelly Bean SC",
-    "vendor": "WF",
-    "category": "Research",
-    "casNumbers": [
-      "513-86-0"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "513-86-0",
-        "created": "2020-06-26",
-        "updated": "2020-06-26"
-      }
-    ]
-  },
-  {
-    "name": "Bumbleberry SC",
-    "vendor": "WF",
-    "category": "Research",
-    "casNumbers": [
-      "513-86-0"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "513-86-0",
-        "created": "2020-06-26",
-        "updated": "2020-06-26"
-      }
-    ]
-  },
-  {
-    "name": "Buttercream Frosting SC",
-    "vendor": "WF",
+    "manual": false,
+    "sdsUrl": "/WF/wf-angel-cake.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0",
@@ -6279,8 +7304,135 @@
     ]
   },
   {
+    "name": "Banoffee Pie SC",
+    "vendor": "WF",
+    "manual": false,
+    "sdsUrl": "/WF/wf-banoffee-pie.pdf",
+    "category": "Research",
+    "casNumbers": [
+      "600-14-6"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-06-26",
+        "updated": "2020-06-26"
+      }
+    ]
+  },
+  {
+    "name": "Blackcherry Jelly Bean SC",
+    "vendor": "WF",
+    "manual": false,
+    "sdsUrl": null,
+    "category": "Avoid",
+    "casNumbers": [
+      "56038-13-2"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
+    ]
+  },
+  {
+    "name": "Blackcherry Jelly Bean SC",
+    "vendor": "WF",
+    "manual": false,
+    "sdsUrl": "/WF/wf-blackcherry-jelly-bean.pdf",
+    "category": "Avoid",
+    "casNumbers": [
+      "56038-13-2"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "56038-13-2",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
+      }
+    ]
+  },
+  {
+    "name": "Blackcherry Jelly Bean SC",
+    "vendor": "WF",
+    "manual": false,
+    "sdsUrl": null,
+    "category": "Research",
+    "casNumbers": [
+      "513-86-0"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-06-26",
+        "updated": "2020-06-26"
+      }
+    ]
+  },
+  {
+    "name": "Blackcherry Jelly Bean SC",
+    "vendor": "WF",
+    "manual": false,
+    "sdsUrl": "/WF/wf-blackcherry-jelly-bean.pdf",
+    "category": "Research",
+    "casNumbers": [
+      "513-86-0"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-06-26",
+        "updated": "2020-06-26"
+      }
+    ]
+  },
+  {
+    "name": "Bumbleberry SC",
+    "vendor": "WF",
+    "manual": false,
+    "sdsUrl": "/WF/wf-bumbleberry.pdf",
+    "category": "Research",
+    "casNumbers": [
+      "513-86-0"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-06-26",
+        "updated": "2020-06-26"
+      }
+    ]
+  },
+  {
+    "name": "Buttercream Frosting SC",
+    "vendor": "WF",
+    "manual": false,
+    "sdsUrl": "/WF/wf-buttercream-frosting.pdf",
+    "category": "Research",
+    "casNumbers": [
+      "600-14-6",
+      "513-86-0"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "600-14-6",
+        "created": "2020-06-26",
+        "updated": "2020-06-26"
+      },
+      {
+        "casNumber": "513-86-0",
+        "created": "2020-06-26",
+        "updated": "2020-06-26"
+      }
+    ]
+  },
+  {
     "name": "Caramel Butter",
     "vendor": "WF",
+    "manual": false,
+    "sdsUrl": "/WF/wf-caramel-butter.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0",
@@ -6302,6 +7454,8 @@
   {
     "name": "Caramel Rice Crispy Treats",
     "vendor": "WF",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6317,6 +7471,8 @@
   {
     "name": "Crème Brûlée Cookie SC",
     "vendor": "WF",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6332,19 +7488,21 @@
   {
     "name": "Frozen Yogurt SC",
     "vendor": "WF",
+    "manual": false,
+    "sdsUrl": "/WF/wf-frozen-yogurt.pdf",
     "category": "Research",
     "casNumbers": [
-      "600-14-6",
-      "513-86-0"
+      "513-86-0",
+      "600-14-6"
     ],
     "ingredients": [
       {
-        "casNumber": "600-14-6",
+        "casNumber": "513-86-0",
         "created": "2020-06-26",
         "updated": "2020-06-26"
       },
       {
-        "casNumber": "513-86-0",
+        "casNumber": "600-14-6",
         "created": "2020-06-26",
         "updated": "2020-06-26"
       }
@@ -6353,6 +7511,8 @@
   {
     "name": "Hazelnuts & Cream",
     "vendor": "WF",
+    "manual": false,
+    "sdsUrl": "/WF/wf-hazelnuts-and-cream.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -6368,6 +7528,8 @@
   {
     "name": "Island Mango",
     "vendor": "WF",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6383,6 +7545,8 @@
   {
     "name": "Lemon Lime Soda SC",
     "vendor": "WF",
+    "manual": false,
+    "sdsUrl": "/WF/wf-lemon-lime-soda.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-56-8"
@@ -6398,6 +7562,8 @@
   {
     "name": "Puff Cereal (Cocoa) SC",
     "vendor": "WF",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6413,6 +7579,8 @@
   {
     "name": "Puff Cereal (Frosted) SC",
     "vendor": "WF",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6428,6 +7596,8 @@
   {
     "name": "Saskatoon Berries SC",
     "vendor": "WF",
+    "manual": false,
+    "sdsUrl": "/WF/wf-saskatoon-berries.pdf",
     "category": "Research",
     "casNumbers": [
       "513-86-0"
@@ -6443,6 +7613,8 @@
   {
     "name": "Shortbread Cookies SC",
     "vendor": "WF",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6458,6 +7630,8 @@
   {
     "name": "Sour Ball Candy SC",
     "vendor": "WF",
+    "manual": false,
+    "sdsUrl": "/WF/wf-sour-ball-candy.pdf",
     "category": "Caution",
     "casNumbers": [
       "77-92-9"
@@ -6473,6 +7647,8 @@
   {
     "name": "Sour Blue Raspberry Candy",
     "vendor": "WF",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6488,6 +7664,8 @@
   {
     "name": "Sour Watermelon Candy",
     "vendor": "WF",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6503,6 +7681,8 @@
   {
     "name": "Summertime Lemonade",
     "vendor": "WF",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6518,6 +7698,8 @@
   {
     "name": "Sweet and Sour Purple Drink",
     "vendor": "WF",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6533,6 +7715,8 @@
   {
     "name": "Sweetener SC",
     "vendor": "WF",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6548,19 +7732,21 @@
   {
     "name": "Vanilla Ruyan Custard",
     "vendor": "WF",
+    "manual": false,
+    "sdsUrl": "/WF/wf-vanilla-ruyan-custard.pdf",
     "category": "Research",
     "casNumbers": [
-      "600-14-6",
-      "513-86-0"
+      "513-86-0",
+      "600-14-6"
     ],
     "ingredients": [
       {
-        "casNumber": "600-14-6",
+        "casNumber": "513-86-0",
         "created": "2020-06-26",
         "updated": "2020-06-26"
       },
       {
-        "casNumber": "513-86-0",
+        "casNumber": "600-14-6",
         "created": "2020-06-26",
         "updated": "2020-06-26"
       }
@@ -6569,6 +7755,8 @@
   {
     "name": "Tobacco Bastards Mint",
     "vendor": "FM",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8006-90-4"
@@ -6584,6 +7772,8 @@
   {
     "name": "Cactus Cupcake",
     "vendor": "MB",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6599,6 +7789,8 @@
   {
     "name": "Chocolate Peanut Butter Milk",
     "vendor": "MB",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6614,6 +7806,8 @@
   {
     "name": "Double Mocca Coffee",
     "vendor": "MB",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6629,6 +7823,8 @@
   {
     "name": "Dr. Beat",
     "vendor": "MB",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6644,6 +7840,8 @@
   {
     "name": "Red Dragon Grapes",
     "vendor": "MB",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6659,6 +7857,8 @@
   {
     "name": "S'mores Marshmallow Brownie",
     "vendor": "MB",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6674,6 +7874,8 @@
   {
     "name": "Stranger Things",
     "vendor": "MB",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6689,6 +7891,8 @@
   {
     "name": "Strawberry Brownie",
     "vendor": "MB",
+    "manual": false,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6704,6 +7908,8 @@
   {
     "name": "Yuzu",
     "vendor": "NR",
+    "manual": false,
+    "sdsUrl": "/NR/nr-yuzu.pdf",
     "category": "Caution",
     "casNumbers": [
       "7647-14-5"
@@ -6719,6 +7925,8 @@
   {
     "name": "Super Sweetener",
     "vendor": "TPA",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6734,6 +7942,8 @@
   {
     "name": "Fresh Puff",
     "vendor": "INW",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "8006-90-4"
@@ -6749,6 +7959,8 @@
   {
     "name": "Bavarian Cream",
     "vendor": "WF",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6764,6 +7976,8 @@
   {
     "name": "Cookie Butter",
     "vendor": "WF",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6779,6 +7993,8 @@
   {
     "name": "Crispy Wafer",
     "vendor": "WF",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6794,6 +8010,8 @@
   {
     "name": "Almond Cookie",
     "vendor": "WF",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6809,6 +8027,8 @@
   {
     "name": "Black Cherry Jelly Bean",
     "vendor": "WF",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6824,6 +8044,8 @@
   {
     "name": "Caramel Rice Krispy Treats",
     "vendor": "WF",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6839,6 +8061,8 @@
   {
     "name": "Creme Brulee Cookie",
     "vendor": "WF",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6854,6 +8078,8 @@
   {
     "name": "Puff Cereal (Cocoa)",
     "vendor": "WF",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6869,6 +8095,8 @@
   {
     "name": "Puff Cereal (Frosted)",
     "vendor": "WF",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6884,6 +8112,8 @@
   {
     "name": "Shortbread Cookies",
     "vendor": "WF",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6899,6 +8129,8 @@
   {
     "name": "Sweetener",
     "vendor": "WF",
+    "manual": true,
+    "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
       "56038-13-2"
@@ -6914,6 +8146,8 @@
   {
     "name": "Mango Indian Special",
     "vendor": "FA",
+    "manual": false,
+    "sdsUrl": "/FA/fa-mango-indian-special.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-57-9"
@@ -6929,6 +8163,8 @@
   {
     "name": "Mango Fruity Juicy",
     "vendor": "FA",
+    "manual": false,
+    "sdsUrl": "/FA/fa-mango-fruity-juicy.pdf",
     "category": "Research",
     "casNumbers": [
       "8008-57-9",
