@@ -85,8 +85,11 @@ export default class FlavorPage extends Component {
 
       return (
         <Col>
-          Click <a href={fullUrl}>here</a> to view the SDS that generated this
-          finding.
+          Click{' '}
+          <a target="_blank" rel="noopener noreferrer" href={fullUrl}>
+            here
+          </a>{' '}
+          to view the SDS that generated this finding.
         </Col>
       );
     }
