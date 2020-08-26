@@ -3752,6 +3752,23 @@
     ]
   },
   {
+    "name": "Black Touch (licorice Plus)",
+    "vendor": "FA",
+    "manual": false,
+    "sdsUrl": "/FA/fa-licorice-plus.pdf",
+    "category": "Avoid",
+    "casNumbers": [
+      "8007-70-3"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "8007-70-3",
+        "created": "2020-08-26",
+        "updated": "2020-08-26"
+      }
+    ]
+  },
+  {
     "name": "Custard Pi 3.14",
     "vendor": "FA",
     "manual": false,
@@ -3765,6 +3782,23 @@
         "casNumber": "8008-56-8",
         "created": "2020-06-20",
         "updated": "2020-06-20"
+      }
+    ]
+  },
+  {
+    "name": "Eclipse",
+    "vendor": "FA",
+    "manual": false,
+    "sdsUrl": "/FA/fa-eclipse.pdf",
+    "category": "Avoid",
+    "casNumbers": [
+      "84082-70-2"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "84082-70-2",
+        "created": "2020-08-17",
+        "updated": "2020-08-17"
       }
     ]
   },
@@ -3843,17 +3877,17 @@
     "sdsUrl": "/HS/hs-cheesecake.pdf",
     "category": "Research",
     "casNumbers": [
-      "513-86-0",
-      "22047-25-2"
+      "22047-25-2",
+      "513-86-0"
     ],
     "ingredients": [
       {
-        "casNumber": "513-86-0",
+        "casNumber": "22047-25-2",
         "created": "2020-01-18",
         "updated": "2020-01-18"
       },
       {
-        "casNumber": "22047-25-2",
+        "casNumber": "513-86-0",
         "created": "2020-01-18",
         "updated": "2020-01-18"
       }
@@ -4133,17 +4167,17 @@
     "sdsUrl": "/HS/hs-muffin.pdf",
     "category": "Research",
     "casNumbers": [
-      "22047-25-2",
-      "124-07-2"
+      "124-07-2",
+      "22047-25-2"
     ],
     "ingredients": [
       {
-        "casNumber": "22047-25-2",
+        "casNumber": "124-07-2",
         "created": "2020-01-18",
         "updated": "2020-01-18"
       },
       {
-        "casNumber": "124-07-2",
+        "casNumber": "22047-25-2",
         "created": "2020-01-18",
         "updated": "2020-01-18"
       }
@@ -4326,19 +4360,19 @@
     "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
-      "8006-90-4",
-      "8013-17-0"
+      "8013-17-0",
+      "8006-90-4"
     ],
     "ingredients": [
-      {
-        "casNumber": "8006-90-4",
-        "created": "2020-01-18",
-        "updated": "2020-01-18"
-      },
       {
         "casNumber": "8013-17-0",
         "created": "2020-01-22",
         "updated": "2020-01-22"
+      },
+      {
+        "casNumber": "8006-90-4",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
       }
     ]
   },
@@ -4349,19 +4383,19 @@
     "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
-      "8006-90-4",
-      "8013-17-0"
+      "8013-17-0",
+      "8006-90-4"
     ],
     "ingredients": [
-      {
-        "casNumber": "8006-90-4",
-        "created": "2020-01-18",
-        "updated": "2020-01-18"
-      },
       {
         "casNumber": "8013-17-0",
         "created": "2020-01-22",
         "updated": "2020-01-22"
+      },
+      {
+        "casNumber": "8006-90-4",
+        "created": "2020-01-18",
+        "updated": "2020-01-18"
       }
     ]
   },
@@ -4610,17 +4644,17 @@
     "sdsUrl": "/RF/rf-banana-foster.pdf",
     "category": "Research",
     "casNumbers": [
-      "513-86-0",
-      "600-14-6"
+      "600-14-6",
+      "513-86-0"
     ],
     "ingredients": [
       {
-        "casNumber": "513-86-0",
+        "casNumber": "600-14-6",
         "created": "2020-01-17",
         "updated": "2020-01-17"
       },
       {
-        "casNumber": "600-14-6",
+        "casNumber": "513-86-0",
         "created": "2020-01-17",
         "updated": "2020-01-17"
       }
@@ -5659,17 +5693,17 @@
     "sdsUrl": "/RF/rf-elephant-ear.pdf",
     "category": "Research",
     "casNumbers": [
-      "600-14-6",
-      "513-86-0"
+      "513-86-0",
+      "600-14-6"
     ],
     "ingredients": [
       {
-        "casNumber": "600-14-6",
+        "casNumber": "513-86-0",
         "created": "2020-01-17",
         "updated": "2020-01-17"
       },
       {
-        "casNumber": "513-86-0",
+        "casNumber": "600-14-6",
         "created": "2020-01-17",
         "updated": "2020-01-17"
       }
@@ -5966,17 +6000,17 @@
     "sdsUrl": "/RF/rf-golden-cereal.pdf",
     "category": "Research",
     "casNumbers": [
-      "600-14-6",
-      "513-86-0"
+      "513-86-0",
+      "600-14-6"
     ],
     "ingredients": [
       {
-        "casNumber": "600-14-6",
+        "casNumber": "513-86-0",
         "created": "2020-01-17",
         "updated": "2020-01-17"
       },
       {
-        "casNumber": "513-86-0",
+        "casNumber": "600-14-6",
         "created": "2020-01-17",
         "updated": "2020-01-17"
       }

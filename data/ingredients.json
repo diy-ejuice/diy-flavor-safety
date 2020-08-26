@@ -371,5 +371,23 @@
     "created": "2020-06-20",
     "updated": null,
     "links": null
+  },
+  {
+    "name": "Menta piperita oil",
+    "category": "Avoid",
+    "casNumber": "84082-70-2",
+    "description": "Peppermint oil contains pulegone, toxic and inflammatory",
+    "created": "2020-08-17",
+    "updated": null,
+    "links": null
+  },
+  {
+    "name": "Anice stellato oil",
+    "category": "Avoid",
+    "casNumber": "8007-70-3",
+    "description": null,
+    "created": "2020-08-26",
+    "updated": null,
+    "links": null
   }
 ]
