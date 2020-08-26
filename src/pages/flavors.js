@@ -197,7 +197,7 @@ export default class FlavorsPage extends Component {
     const { created } = flavor.ingredients.find(
       (ingredientNode) => ingredientNode.casNumber === ingredient.casNumber
     );
-    const key = `${vendor.code}-${flavor.name}-${ingredient.casNumber}`;
+    const key = `${vendor.code}-${flavor.name}-${ingredient.casNumber}-${flavor.manual}`;
 
     return (
       <tr key={key}>
@@ -343,6 +343,7 @@ export const query = graphql`
         }
         name
         vendor
+        manual
       }
     }
     ingredients: allIngredientsJson {
