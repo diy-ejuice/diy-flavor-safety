@@ -7,8 +7,8 @@
     "category": "Research",
     "casNumbers": [
       "8008-56-8",
-      "8008-57-9",
-      "8008-26-2"
+      "8008-26-2",
+      "8008-57-9"
     ],
     "ingredients": [
       {
@@ -17,12 +17,12 @@
         "updated": "2020-06-20"
       },
       {
-        "casNumber": "8008-57-9",
+        "casNumber": "8008-26-2",
         "created": "2020-01-14",
         "updated": "2020-01-14"
       },
       {
-        "casNumber": "8008-26-2",
+        "casNumber": "8008-57-9",
         "created": "2020-01-14",
         "updated": "2020-01-14"
       }
@@ -256,19 +256,19 @@
     "sdsUrl": "/CAP/cap-lemon-lime.pdf",
     "category": "Research",
     "casNumbers": [
-      "8008-56-8",
-      "8008-26-2"
+      "8008-26-2",
+      "8008-56-8"
     ],
     "ingredients": [
-      {
-        "casNumber": "8008-56-8",
-        "created": "2020-06-20",
-        "updated": "2020-06-20"
-      },
       {
         "casNumber": "8008-26-2",
         "created": "2020-01-14",
         "updated": "2020-01-14"
+      },
+      {
+        "casNumber": "8008-56-8",
+        "created": "2020-06-20",
+        "updated": "2020-06-20"
       }
     ]
   },
@@ -1044,17 +1044,17 @@
     "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
-      "8028-89-5",
-      "98-0-0"
+      "98-0-0",
+      "8028-89-5"
     ],
     "ingredients": [
       {
-        "casNumber": "8028-89-5",
+        "casNumber": "98-0-0",
         "created": "2020-01-18",
         "updated": "2020-01-18"
       },
       {
-        "casNumber": "98-0-0",
+        "casNumber": "8028-89-5",
         "created": "2020-01-18",
         "updated": "2020-01-18"
       }
@@ -1085,8 +1085,8 @@
     "category": "Avoid",
     "casNumbers": [
       "8006-90-4",
-      "58-86-6",
-      "8002-31-1"
+      "8002-31-1",
+      "58-86-6"
     ],
     "ingredients": [
       {
@@ -1095,12 +1095,12 @@
         "updated": "2020-01-22"
       },
       {
-        "casNumber": "58-86-6",
+        "casNumber": "8002-31-1",
         "created": "2020-01-22",
         "updated": "2020-01-22"
       },
       {
-        "casNumber": "8002-31-1",
+        "casNumber": "58-86-6",
         "created": "2020-01-22",
         "updated": "2020-01-22"
       }
@@ -1528,19 +1528,19 @@
     "sdsUrl": "/FW/fw-boom.pdf",
     "category": "Research",
     "casNumbers": [
-      "8008-56-8",
-      "8008-26-2"
+      "8008-26-2",
+      "8008-56-8"
     ],
     "ingredients": [
-      {
-        "casNumber": "8008-56-8",
-        "created": "2020-06-20",
-        "updated": "2020-06-20"
-      },
       {
         "casNumber": "8008-26-2",
         "created": "2020-01-17",
         "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "8008-56-8",
+        "created": "2020-06-20",
+        "updated": "2020-06-20"
       }
     ]
   },
@@ -1704,19 +1704,19 @@
     "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
-      "8029-43-4",
-      "57-48-7"
+      "57-48-7",
+      "8029-43-4"
     ],
     "ingredients": [
-      {
-        "casNumber": "8029-43-4",
-        "created": "2020-07-03",
-        "updated": "2020-07-03"
-      },
       {
         "casNumber": "57-48-7",
         "created": "2020-01-17",
         "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "8029-43-4",
+        "created": "2020-07-03",
+        "updated": "2020-07-03"
       }
     ]
   },
@@ -1727,19 +1727,19 @@
     "sdsUrl": "/FW/fw-cinnamon-churro.pdf",
     "category": "Avoid",
     "casNumbers": [
-      "8029-43-4",
-      "57-48-7"
+      "57-48-7",
+      "8029-43-4"
     ],
     "ingredients": [
-      {
-        "casNumber": "8029-43-4",
-        "created": "2020-07-03",
-        "updated": "2020-07-03"
-      },
       {
         "casNumber": "57-48-7",
         "created": "2020-01-17",
         "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "8029-43-4",
+        "created": "2020-07-03",
+        "updated": "2020-07-03"
       }
     ]
   },
@@ -1835,19 +1835,19 @@
     "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
-      "57-48-7",
-      "8029-43-4"
+      "8029-43-4",
+      "57-48-7"
     ],
     "ingredients": [
-      {
-        "casNumber": "57-48-7",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      },
       {
         "casNumber": "8029-43-4",
         "created": "2020-07-03",
         "updated": "2020-07-03"
+      },
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
       }
     ]
   },
@@ -1858,19 +1858,19 @@
     "sdsUrl": "/FW/fw-coconut-cream-pie.pdf",
     "category": "Avoid",
     "casNumbers": [
-      "57-48-7",
-      "8029-43-4"
+      "8029-43-4",
+      "57-48-7"
     ],
     "ingredients": [
-      {
-        "casNumber": "57-48-7",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      },
       {
         "casNumber": "8029-43-4",
         "created": "2020-07-03",
         "updated": "2020-07-03"
+      },
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
       }
     ]
   },
@@ -2159,19 +2159,19 @@
     "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
-      "57-48-7",
-      "8029-43-4"
+      "8029-43-4",
+      "57-48-7"
     ],
     "ingredients": [
-      {
-        "casNumber": "57-48-7",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      },
       {
         "casNumber": "8029-43-4",
         "created": "2020-07-03",
         "updated": "2020-07-03"
+      },
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
       }
     ]
   },
@@ -2182,19 +2182,19 @@
     "sdsUrl": "/FW/fw-gummi-bear.pdf",
     "category": "Avoid",
     "casNumbers": [
-      "57-48-7",
-      "8029-43-4"
+      "8029-43-4",
+      "57-48-7"
     ],
     "ingredients": [
-      {
-        "casNumber": "57-48-7",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      },
       {
         "casNumber": "8029-43-4",
         "created": "2020-07-03",
         "updated": "2020-07-03"
+      },
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
       }
     ]
   },
@@ -2330,19 +2330,19 @@
     "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
-      "57-48-7",
-      "8029-43-4"
+      "8029-43-4",
+      "57-48-7"
     ],
     "ingredients": [
-      {
-        "casNumber": "57-48-7",
-        "created": "2020-01-22",
-        "updated": "2020-01-22"
-      },
       {
         "casNumber": "8029-43-4",
         "created": "2020-07-03",
         "updated": "2020-07-03"
+      },
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
       }
     ]
   },
@@ -2353,19 +2353,19 @@
     "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
-      "57-48-7",
-      "8029-43-4"
+      "8029-43-4",
+      "57-48-7"
     ],
     "ingredients": [
-      {
-        "casNumber": "57-48-7",
-        "created": "2020-01-22",
-        "updated": "2020-01-22"
-      },
       {
         "casNumber": "8029-43-4",
         "created": "2020-07-03",
         "updated": "2020-07-03"
+      },
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-22",
+        "updated": "2020-01-22"
       }
     ]
   },
@@ -2478,19 +2478,19 @@
     "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
-      "8029-43-4",
-      "57-48-7"
+      "57-48-7",
+      "8029-43-4"
     ],
     "ingredients": [
-      {
-        "casNumber": "8029-43-4",
-        "created": "2020-07-03",
-        "updated": "2020-07-03"
-      },
       {
         "casNumber": "57-48-7",
         "created": "2020-01-17",
         "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "8029-43-4",
+        "created": "2020-07-03",
+        "updated": "2020-07-03"
       }
     ]
   },
@@ -2501,19 +2501,19 @@
     "sdsUrl": "/FW/fw-madagascar-vanilla.pdf",
     "category": "Avoid",
     "casNumbers": [
-      "8029-43-4",
-      "57-48-7"
+      "57-48-7",
+      "8029-43-4"
     ],
     "ingredients": [
-      {
-        "casNumber": "8029-43-4",
-        "created": "2020-07-03",
-        "updated": "2020-07-03"
-      },
       {
         "casNumber": "57-48-7",
         "created": "2020-01-17",
         "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "8029-43-4",
+        "created": "2020-07-03",
+        "updated": "2020-07-03"
       }
     ]
   },
@@ -2836,19 +2836,19 @@
     "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
-      "8029-43-4",
-      "57-48-7"
+      "57-48-7",
+      "8029-43-4"
     ],
     "ingredients": [
-      {
-        "casNumber": "8029-43-4",
-        "created": "2020-07-03",
-        "updated": "2020-07-03"
-      },
       {
         "casNumber": "57-48-7",
         "created": "2020-01-17",
         "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "8029-43-4",
+        "created": "2020-07-03",
+        "updated": "2020-07-03"
       }
     ]
   },
@@ -2859,19 +2859,19 @@
     "sdsUrl": "/FW/fw-rainbow-lined-gum.pdf",
     "category": "Avoid",
     "casNumbers": [
-      "8029-43-4",
-      "57-48-7"
+      "57-48-7",
+      "8029-43-4"
     ],
     "ingredients": [
-      {
-        "casNumber": "8029-43-4",
-        "created": "2020-07-03",
-        "updated": "2020-07-03"
-      },
       {
         "casNumber": "57-48-7",
         "created": "2020-01-17",
         "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "8029-43-4",
+        "created": "2020-07-03",
+        "updated": "2020-07-03"
       }
     ]
   },
@@ -3445,19 +3445,19 @@
     "sdsUrl": "/FW/fw-tropical-cream-breeze.pdf",
     "category": "Research",
     "casNumbers": [
-      "8008-56-8",
-      "8008-57-9"
+      "8008-57-9",
+      "8008-56-8"
     ],
     "ingredients": [
-      {
-        "casNumber": "8008-56-8",
-        "created": "2020-06-20",
-        "updated": "2020-06-20"
-      },
       {
         "casNumber": "8008-57-9",
         "created": "2020-01-17",
         "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "8008-56-8",
+        "created": "2020-06-20",
+        "updated": "2020-06-20"
       }
     ]
   },
@@ -3468,19 +3468,19 @@
     "sdsUrl": null,
     "category": "Avoid",
     "casNumbers": [
-      "57-48-7",
-      "8029-43-4"
+      "8029-43-4",
+      "57-48-7"
     ],
     "ingredients": [
-      {
-        "casNumber": "57-48-7",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      },
       {
         "casNumber": "8029-43-4",
         "created": "2020-07-03",
         "updated": "2020-07-03"
+      },
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
       }
     ]
   },
@@ -3491,19 +3491,19 @@
     "sdsUrl": "/FW/fw-tropical-punch.pdf",
     "category": "Avoid",
     "casNumbers": [
-      "57-48-7",
-      "8029-43-4"
+      "8029-43-4",
+      "57-48-7"
     ],
     "ingredients": [
-      {
-        "casNumber": "57-48-7",
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      },
       {
         "casNumber": "8029-43-4",
         "created": "2020-07-03",
         "updated": "2020-07-03"
+      },
+      {
+        "casNumber": "57-48-7",
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
       }
     ]
   },
@@ -3934,17 +3934,17 @@
     "sdsUrl": "/HS/hs-cream.pdf",
     "category": "Research",
     "casNumbers": [
-      "513-86-0",
-      "124-07-2"
+      "124-07-2",
+      "513-86-0"
     ],
     "ingredients": [
       {
-        "casNumber": "513-86-0",
+        "casNumber": "124-07-2",
         "created": "2020-01-18",
         "updated": "2020-01-18"
       },
       {
-        "casNumber": "124-07-2",
+        "casNumber": "513-86-0",
         "created": "2020-01-18",
         "updated": "2020-01-18"
       }
@@ -4025,17 +4025,17 @@
     "sdsUrl": "/HS/hs-hazelnut-coffee.pdf",
     "category": "Research",
     "casNumbers": [
-      "77-93-0",
-      "22047-25-2"
+      "22047-25-2",
+      "77-93-0"
     ],
     "ingredients": [
       {
-        "casNumber": "77-93-0",
+        "casNumber": "22047-25-2",
         "created": "2020-01-18",
         "updated": "2020-01-18"
       },
       {
-        "casNumber": "22047-25-2",
+        "casNumber": "77-93-0",
         "created": "2020-01-18",
         "updated": "2020-01-18"
       }
@@ -4167,17 +4167,17 @@
     "sdsUrl": "/HS/hs-muffin.pdf",
     "category": "Research",
     "casNumbers": [
-      "124-07-2",
-      "22047-25-2"
+      "22047-25-2",
+      "124-07-2"
     ],
     "ingredients": [
       {
-        "casNumber": "124-07-2",
+        "casNumber": "22047-25-2",
         "created": "2020-01-18",
         "updated": "2020-01-18"
       },
       {
-        "casNumber": "22047-25-2",
+        "casNumber": "124-07-2",
         "created": "2020-01-18",
         "updated": "2020-01-18"
       }
@@ -4644,17 +4644,17 @@
     "sdsUrl": "/RF/rf-banana-foster.pdf",
     "category": "Research",
     "casNumbers": [
-      "600-14-6",
-      "513-86-0"
+      "513-86-0",
+      "600-14-6"
     ],
     "ingredients": [
       {
-        "casNumber": "600-14-6",
+        "casNumber": "513-86-0",
         "created": "2020-01-17",
         "updated": "2020-01-17"
       },
       {
-        "casNumber": "513-86-0",
+        "casNumber": "600-14-6",
         "created": "2020-01-17",
         "updated": "2020-01-17"
       }
@@ -5693,17 +5693,17 @@
     "sdsUrl": "/RF/rf-elephant-ear.pdf",
     "category": "Research",
     "casNumbers": [
-      "513-86-0",
-      "600-14-6"
+      "600-14-6",
+      "513-86-0"
     ],
     "ingredients": [
       {
-        "casNumber": "513-86-0",
+        "casNumber": "600-14-6",
         "created": "2020-01-17",
         "updated": "2020-01-17"
       },
       {
-        "casNumber": "600-14-6",
+        "casNumber": "513-86-0",
         "created": "2020-01-17",
         "updated": "2020-01-17"
       }
@@ -6000,17 +6000,17 @@
     "sdsUrl": "/RF/rf-golden-cereal.pdf",
     "category": "Research",
     "casNumbers": [
-      "513-86-0",
-      "600-14-6"
+      "600-14-6",
+      "513-86-0"
     ],
     "ingredients": [
       {
-        "casNumber": "513-86-0",
+        "casNumber": "600-14-6",
         "created": "2020-01-17",
         "updated": "2020-01-17"
       },
       {
-        "casNumber": "600-14-6",
+        "casNumber": "513-86-0",
         "created": "2020-01-17",
         "updated": "2020-01-17"
       }
@@ -6125,17 +6125,17 @@
     "sdsUrl": "/RF/rf-key-lime-pie.pdf",
     "category": "Research",
     "casNumbers": [
-      "8008-26-2",
-      "600-14-6"
+      "600-14-6",
+      "8008-26-2"
     ],
     "ingredients": [
       {
-        "casNumber": "8008-26-2",
+        "casNumber": "600-14-6",
         "created": "2020-01-17",
         "updated": "2020-01-17"
       },
       {
-        "casNumber": "600-14-6",
+        "casNumber": "8008-26-2",
         "created": "2020-01-17",
         "updated": "2020-01-17"
       }
@@ -7358,63 +7358,18 @@
     "name": "Blackcherry Jelly Bean SC",
     "vendor": "WF",
     "manual": false,
-    "sdsUrl": null,
+    "sdsUrl": "/WF/wf-blackcherry-jelly-bean.pdf",
     "category": "Avoid",
     "casNumbers": [
-      "56038-13-2"
+      "56038-13-2",
+      "513-86-0"
     ],
     "ingredients": [
       {
         "casNumber": "56038-13-2",
         "created": "2020-01-22",
         "updated": "2020-01-22"
-      }
-    ]
-  },
-  {
-    "name": "Blackcherry Jelly Bean SC",
-    "vendor": "WF",
-    "manual": false,
-    "sdsUrl": "/WF/wf-blackcherry-jelly-bean.pdf",
-    "category": "Avoid",
-    "casNumbers": [
-      "56038-13-2"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "56038-13-2",
-        "created": "2020-01-22",
-        "updated": "2020-01-22"
-      }
-    ]
-  },
-  {
-    "name": "Blackcherry Jelly Bean SC",
-    "vendor": "WF",
-    "manual": false,
-    "sdsUrl": null,
-    "category": "Research",
-    "casNumbers": [
-      "513-86-0"
-    ],
-    "ingredients": [
-      {
-        "casNumber": "513-86-0",
-        "created": "2020-06-26",
-        "updated": "2020-06-26"
-      }
-    ]
-  },
-  {
-    "name": "Blackcherry Jelly Bean SC",
-    "vendor": "WF",
-    "manual": false,
-    "sdsUrl": "/WF/wf-blackcherry-jelly-bean.pdf",
-    "category": "Research",
-    "casNumbers": [
-      "513-86-0"
-    ],
-    "ingredients": [
+      },
       {
         "casNumber": "513-86-0",
         "created": "2020-06-26",
@@ -7469,17 +7424,17 @@
     "sdsUrl": "/WF/wf-caramel-butter.pdf",
     "category": "Research",
     "casNumbers": [
-      "513-86-0",
-      "600-14-6"
+      "600-14-6",
+      "513-86-0"
     ],
     "ingredients": [
       {
-        "casNumber": "513-86-0",
+        "casNumber": "600-14-6",
         "created": "2020-06-26",
         "updated": "2020-06-26"
       },
       {
-        "casNumber": "600-14-6",
+        "casNumber": "513-86-0",
         "created": "2020-06-26",
         "updated": "2020-06-26"
       }
