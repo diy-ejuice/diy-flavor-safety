@@ -28,13 +28,19 @@ export default class VendorCard extends Component {
   get flavors() {
     const { flavors } = this.props;
 
-    return flavors?.length ? (
+    const sortedFlavors = [...flavors];
+
+    sortedFlavors.sort((a, b) =>
+      a.name.toLowerCase().localeCompare(b.name.toLowerCase())
+    );
+
+    return sortedFlavors?.length ? (
       <Fragment>
         <h6 className="my-3">
-          Flavors with concerning ingredients ({flavors.length})
+          Flavors with concerning ingredients ({sortedFlavors.length})
         </h6>
         <ListGroup activeKey="">
-          {flavors.map((flavor) => (
+          {sortedFlavors.map((flavor) => (
             <ListGroupItem
               action
               as={Link}
