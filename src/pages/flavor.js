@@ -2,19 +2,12 @@ import pluralize from 'pluralize';
 import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
 import React, { Component } from 'react';
-import {
-  Card,
-  Col,
-  Container,
-  ListGroup,
-  ListGroupItem,
-  Row
-} from 'react-bootstrap';
+import { Card, Col, Container, Row } from 'react-bootstrap';
 
 import CategoryInfo from '~components/CategoryInfo';
 import Layout from '~components/Layout';
 import SEO from '~components/SEO';
-import { getCategoryVariant, getIngredientSlug, getVendorSlug } from '~utils';
+import { getIngredientSlug, getVendorSlug } from '~utils';
 
 export default class FlavorPage extends Component {
   static propTypes = {
@@ -45,8 +38,35 @@ export default class FlavorPage extends Component {
     );
   }
 
+  sdsUrl(ingredient) {
+    if (ingredient.manual) {
+      return (
+        <Card.Text>This listing was added to the database manually.</Card.Text>
+      );
+    }
+
+    if (ingredient.sdsUrl) {
+      const fullUrl = `https://juicebook.net${ingredient.sdsUrl}`;
+
+      return (
+        <Card.Text>
+          Click{' '}
+          <a target="_blank" rel="noopener noreferrer" href={fullUrl}>
+            here
+          </a>{' '}
+          to view the SDS that generated this finding.
+        </Card.Text>
+      );
+    }
+
+    return null;
+  }
+
   get ingredients() {
-    const { ingredients } = this.state;
+    const {
+      ingredients,
+      flavor: { ingredients: flavorIngredients }
+    } = this.state;
 
     return (
       <Col>
@@ -54,47 +74,24 @@ export default class FlavorPage extends Component {
           This flavor contains the following concerning{' '}
           {pluralize('ingredient', ingredients.length)}:
         </h6>
-        <ListGroup activeKey="">
-          {ingredients.map((ingredient) => (
-            <ListGroupItem
-              action
-              key={ingredient.name}
-              as={Link}
-              to={getIngredientSlug(ingredient)}
-              variant={getCategoryVariant(ingredient.category)}
-            >
-              {ingredient.name}
-            </ListGroupItem>
-          ))}
-        </ListGroup>
+        {ingredients.map((ingredient) => {
+          const flavorIngredient = flavorIngredients.find(
+            (flavorIngred) => ingredient.casNumer === flavorIngred.casNumber
+          );
+
+          return (
+            <Card key={ingredient.name}>
+              <Card.Header>
+                <Link to={getIngredientSlug(ingredient)}>
+                  {ingredient.name}
+                </Link>
+              </Card.Header>
+              <Card.Body>{this.sdsUrl(flavorIngredient)}</Card.Body>
+            </Card>
+          );
+        })}
       </Col>
     );
-  }
-
-  get sdsUrl() {
-    const {
-      flavor: { manual, sdsUrl }
-    } = this.state;
-
-    if (manual) {
-      return <Col>This flavor was added to the database manually.</Col>;
-    }
-
-    if (sdsUrl) {
-      const fullUrl = `https://juicebook.net${sdsUrl}`;
-
-      return (
-        <Col>
-          Click{' '}
-          <a target="_blank" rel="noopener noreferrer" href={fullUrl}>
-            here
-          </a>{' '}
-          to view the SDS that generated this finding.
-        </Col>
-      );
-    }
-
-    return null;
   }
 
   render() {
@@ -127,7 +124,6 @@ export default class FlavorPage extends Component {
                   </h3>
                 </Card.Header>
                 <Card.Body>
-                  <Row>{this.sdsUrl}</Row>
                   <Row>{this.vendor}</Row>
                   <Row>{this.ingredients}</Row>
                 </Card.Body>
@@ -148,9 +144,12 @@ export const query = graphql`
   ) {
     flavor: flavorsJson(vendor: { eq: $vendor }, name: { eq: $name }) {
       name
-      manual
-      sdsUrl
       category
+      ingredients {
+        casNumber
+        manual
+        sdsUrl
+      }
     }
     vendor: vendorsJson(code: { eq: $vendor }) {
       code
