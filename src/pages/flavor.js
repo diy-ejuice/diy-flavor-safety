@@ -39,6 +39,10 @@ export default class FlavorPage extends Component {
   }
 
   sdsUrl(ingredient) {
+    if (!ingredient) {
+      return null;
+    }
+
     if (ingredient.manual) {
       return (
         <Card.Text>This listing was added to the database manually.</Card.Text>
