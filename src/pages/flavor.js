@@ -76,7 +76,7 @@ export default class FlavorPage extends Component {
         </h6>
         {ingredients.map((ingredient) => {
           const flavorIngredient = flavorIngredients.find(
-            (flavorIngred) => ingredient.casNumer === flavorIngred.casNumber
+            (flavorIngred) => ingredient.casNumber === flavorIngred.casNumber
           );
 
           return (
