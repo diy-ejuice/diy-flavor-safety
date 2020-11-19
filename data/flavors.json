@@ -721,6 +721,23 @@
     ]
   },
   {
+    "name": "Peppermint",
+    "vendor": "FA",
+    "category": "Avoid",
+    "casNumbers": [
+      "8006-90-4"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "8006-90-4",
+        "sdsUrl": null,
+        "manual": true,
+        "created": "2020-11-19",
+        "updated": "2020-11-19"
+      }
+    ]
+  },
+  {
     "name": "Spearmint",
     "vendor": "FA",
     "category": "Avoid",
