@@ -398,5 +398,14 @@
     "created": "2020-11-06",
     "updated": null,
     "links": null
+  },
+  {
+    "name": "Acetaldehyde",
+    "category": "Avoid",
+    "casNumber": "75-07-0",
+    "description": null,
+    "created": "2021-01-15",
+    "updated": null,
+    "links": null
   }
 ]

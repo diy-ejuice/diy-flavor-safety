@@ -925,6 +925,23 @@
     ]
   },
   {
+    "name": "Shisha Orange",
+    "vendor": "INW",
+    "category": "Avoid",
+    "casNumbers": [
+      "75-07-0"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "75-07-0",
+        "sdsUrl": "/INW/inw-shisha-orange.pdf",
+        "manual": false,
+        "created": "2021-01-15",
+        "updated": "2021-01-15"
+      }
+    ]
+  },
+  {
     "name": "Butter",
     "vendor": "TPA",
     "category": "Research",
@@ -1247,6 +1264,23 @@
     ]
   },
   {
+    "name": "Ripe Banana",
+    "vendor": "TPA",
+    "category": "Avoid",
+    "casNumbers": [
+      "75-07-0"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "75-07-0",
+        "sdsUrl": "/TPA/tpa-ripe-banana.pdf",
+        "manual": false,
+        "created": "2021-01-15",
+        "updated": "2021-01-15"
+      }
+    ]
+  },
+  {
     "name": "RY4 Asian",
     "vendor": "TPA",
     "category": "Avoid",
@@ -1268,13 +1302,13 @@
     "vendor": "TPA",
     "category": "Avoid",
     "casNumbers": [
-      "8006-90-4",
+      "58-86-6",
       "8002-31-1",
-      "58-86-6"
+      "8006-90-4"
     ],
     "ingredients": [
       {
-        "casNumber": "8006-90-4",
+        "casNumber": "58-86-6",
         "sdsUrl": null,
         "manual": false,
         "created": "2020-01-22",
@@ -1288,7 +1322,7 @@
         "updated": "2020-01-22"
       },
       {
-        "casNumber": "58-86-6",
+        "casNumber": "8006-90-4",
         "sdsUrl": null,
         "manual": false,
         "created": "2020-01-22",
@@ -1793,23 +1827,23 @@
     "vendor": "FW",
     "category": "Research",
     "casNumbers": [
-      "8008-26-2",
-      "8008-56-8"
+      "8008-56-8",
+      "8008-26-2"
     ],
     "ingredients": [
-      {
-        "casNumber": "8008-26-2",
-        "sdsUrl": "/FW/fw-boom.pdf",
-        "manual": false,
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      },
       {
         "casNumber": "8008-56-8",
         "sdsUrl": "/FW/fw-boom.pdf",
         "manual": false,
         "created": "2020-06-20",
         "updated": "2020-06-20"
+      },
+      {
+        "casNumber": "8008-26-2",
+        "sdsUrl": "/FW/fw-boom.pdf",
+        "manual": false,
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
       }
     ]
   },
@@ -1979,23 +2013,23 @@
     "vendor": "FW",
     "category": "Avoid",
     "casNumbers": [
-      "8029-43-4",
-      "57-48-7"
+      "57-48-7",
+      "8029-43-4"
     ],
     "ingredients": [
-      {
-        "casNumber": "8029-43-4",
-        "sdsUrl": null,
-        "manual": true,
-        "created": "2020-07-03",
-        "updated": "2020-07-03"
-      },
       {
         "casNumber": "57-48-7",
         "sdsUrl": "/FW/fw-cinnamon-churro.pdf",
         "manual": false,
         "created": "2020-01-17",
         "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "8029-43-4",
+        "sdsUrl": null,
+        "manual": true,
+        "created": "2020-07-03",
+        "updated": "2020-07-03"
       }
     ]
   },
@@ -2089,23 +2123,23 @@
     "vendor": "FW",
     "category": "Avoid",
     "casNumbers": [
-      "57-48-7",
-      "8029-43-4"
+      "8029-43-4",
+      "57-48-7"
     ],
     "ingredients": [
-      {
-        "casNumber": "57-48-7",
-        "sdsUrl": "/FW/fw-coconut-cream-pie.pdf",
-        "manual": false,
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      },
       {
         "casNumber": "8029-43-4",
         "sdsUrl": null,
         "manual": true,
         "created": "2020-07-03",
         "updated": "2020-07-03"
+      },
+      {
+        "casNumber": "57-48-7",
+        "sdsUrl": "/FW/fw-coconut-cream-pie.pdf",
+        "manual": false,
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
       }
     ]
   },
@@ -2402,23 +2436,23 @@
     "vendor": "FW",
     "category": "Avoid",
     "casNumbers": [
-      "8029-43-4",
-      "57-48-7"
+      "57-48-7",
+      "8029-43-4"
     ],
     "ingredients": [
-      {
-        "casNumber": "8029-43-4",
-        "sdsUrl": null,
-        "manual": true,
-        "created": "2020-07-03",
-        "updated": "2020-07-03"
-      },
       {
         "casNumber": "57-48-7",
         "sdsUrl": "/FW/fw-gummi-bear.pdf",
         "manual": false,
         "created": "2020-01-17",
         "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "8029-43-4",
+        "sdsUrl": null,
+        "manual": true,
+        "created": "2020-07-03",
+        "updated": "2020-07-03"
       }
     ]
   },
@@ -2512,23 +2546,23 @@
     "vendor": "FW",
     "category": "Research",
     "casNumbers": [
-      "8008-56-8",
-      "8008-57-9"
+      "8008-57-9",
+      "8008-56-8"
     ],
     "ingredients": [
-      {
-        "casNumber": "8008-56-8",
-        "sdsUrl": "/FW/fw-jawbreaker.pdf",
-        "manual": false,
-        "created": "2020-06-20",
-        "updated": "2020-06-20"
-      },
       {
         "casNumber": "8008-57-9",
         "sdsUrl": "/FW/fw-jawbreaker.pdf",
         "manual": false,
         "created": "2020-01-17",
         "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "8008-56-8",
+        "sdsUrl": "/FW/fw-jawbreaker.pdf",
+        "manual": false,
+        "created": "2020-06-20",
+        "updated": "2020-06-20"
       }
     ]
   },
@@ -2554,23 +2588,23 @@
     "vendor": "FW",
     "category": "Avoid",
     "casNumbers": [
-      "8029-43-4",
-      "57-48-7"
+      "57-48-7",
+      "8029-43-4"
     ],
     "ingredients": [
-      {
-        "casNumber": "8029-43-4",
-        "sdsUrl": null,
-        "manual": true,
-        "created": "2020-07-03",
-        "updated": "2020-07-03"
-      },
       {
         "casNumber": "57-48-7",
         "sdsUrl": null,
         "manual": false,
         "created": "2020-01-22",
         "updated": "2020-01-22"
+      },
+      {
+        "casNumber": "8029-43-4",
+        "sdsUrl": null,
+        "manual": true,
+        "created": "2020-07-03",
+        "updated": "2020-07-03"
       }
     ]
   },
@@ -3020,23 +3054,23 @@
     "vendor": "FW",
     "category": "Avoid",
     "casNumbers": [
-      "57-48-7",
-      "8029-43-4"
+      "8029-43-4",
+      "57-48-7"
     ],
     "ingredients": [
-      {
-        "casNumber": "57-48-7",
-        "sdsUrl": "/FW/fw-rainbow-lined-gum.pdf",
-        "manual": false,
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      },
       {
         "casNumber": "8029-43-4",
         "sdsUrl": null,
         "manual": true,
         "created": "2020-07-03",
         "updated": "2020-07-03"
+      },
+      {
+        "casNumber": "57-48-7",
+        "sdsUrl": "/FW/fw-rainbow-lined-gum.pdf",
+        "manual": false,
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
       }
     ]
   },
@@ -3096,19 +3130,19 @@
     "vendor": "FW",
     "category": "Research",
     "casNumbers": [
-      "8008-57-9",
-      "8008-26-2"
+      "8008-26-2",
+      "8008-57-9"
     ],
     "ingredients": [
       {
-        "casNumber": "8008-57-9",
+        "casNumber": "8008-26-2",
         "sdsUrl": "/FW/fw-rainbow-sherbet.pdf",
         "manual": false,
         "created": "2020-01-17",
         "updated": "2020-01-17"
       },
       {
-        "casNumber": "8008-26-2",
+        "casNumber": "8008-57-9",
         "sdsUrl": "/FW/fw-rainbow-sherbet.pdf",
         "manual": false,
         "created": "2020-01-17",
@@ -3443,23 +3477,23 @@
     "vendor": "FW",
     "category": "Avoid",
     "casNumbers": [
-      "57-48-7",
-      "8029-43-4"
+      "8029-43-4",
+      "57-48-7"
     ],
     "ingredients": [
-      {
-        "casNumber": "57-48-7",
-        "sdsUrl": "/FW/fw-sweet-tarts.pdf",
-        "manual": false,
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      },
       {
         "casNumber": "8029-43-4",
         "sdsUrl": null,
         "manual": true,
         "created": "2020-07-03",
         "updated": "2020-07-03"
+      },
+      {
+        "casNumber": "57-48-7",
+        "sdsUrl": "/FW/fw-sweet-tarts.pdf",
+        "manual": false,
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
       }
     ]
   },
@@ -3569,23 +3603,23 @@
     "vendor": "FW",
     "category": "Avoid",
     "casNumbers": [
-      "57-48-7",
-      "8029-43-4"
+      "8029-43-4",
+      "57-48-7"
     ],
     "ingredients": [
-      {
-        "casNumber": "57-48-7",
-        "sdsUrl": "/FW/fw-tropical-punch.pdf",
-        "manual": false,
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      },
       {
         "casNumber": "8029-43-4",
         "sdsUrl": null,
         "manual": true,
         "created": "2020-07-03",
         "updated": "2020-07-03"
+      },
+      {
+        "casNumber": "57-48-7",
+        "sdsUrl": "/FW/fw-tropical-punch.pdf",
+        "manual": false,
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
       }
     ]
   },
@@ -4018,19 +4052,19 @@
     "vendor": "HS",
     "category": "Research",
     "casNumbers": [
-      "124-07-2",
-      "513-86-0"
+      "513-86-0",
+      "124-07-2"
     ],
     "ingredients": [
       {
-        "casNumber": "124-07-2",
+        "casNumber": "513-86-0",
         "sdsUrl": "/HS/hs-cream.pdf",
         "manual": false,
         "created": "2020-01-18",
         "updated": "2020-01-18"
       },
       {
-        "casNumber": "513-86-0",
+        "casNumber": "124-07-2",
         "sdsUrl": "/HS/hs-cream.pdf",
         "manual": false,
         "created": "2020-01-18",
@@ -4111,19 +4145,19 @@
     "vendor": "HS",
     "category": "Research",
     "casNumbers": [
-      "22047-25-2",
-      "77-93-0"
+      "77-93-0",
+      "22047-25-2"
     ],
     "ingredients": [
       {
-        "casNumber": "22047-25-2",
+        "casNumber": "77-93-0",
         "sdsUrl": "/HS/hs-hazelnut-coffee.pdf",
         "manual": false,
         "created": "2020-01-18",
         "updated": "2020-01-18"
       },
       {
-        "casNumber": "77-93-0",
+        "casNumber": "22047-25-2",
         "sdsUrl": "/HS/hs-hazelnut-coffee.pdf",
         "manual": false,
         "created": "2020-01-18",
@@ -4255,19 +4289,19 @@
     "vendor": "HS",
     "category": "Research",
     "casNumbers": [
-      "124-07-2",
-      "22047-25-2"
+      "22047-25-2",
+      "124-07-2"
     ],
     "ingredients": [
       {
-        "casNumber": "124-07-2",
+        "casNumber": "22047-25-2",
         "sdsUrl": "/HS/hs-muffin.pdf",
         "manual": false,
         "created": "2020-01-18",
         "updated": "2020-01-18"
       },
       {
-        "casNumber": "22047-25-2",
+        "casNumber": "124-07-2",
         "sdsUrl": "/HS/hs-muffin.pdf",
         "manual": false,
         "created": "2020-01-18",
@@ -4361,6 +4395,23 @@
     ]
   },
   {
+    "name": "Cherimoya (yc)",
+    "vendor": "INW",
+    "category": "Research",
+    "casNumbers": [
+      "513-86-0"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "513-86-0",
+        "sdsUrl": "/INW/inw-cherimoya.pdf",
+        "manual": false,
+        "created": "2021-01-15",
+        "updated": "2021-01-15"
+      }
+    ]
+  },
+  {
     "name": "Eucalyptus With Mint",
     "vendor": "INW",
     "category": "Caution",
@@ -4374,6 +4425,23 @@
         "manual": true,
         "created": "2020-02-03",
         "updated": "2020-02-03"
+      }
+    ]
+  },
+  {
+    "name": "Green Tea & Quince",
+    "vendor": "INW",
+    "category": "Avoid",
+    "casNumbers": [
+      "75-07-0"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "75-07-0",
+        "sdsUrl": "/INW/inw-quince.pdf",
+        "manual": false,
+        "created": "2021-01-15",
+        "updated": "2021-01-15"
       }
     ]
   },
@@ -4408,6 +4476,23 @@
         "manual": false,
         "created": "2020-02-02",
         "updated": "2020-02-02"
+      }
+    ]
+  },
+  {
+    "name": "Lemon Mix",
+    "vendor": "INW",
+    "category": "Avoid",
+    "casNumbers": [
+      "75-07-0"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "75-07-0",
+        "sdsUrl": "/INW/inw-lemon-mix.pdf",
+        "manual": false,
+        "created": "2021-01-15",
+        "updated": "2021-01-15"
       }
     ]
   },
@@ -4713,19 +4798,19 @@
     "vendor": "RF",
     "category": "Research",
     "casNumbers": [
-      "600-14-6",
-      "513-86-0"
+      "513-86-0",
+      "600-14-6"
     ],
     "ingredients": [
       {
-        "casNumber": "600-14-6",
+        "casNumber": "513-86-0",
         "sdsUrl": "/RF/rf-banana-foster.pdf",
         "manual": false,
         "created": "2020-01-17",
         "updated": "2020-01-17"
       },
       {
-        "casNumber": "513-86-0",
+        "casNumber": "600-14-6",
         "sdsUrl": "/RF/rf-banana-foster.pdf",
         "manual": false,
         "created": "2020-01-17",
@@ -5295,6 +5380,23 @@
     ]
   },
   {
+    "name": "Champagne",
+    "vendor": "RF",
+    "category": "Avoid",
+    "casNumbers": [
+      "75-07-0"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "75-07-0",
+        "sdsUrl": "/RF/rf-champagne.pdf",
+        "manual": false,
+        "created": "2021-01-15",
+        "updated": "2021-01-15"
+      }
+    ]
+  },
+  {
     "name": "Cherry",
     "vendor": "RF",
     "category": "Caution",
@@ -5588,19 +5690,19 @@
     "vendor": "RF",
     "category": "Research",
     "casNumbers": [
-      "513-86-0",
-      "600-14-6"
+      "600-14-6",
+      "513-86-0"
     ],
     "ingredients": [
       {
-        "casNumber": "513-86-0",
+        "casNumber": "600-14-6",
         "sdsUrl": "/RF/rf-cream-cheese.pdf",
         "manual": false,
         "created": "2020-01-17",
         "updated": "2020-01-17"
       },
       {
-        "casNumber": "600-14-6",
+        "casNumber": "513-86-0",
         "sdsUrl": "/RF/rf-cream-cheese.pdf",
         "manual": false,
         "created": "2020-01-17",
@@ -5766,19 +5868,19 @@
     "vendor": "RF",
     "category": "Research",
     "casNumbers": [
-      "513-86-0",
-      "600-14-6"
+      "600-14-6",
+      "513-86-0"
     ],
     "ingredients": [
       {
-        "casNumber": "513-86-0",
+        "casNumber": "600-14-6",
         "sdsUrl": "/RF/rf-elephant-ear.pdf",
         "manual": false,
         "created": "2020-01-17",
         "updated": "2020-01-17"
       },
       {
-        "casNumber": "600-14-6",
+        "casNumber": "513-86-0",
         "sdsUrl": "/RF/rf-elephant-ear.pdf",
         "manual": false,
         "created": "2020-01-17",
@@ -5808,19 +5910,19 @@
     "vendor": "RF",
     "category": "Research",
     "casNumbers": [
-      "513-86-0",
-      "600-14-6"
+      "600-14-6",
+      "513-86-0"
     ],
     "ingredients": [
       {
-        "casNumber": "513-86-0",
+        "casNumber": "600-14-6",
         "sdsUrl": "/RF/rf-french-toast.pdf",
         "manual": false,
         "created": "2020-01-17",
         "updated": "2020-01-17"
       },
       {
-        "casNumber": "600-14-6",
+        "casNumber": "513-86-0",
         "sdsUrl": "/RF/rf-french-toast.pdf",
         "manual": false,
         "created": "2020-01-17",
@@ -6206,23 +6308,40 @@
     "vendor": "RF",
     "category": "Research",
     "casNumbers": [
-      "8008-26-2",
-      "600-14-6"
+      "600-14-6",
+      "8008-26-2"
     ],
     "ingredients": [
-      {
-        "casNumber": "8008-26-2",
-        "sdsUrl": "/RF/rf-key-lime-pie.pdf",
-        "manual": false,
-        "created": "2020-01-17",
-        "updated": "2020-01-17"
-      },
       {
         "casNumber": "600-14-6",
         "sdsUrl": "/RF/rf-key-lime-pie.pdf",
         "manual": false,
         "created": "2020-01-17",
         "updated": "2020-01-17"
+      },
+      {
+        "casNumber": "8008-26-2",
+        "sdsUrl": "/RF/rf-key-lime-pie.pdf",
+        "manual": false,
+        "created": "2020-01-17",
+        "updated": "2020-01-17"
+      }
+    ]
+  },
+  {
+    "name": "Kiwi",
+    "vendor": "RF",
+    "category": "Avoid",
+    "casNumbers": [
+      "75-07-0"
+    ],
+    "ingredients": [
+      {
+        "casNumber": "75-07-0",
+        "sdsUrl": "/RF/rf-kiwi.pdf",
+        "manual": false,
+        "created": "2021-01-15",
+        "updated": "2021-01-15"
       }
     ]
   },
@@ -7472,19 +7591,19 @@
     "vendor": "WF",
     "category": "Research",
     "casNumbers": [
-      "513-86-0",
-      "600-14-6"
+      "600-14-6",
+      "513-86-0"
     ],
     "ingredients": [
       {
-        "casNumber": "513-86-0",
+        "casNumber": "600-14-6",
         "sdsUrl": "/WF/wf-angel-cake.pdf",
         "manual": false,
         "created": "2020-06-26",
         "updated": "2020-06-26"
       },
       {
-        "casNumber": "600-14-6",
+        "casNumber": "513-86-0",
         "sdsUrl": "/WF/wf-angel-cake.pdf",
         "manual": false,
         "created": "2020-06-26",
@@ -7590,19 +7709,19 @@
     "vendor": "WF",
     "category": "Research",
     "casNumbers": [
-      "600-14-6",
-      "513-86-0"
+      "513-86-0",
+      "600-14-6"
     ],
     "ingredients": [
       {
-        "casNumber": "600-14-6",
+        "casNumber": "513-86-0",
         "sdsUrl": "/WF/wf-caramel-butter.pdf",
         "manual": false,
         "created": "2020-06-26",
         "updated": "2020-06-26"
       },
       {
-        "casNumber": "513-86-0",
+        "casNumber": "600-14-6",
         "sdsUrl": "/WF/wf-caramel-butter.pdf",
         "manual": false,
         "created": "2020-06-26",
@@ -7649,19 +7768,19 @@
     "vendor": "WF",
     "category": "Research",
     "casNumbers": [
-      "513-86-0",
-      "600-14-6"
+      "600-14-6",
+      "513-86-0"
     ],
     "ingredients": [
       {
-        "casNumber": "513-86-0",
+        "casNumber": "600-14-6",
         "sdsUrl": "/WF/wf-frozen-yogurt.pdf",
         "manual": false,
         "created": "2020-06-26",
         "updated": "2020-06-26"
       },
       {
-        "casNumber": "600-14-6",
+        "casNumber": "513-86-0",
         "sdsUrl": "/WF/wf-frozen-yogurt.pdf",
         "manual": false,
         "created": "2020-06-26",
