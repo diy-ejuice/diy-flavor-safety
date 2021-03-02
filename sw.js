@@ -27,26 +27,26 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-10237e08637602f479f4.js"
+    "url": "webpack-runtime-c63dd743a055d60d8dd9.js"
   },
   {
-    "url": "styles.3cf007c0c8f75c3ad234.css"
+    "url": "styles.6c57f7823fc8d0693906.css"
   },
   {
-    "url": "styles-53aa9d4f42ead6242a9b.js"
+    "url": "framework-58a540d4229784248f82.js"
   },
   {
-    "url": "framework-357f6a8bee87bd15d980.js"
-  },
-  {
-    "url": "app-1e37e64545bb9a6e0b8a.js"
+    "url": "app-3d6116ce972ef88ab121.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "a73e6d712dfb3df991336f802f5ed9ef"
+    "revision": "c0df0c796659a89f19a7b74995c2c16d"
   },
   {
-    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-6d7462888018cb13a12a.js"
+    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-e79780f82335f328e1db.js"
+  },
+  {
+    "url": "polyfill-13d1b1d65bf8483b9053.js"
   },
   {
     "url": "manifest.webmanifest",
@@ -56,9 +56,8 @@ self.__precacheManifest = [
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerRoute(/(\.js$|\.css$|static\/)/, new workbox.strategies.CacheFirst(), 'GET');
-workbox.routing.registerRoute(/^https?:.*\page-data\/.*\/page-data\.json/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
-workbox.routing.registerRoute(/^https?:.*\/page-data\/app-data\.json/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
-workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
+workbox.routing.registerRoute(/^https?:.*\/page-data\/.*\.json/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
+workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|avif|svg|gif|tiff|js|woff|woff2|json|css)$/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 workbox.routing.registerRoute(/^https?:\/\/fonts\.googleapis\.com\/css/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 
 /* global importScripts, workbox, idbKeyval */
@@ -143,7 +142,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-1e37e64545bb9a6e0b8a.js`))) {
+  if (!resources || !(await caches.match(`/app-3d6116ce972ef88ab121.js`))) {
     return await fetch(event.request)
   }
 
