@@ -1,25 +1,19 @@
 module.exports = {
   env: {
     browser: true,
-    commonjs: true,
-    es6: true,
+    es2020: true,
     node: true
   },
-  plugins: ['import', 'react', 'prettier', 'jsx-a11y'],
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:prettier/recommended',
     'plugin:jsx-a11y/recommended',
-    'plugin:import/errors',
-    'prettier'
+    'plugin:import/recommended'
   ],
   parser: '@babel/eslint-parser',
   parserOptions: {
     requireConfigFile: false,
-    ecmaFeatures: {
-      jsx: true
-    },
     ecmaVersion: 12
   },
   rules: {
@@ -162,7 +156,9 @@ module.exports = {
     'no-console': 2,
     'no-debugger': 2,
     'prettier/prettier': 2,
-    'jsx-a11y/label-has-for': 0
+    'jsx-a11y/label-has-for': 0,
+    'react/jsx-uses-react': 0,
+    'react/react-in-jsx-scope': 0
   },
   settings: {
     react: {
