@@ -1,7 +1,7 @@
-import debounce from 'lodash/debounce';
+import debounce from 'lodash.debounce';
 import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
-import React, { Component } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import {
   Card,
   Container,
@@ -12,6 +12,7 @@ import {
   Spinner
 } from 'react-bootstrap';
 
+import '~pages/flavors.scss';
 import CategoryInfo from '~components/CategoryInfo';
 import Layout from '~components/Layout';
 import SearchForm from '~components/SearchForm';
@@ -24,28 +25,15 @@ const NodesType = PropTypes.shape({
   nodes: PropTypes.arrayOf(PropTypes.object)
 });
 
-import '~pages/flavors.scss';
+export default function FlavorsPage({ data }) {
+  const {
+    vendors: { nodes: vendors },
+    flavors: { nodes: flavors },
+    ingredients: { nodes: ingredients }
+  } = data;
 
-export default class FlavorsPage extends Component {
-  static propTypes = {
-    data: PropTypes.shape({
-      vendors: NodesType.isRequired,
-      flavors: NodesType.isRequired,
-      ingredients: NodesType.isRequired
-    }).isRequired
-  };
-
-  constructor(props) {
-    super(props);
-
-    const {
-      data: {
-        vendors: { nodes: vendors },
-        flavors: { nodes: flavors },
-        ingredients: { nodes: ingredients }
-      }
-    } = this.props;
-    const rows = [];
+  const rows = useMemo(() => {
+    const result = [];
 
     for (const flavor of flavors) {
       const { vendor: vendorCode, casNumbers } = flavor;
@@ -59,7 +47,7 @@ export default class FlavorsPage extends Component {
           (ingredientNode) => ingredientNode.casNumber === ingredient.casNumber
         );
 
-        rows.push({
+        result.push({
           flavor: {
             ...flavor,
             created,
@@ -77,51 +65,31 @@ export default class FlavorsPage extends Component {
       }
     }
 
-    this.state = {
-      selected: {
-        vendor: '',
-        flavor: '',
-        ingredient: '',
-        category: ['Avoid', 'Caution']
-      },
-      rows,
-      results: [],
-      sort: {
-        column: null,
-        direction: false
-      },
-      sorting: false
-    };
+    return result;
+  }, [vendors, flavors, ingredients]);
 
-    this.sortWorker = SortWorker;
-    this.onCategoryChange = this.onCategoryChange.bind(this);
-    this.onFlavorChange = this.onFlavorChange.bind(this);
-    this.onIngredientChange = this.onIngredientChange.bind(this);
-    this.onVendorChange = this.onVendorChange.bind(this);
-    this.onSortChange = this.onSortChange.bind(this);
-    this.refreshResults = this.refreshResults.bind(this);
-    this.startSort = this.startSort.bind(this);
-    this.finishSort = this.finishSort.bind(this);
-    this.flavorMatches = this.flavorMatches.bind(this);
-    this.syncResults = this.syncResults.bind(this);
-  }
+  const [selected, setSelected] = useState({
+    vendor: '',
+    flavor: '',
+    ingredient: '',
+    category: ['Avoid', 'Caution']
+  });
+  const [results, setResults] = useState([]);
+  const [sort, setSort] = useState({
+    column: null,
+    direction: false
+  });
+  const [sorting, setSorting] = useState(false);
 
-  componentDidMount() {
-    this.sortWorker.addEventListener('message', this.syncResults);
-    this.refreshResults();
-  }
+  const syncResults = useCallback(
+    ({ data: resultData }) => {
+      setResults(resultData);
+      setSorting(false);
+    },
+    [setResults, setSorting]
+  );
 
-  componentWillUnmount() {
-    this.sortWorker.removeEventListener('message', this.syncResults);
-  }
-
-  syncResults({ data: results }) {
-    this.setState({ results, sorting: false });
-  }
-
-  flavorMatches({ flavor, vendor, ingredient }) {
-    const { selected } = this.state;
-
+  const flavorMatches = ({ flavor, vendor, ingredient }) => {
     const selectedFlavor = selected?.flavor?.toLowerCase?.();
     const selectedVendor = selected?.vendor?.toLowerCase?.();
     const selectedIngredient = selected?.ingredient?.toLowerCase?.();
@@ -137,193 +105,178 @@ export default class FlavorsPage extends Component {
       (!selected?.category?.length ||
         selected.category.some((category) => category === flavor.category))
     );
-  }
+  };
 
-  refreshResults() {
-    const { rows } = this.state;
+  const finishSort = (resultData) => {
+    const { column, direction } = sort;
 
-    this.startSort(rows.filter((row) => this.flavorMatches(row)));
-  }
+    SortWorker.postMessage({ results: resultData, column, direction });
+  };
 
-  startSort(results) {
-    this.setState({ sorting: results.length > 100 }, () =>
-      this.finishSort(results)
+  const startSort = (resultData) => {
+    setSorting(resultData.length > 100);
+    finishSort(resultData);
+  };
+
+  const refreshResults = () => {
+    startSort(rows.filter((row) => flavorMatches(row)));
+  };
+
+  const setSelectedState = useCallback(
+    (state) => {
+      setSelected((sel) => ({ ...sel, ...state }));
+
+      return debounce(refreshResults, 250);
+    },
+    [setSelected, refreshResults]
+  );
+
+  const onVendorChange = (vendor) =>
+    useCallback(() => setSelectedState({ vendor }), [setSelectedState]);
+  const onFlavorChange = (flavor) =>
+    useCallback(() => setSelectedState({ flavor }), [setSelectedState]);
+  const onIngredientChange = (ingredient) =>
+    useCallback(() => setSelectedState({ ingredient }), [setSelectedState]);
+  const onCategoryChange = (category) =>
+    useCallback(
+      () =>
+        setSelectedState({
+          category: Array.from([category].flat())
+        }),
+      [setSelectedState]
     );
-  }
+  const onSortChange = useCallback(
+    (column, direction) => {
+      setSort({ column, direction });
+      startSort(results);
+    },
+    [setSort, startSort]
+  );
 
-  finishSort(results) {
-    const {
-      sort: { column, direction }
-    } = this.state;
+  useEffect(() => {
+    SortWorker.addEventListener('message', syncResults);
 
-    this.sortWorker.postMessage({ results, column, direction });
-  }
+    return () => SortWorker.removeEventListener('message', syncResults);
+  });
 
-  setSelectedState(state) {
-    const selected = {
-      ...this.state.selected,
-      ...state
-    };
-
-    this.setState({ selected }, debounce(this.refreshResults, 250));
-  }
-
-  onVendorChange(vendor) {
-    this.setSelectedState({ vendor });
-  }
-
-  onFlavorChange(flavor) {
-    this.setSelectedState({ flavor });
-  }
-
-  onIngredientChange(ingredient) {
-    this.setSelectedState({ ingredient });
-  }
-
-  onCategoryChange(category) {
-    this.setSelectedState({
-      category: Array.from([category].flat())
-    });
-  }
-
-  onSortChange(column, direction) {
-    this.setState({ sort: { column, direction } }, () => {
-      this.startSort(this.state.results);
-    });
-  }
-
-  renderFlavor(result) {
-    const { flavor, vendor, ingredient } = result;
-    const { created } = flavor.ingredients.find(
-      (ingredientNode) => ingredientNode.casNumber === ingredient.casNumber
-    );
-    const key = `${vendor.code}-${flavor.name}-${ingredient.casNumber}`;
-
-    return (
-      <tr key={key}>
-        <td>
-          <Link to={vendor.slug}>{vendor.name}</Link>
-        </td>
-        <td>
-          <Link to={flavor.slug}>{flavor.name}</Link>
-        </td>
-        <td>
-          <Link to={ingredient.slug}>{ingredient.name}</Link>
-        </td>
-        <td>{created}</td>
-        <td className="text-center">
-          <CategoryInfo category={flavor.category} />
-        </td>
-      </tr>
-    );
-  }
-
-  render() {
-    const {
-      selected,
-      vendors,
-      flavors,
-      ingredients,
-      results,
-      sorting
-    } = this.state;
-
-    return (
-      <Layout>
-        <SEO title="Browse Flavors" />
-        <Modal
-          show={sorting}
-          animation={false}
-          dialogAs="div"
-          className="diy-search-modal"
-        >
-          <div className="diy-spinner-container">
-            <div>
-              <Spinner animation="border" role="status" variant="danger" />
-              <h4 className="mt-2 text-light">Loading</h4>
-            </div>
+  return (
+    <Layout>
+      <SEO title="Browse Flavors" />
+      <Modal
+        show={sorting}
+        animation={false}
+        dialogAs="div"
+        className="diy-search-modal"
+      >
+        <div className="diy-spinner-container">
+          <div>
+            <Spinner animation="border" role="status" variant="danger" />
+            <h4 className="mt-2 text-light">Loading</h4>
           </div>
-        </Modal>
-        <Container>
-          <Row>
-            <Col>
-              <Card body className="mb-4">
-                <Card.Title>
-                  <h3>Search Flavors</h3>
-                </Card.Title>
-                <SearchForm
-                  vendors={vendors}
-                  flavors={flavors}
-                  ingredients={ingredients}
-                  onVendorChange={this.onVendorChange}
-                  onFlavorChange={this.onFlavorChange}
-                  onIngredientChange={this.onIngredientChange}
-                  onCategoryChange={this.onCategoryChange}
-                  selected={selected}
-                />
-              </Card>
-            </Col>
-          </Row>
-          <Row>
-            <Col className="text-right text-muted mb-4">
-              {results?.length
-                ? `${results.length} results displayed (${this.state.rows.length} total)`
-                : null}
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-              <Table striped bordered hover>
-                <thead>
+        </div>
+      </Modal>
+      <Container>
+        <Row>
+          <Col>
+            <Card body className="mb-4">
+              <Card.Title>
+                <h3>Search Flavors</h3>
+              </Card.Title>
+              <SearchForm
+                vendors={vendors}
+                flavors={flavors}
+                ingredients={ingredients}
+                onVendorChange={onVendorChange}
+                onFlavorChange={onFlavorChange}
+                onIngredientChange={onIngredientChange}
+                onCategoryChange={onCategoryChange}
+                selected={selected}
+              />
+            </Card>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="text-right text-muted mb-4">
+            {results?.length
+              ? `${results.length} results displayed (${rows.length} total)`
+              : null}
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Table striped bordered hover>
+              <thead>
+                <tr>
+                  <th>
+                    Vendor <SortIcon column="vendor" onToggle={onSortChange} />
+                  </th>
+                  <th>
+                    Flavor <SortIcon column="flavor" onToggle={onSortChange} />
+                  </th>
+                  <th>
+                    Ingredient{' '}
+                    <SortIcon column="ingredient" onToggle={onSortChange} />
+                  </th>
+                  <th>
+                    Added <SortIcon column="created" onToggle={onSortChange} />
+                  </th>
+                  <th>
+                    Category{' '}
+                    <SortIcon column="category" onToggle={onSortChange} />
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {results?.length ? (
+                  results.map((result) => {
+                    const { flavor, vendor, ingredient } = result;
+                    const { created } = flavor.ingredients.find(
+                      (ingredientNode) =>
+                        ingredientNode.casNumber === ingredient.casNumber
+                    );
+                    const key = `${vendor.code}-${flavor.name}-${ingredient.casNumber}`;
+
+                    return (
+                      <tr key={key}>
+                        <td>
+                          <Link to={vendor.slug}>{vendor.name}</Link>
+                        </td>
+                        <td>
+                          <Link to={flavor.slug}>{flavor.name}</Link>
+                        </td>
+                        <td>
+                          <Link to={ingredient.slug}>{ingredient.name}</Link>
+                        </td>
+                        <td>{created}</td>
+                        <td className="text-center">
+                          <CategoryInfo category={flavor.category} />
+                        </td>
+                      </tr>
+                    );
+                  })
+                ) : (
                   <tr>
-                    <th>
-                      Vendor{' '}
-                      <SortIcon column="vendor" onToggle={this.onSortChange} />
-                    </th>
-                    <th>
-                      Flavor{' '}
-                      <SortIcon column="flavor" onToggle={this.onSortChange} />
-                    </th>
-                    <th>
-                      Ingredient{' '}
-                      <SortIcon
-                        column="ingredient"
-                        onToggle={this.onSortChange}
-                      />
-                    </th>
-                    <th>
-                      Added{' '}
-                      <SortIcon column="created" onToggle={this.onSortChange} />
-                    </th>
-                    <th>
-                      Category{' '}
-                      <SortIcon
-                        column="category"
-                        onToggle={this.onSortChange}
-                      />
-                    </th>
+                    <td colSpan={5} className="text-center">
+                      No flavors were found with your current search parameters!
+                    </td>
                   </tr>
-                </thead>
-                <tbody>
-                  {results?.length ? (
-                    results.map(this.renderFlavor)
-                  ) : (
-                    <tr>
-                      <td colSpan={5} className="text-center">
-                        No flavors were found with your current search
-                        parameters!
-                      </td>
-                    </tr>
-                  )}
-                </tbody>
-              </Table>
-            </Col>
-          </Row>
-        </Container>
-      </Layout>
-    );
-  }
+                )}
+              </tbody>
+            </Table>
+          </Col>
+        </Row>
+      </Container>
+    </Layout>
+  );
 }
+
+FlavorsPage.propTypes = {
+  data: PropTypes.shape({
+    vendors: NodesType.isRequired,
+    flavors: NodesType.isRequired,
+    ingredients: NodesType.isRequired
+  }).isRequired
+};
 
 export const query = graphql`
   query FlavorsSearchQuery {

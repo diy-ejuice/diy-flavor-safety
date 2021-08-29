@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import React, { Component } from 'react';
+import { Component } from 'react';
 import { Container, Row, Col, Form } from 'react-bootstrap';
 
 export default class SearchForm extends Component {
