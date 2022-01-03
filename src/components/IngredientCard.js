@@ -27,7 +27,7 @@ const propTypes = {
   ),
   name: PropTypes.string.isRequired,
   flavors: PropTypes.arrayOf(PropTypes.object),
-  updated: PropTypes.string.isRequired,
+  updated: PropTypes.string,
   vendors: PropTypes.arrayOf(PropTypes.object)
 };
 
