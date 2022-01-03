@@ -8,7 +8,7 @@ import Layout from 'components/Layout';
 import SEO from 'components/SEO';
 import { getIngredientSlug, getVendorSlug } from 'utils';
 
-const SdsUrl = (ingredient) => {
+const SdsUrl = ({ ingredient }) => {
   if (!ingredient) {
     return null;
   }
@@ -34,6 +34,10 @@ const SdsUrl = (ingredient) => {
   }
 
   return null;
+};
+
+SdsUrl.propTypes = {
+  ingredient: PropTypes.object
 };
 
 export default function FlavorPage({ data }) {
@@ -140,6 +144,7 @@ export const query = graphql`
       nodes {
         name
         category
+        casNumber
       }
     }
   }
