@@ -13,6 +13,9 @@ module.exports = {
   ],
   parser: '@babel/eslint-parser',
   parserOptions: {
+    babelOptions: {
+      presets: [['@babel/preset-react', { runtime: 'automatic' }]]
+    },
     requireConfigFile: false,
     ecmaVersion: 12
   },
@@ -165,12 +168,9 @@ module.exports = {
       version: 'detect'
     },
     'import/resolver': {
-      alias: [
-        ['~components', './src/components'],
-        ['~pages', './src/pages'],
-        ['~utils', './src/utils'],
-        ['~workers', './src/workers']
-      ]
+      node: {
+        paths: ['./src']
+      }
     }
   }
 };
