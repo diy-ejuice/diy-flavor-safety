@@ -56,7 +56,7 @@ export default function VendorCard({
                 <ListGroupItem
                   action
                   as={Link}
-                  key={flavor.name}
+                  key={`${flavor.name}-${flavor.casNumbers.join('--')}`}
                   to={getFlavorSlug(flavor)}
                 >
                   {flavor.name}
