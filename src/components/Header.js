@@ -23,7 +23,7 @@ const Header = ({ siteTitle }) => (
     </Navbar.Brand>
     <Navbar.Toggle />
     <Navbar.Collapse>
-      <Nav>
+      <Nav className="me-auto">
         <Nav.Link as={Link} to="/flavors">
           <FontAwesomeIcon icon={faEyeDropper} /> Flavors
         </Nav.Link>
@@ -34,7 +34,7 @@ const Header = ({ siteTitle }) => (
           <FontAwesomeIcon icon={faAtom} /> Ingredients
         </Nav.Link>
       </Nav>
-      <Nav className="ml-auto">
+      <Nav>
         <Nav.Link
           href="https://reddit.com/r/DIY_eJuice"
           target="_blank"

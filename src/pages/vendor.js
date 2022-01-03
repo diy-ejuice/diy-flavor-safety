@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
 import { Container, Row, Col } from 'react-bootstrap';
 
-import Layout from '~components/Layout';
-import SEO from '~components/SEO';
-import VendorCard from '~components/VendorCard';
+import Layout from 'components/Layout';
+import SEO from 'components/SEO';
+import VendorCard from 'components/VendorCard';
 
 export default function VendorPage({ data }) {
   const {

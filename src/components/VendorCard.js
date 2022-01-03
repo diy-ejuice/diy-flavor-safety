@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Fragment } from 'react';
 import { Card, ListGroupItem, ListGroup, Badge } from 'react-bootstrap';
 
-import { getCategoryVariant, getFlavorSlug, getIngredientSlug } from '~utils';
+import { getCategoryVariant, getFlavorSlug, getIngredientSlug } from 'utils';
 
 export default function VendorCard({
   name,
@@ -39,7 +39,7 @@ export default function VendorCard({
             </span>
           ) : null}
           <span> ({code})</span>
-          <Badge variant="secondary" className="float-right">
+          <Badge bg="secondary" className="float-end">
             {flavorCount} flavors
           </Badge>
         </h3>

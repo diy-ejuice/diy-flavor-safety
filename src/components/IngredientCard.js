@@ -6,13 +6,13 @@ import PropTypes from 'prop-types';
 import { Fragment } from 'react';
 import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
 
-import CategoryInfo from '~components/CategoryInfo';
+import CategoryInfo from 'components/CategoryInfo';
 import {
   getCategoryVariant,
   getFlavorSlug,
   getVendorSlug,
   getRelativeTime
-} from '~utils';
+} from 'utils';
 
 const propTypes = {
   casNumber: PropTypes.string.isRequired,

@@ -2,8 +2,8 @@ import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
 import { Container } from 'react-bootstrap';
 
-import Layout from '~components/Layout';
-import SEO from '~components/SEO';
+import Layout from 'components/Layout';
+import SEO from 'components/SEO';
 
 export default function NotFoundPage({ data }) {
   const siteTitle = data.site.siteMetadata.title;

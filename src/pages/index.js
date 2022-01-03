@@ -1,7 +1,7 @@
 import { Container, Row, Col } from 'react-bootstrap';
 
-import Layout from '~components/Layout';
-import SEO from '~components/SEO';
+import Layout from 'components/Layout';
+import SEO from 'components/SEO';
 
 export default function Index() {
   return (

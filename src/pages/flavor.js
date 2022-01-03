@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 
-import CategoryInfo from '~components/CategoryInfo';
-import Layout from '~components/Layout';
-import SEO from '~components/SEO';
-import { getIngredientSlug, getVendorSlug } from '~utils';
+import CategoryInfo from 'components/CategoryInfo';
+import Layout from 'components/Layout';
+import SEO from 'components/SEO';
+import { getIngredientSlug, getVendorSlug } from 'utils';
 
 const SdsUrl = (ingredient) => {
   if (!ingredient) {

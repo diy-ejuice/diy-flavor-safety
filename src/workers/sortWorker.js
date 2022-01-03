@@ -1,4 +1,4 @@
 import sortWorker from './sort.worker';
-import { createWebWorker } from '~utils';
+import { createWebWorker } from 'utils';
 
-export default createWebWorker(sortWorker);
+export const createSortWorker = () => createWebWorker(sortWorker);

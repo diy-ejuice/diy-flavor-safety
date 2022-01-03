@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import { useMemo } from 'react';
 import { Container, Row } from 'react-bootstrap';
 
-import Layout from '~components/Layout';
-import SEO from '~components/SEO';
-import IngredientCard from '~components/IngredientCard';
+import Layout from 'components/Layout';
+import SEO from 'components/SEO';
+import IngredientCard from 'components/IngredientCard';
 
 export default function IngredientsPage({ data }) {
   const {

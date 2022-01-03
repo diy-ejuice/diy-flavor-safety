@@ -12,14 +12,14 @@ import {
   Spinner
 } from 'react-bootstrap';
 
-import '~pages/flavors.scss';
-import CategoryInfo from '~components/CategoryInfo';
-import Layout from '~components/Layout';
-import SearchForm from '~components/SearchForm';
-import SEO from '~components/SEO';
-import SortIcon from '~components/SortIcon';
-import { getFlavorSlug, getVendorSlug, getIngredientSlug } from '~utils';
-import SortWorker from '~workers/sortWorker';
+import 'pages/flavors.scss';
+import CategoryInfo from 'components/CategoryInfo';
+import Layout from 'components/Layout';
+import SearchForm from 'components/SearchForm';
+import SEO from 'components/SEO';
+import SortIcon from 'components/SortIcon';
+import { getFlavorSlug, getVendorSlug, getIngredientSlug } from 'utils';
+import { createSortWorker } from 'workers/sortWorker';
 
 const NodesType = PropTypes.shape({
   nodes: PropTypes.arrayOf(PropTypes.object)
@@ -32,6 +32,7 @@ export default function FlavorsPage({ data }) {
     ingredients: { nodes: ingredients }
   } = data;
 
+  const SortWorker = useMemo(createSortWorker, []);
   const rows = useMemo(() => {
     const result = [];
 
@@ -89,23 +90,28 @@ export default function FlavorsPage({ data }) {
     [setResults, setSorting]
   );
 
-  const flavorMatches = ({ flavor, vendor, ingredient }) => {
-    const selectedFlavor = selected?.flavor?.toLowerCase?.();
-    const selectedVendor = selected?.vendor?.toLowerCase?.();
-    const selectedIngredient = selected?.ingredient?.toLowerCase?.();
+  const flavorMatches = useCallback(
+    ({ flavor, vendor, ingredient }) => {
+      const selectedFlavor = selected?.flavor?.toLowerCase?.();
+      const selectedVendor = selected?.vendor?.toLowerCase?.();
+      const selectedIngredient = selected?.ingredient?.toLowerCase?.();
+      const selectedCategories = selected?.category?.length;
 
-    return (
-      (!selectedFlavor || flavor.name.toLowerCase().includes(selectedFlavor)) &&
-      (!selectedVendor ||
-        vendor.name.toLowerCase().includes(selectedVendor) ||
-        vendor.code.toLowerCase().includes(selectedVendor) ||
-        (vendor.code === 'TPA' && selectedVendor === 'tfa')) &&
-      (!selectedIngredient ||
-        ingredient.name.toLowerCase().includes(selectedIngredient)) &&
-      (!selected?.category?.length ||
-        selected.category.some((category) => category === flavor.category))
-    );
-  };
+      return (
+        (!selectedFlavor ||
+          flavor.name.toLowerCase().includes(selectedFlavor)) &&
+        (!selectedVendor ||
+          vendor.name.toLowerCase().includes(selectedVendor) ||
+          vendor.code.toLowerCase().includes(selectedVendor) ||
+          (vendor.code === 'TPA' && selectedVendor === 'tfa')) &&
+        (!selectedIngredient ||
+          ingredient.name.toLowerCase().includes(selectedIngredient)) &&
+        (!selectedCategories ||
+          selected.category.some((category) => category === flavor.category))
+      );
+    },
+    [selected]
+  );
 
   const finishSort = (resultData) => {
     const { column, direction } = sort;
@@ -118,33 +124,35 @@ export default function FlavorsPage({ data }) {
     finishSort(resultData);
   };
 
-  const refreshResults = () => {
-    startSort(rows.filter((row) => flavorMatches(row)));
-  };
-
-  const setSelectedState = useCallback(
-    (state) => {
-      setSelected((sel) => ({ ...sel, ...state }));
-
-      return debounce(refreshResults, 250);
-    },
-    [setSelected, refreshResults]
+  const refreshResults = useCallback(
+    () => startSort(rows.filter((row) => flavorMatches(row))),
+    [startSort, rows]
   );
 
-  const onVendorChange = (vendor) =>
-    useCallback(() => setSelectedState({ vendor }), [setSelectedState]);
-  const onFlavorChange = (flavor) =>
-    useCallback(() => setSelectedState({ flavor }), [setSelectedState]);
-  const onIngredientChange = (ingredient) =>
-    useCallback(() => setSelectedState({ ingredient }), [setSelectedState]);
-  const onCategoryChange = (category) =>
-    useCallback(
-      () =>
-        setSelectedState({
-          category: Array.from([category].flat())
-        }),
-      [setSelectedState]
-    );
+  const setSelectedState = useCallback(
+    (state) => setSelected((sel) => ({ ...sel, ...state })),
+    [setSelected]
+  );
+
+  const onVendorChange = useCallback(
+    (vendor) => setSelectedState({ vendor }),
+    [setSelectedState]
+  );
+  const onFlavorChange = useCallback(
+    (flavor) => setSelectedState({ flavor }),
+    [setSelectedState]
+  );
+  const onIngredientChange = useCallback(
+    (ingredient) => setSelectedState({ ingredient }),
+    [setSelectedState]
+  );
+  const onCategoryChange = useCallback(
+    (category) =>
+      setSelectedState({
+        category: Array.from([category].flat())
+      }),
+    [setSelectedState]
+  );
   const onSortChange = useCallback(
     (column, direction) => {
       setSort({ column, direction });
@@ -156,8 +164,14 @@ export default function FlavorsPage({ data }) {
   useEffect(() => {
     SortWorker.addEventListener('message', syncResults);
 
+    refreshResults();
+
     return () => SortWorker.removeEventListener('message', syncResults);
-  });
+  }, []);
+
+  useEffect(() => {
+    debounce(refreshResults, 250)();
+  }, [selected]);
 
   return (
     <Layout>
@@ -165,13 +179,12 @@ export default function FlavorsPage({ data }) {
       <Modal
         show={sorting}
         animation={false}
-        dialogAs="div"
-        className="diy-search-modal"
+        dialogClassName="diy-search-modal"
       >
         <div className="diy-spinner-container">
-          <div>
+          <div className="m-2">
             <Spinner animation="border" role="status" variant="danger" />
-            <h4 className="mt-2 text-light">Loading</h4>
+            <h4 className="mt-2">Loading</h4>
           </div>
         </div>
       </Modal>
