@@ -20,6 +20,14 @@ export default function VendorPage({ data }) {
     flavors.length
   } ${pluralize('flavor', flavors.length)}.`;
 
+  const vendorIngredients = ingredients.filter((ingredient) =>
+    flavors.some((flavor) =>
+      flavor.ingredients.some(
+        (ingred) => ingred.casNumber === ingredient.casNumber
+      )
+    )
+  );
+
   return (
     <Layout>
       <SEO title={title} description={description} />
@@ -34,7 +42,7 @@ export default function VendorPage({ data }) {
             <VendorCard
               {...vendor}
               flavors={flavors}
-              ingredients={ingredients}
+              ingredients={vendorIngredients}
             />
           </Col>
         </Row>
@@ -59,6 +67,9 @@ export const query = graphql`
         name
         casNumbers
         vendor
+        ingredients {
+          casNumber
+        }
       }
     }
     ingredients: allIngredientsJson {
