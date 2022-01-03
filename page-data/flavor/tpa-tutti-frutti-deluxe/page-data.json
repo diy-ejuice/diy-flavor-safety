@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/tpa-tutti-frutti-deluxe","result":{"data":{"flavor":{"name":"Tutti Frutti Deluxe","category":"Caution","ingredients":[{"casNumber":"77-92-9","manual":false,"sdsUrl":"/TPA/tpa-tutti-frutti.pdf"}]},"vendor":{"code":"TPA","name":"The Flavor Apprentice"},"ingredients":{"nodes":[{"name":"Citric Acid","category":"Caution"}]}},"pageContext":{"name":"Tutti Frutti Deluxe","vendor":"TPA","casNumbers":["77-92-9"],"ingredients":[{"casNumber":"77-92-9","created":"2020-11-06","updated":"2020-11-06"}]}},"staticQueryHashes":["3649515864","63159454"]}
+{
+    "componentChunkName": "component---src-pages-flavor-js",
+    "path": "/flavor/tpa-tutti-frutti-deluxe",
+    "result": {"data":{"flavor":{"name":"Tutti Frutti Deluxe","category":"Caution","ingredients":[{"casNumber":"77-92-9","manual":false,"sdsUrl":"/TPA/tpa-tutti-frutti.pdf"}]},"vendor":{"code":"TPA","name":"The Flavor Apprentice"},"ingredients":{"nodes":[{"name":"Citric Acid","category":"Caution","casNumber":"77-92-9"}]}},"pageContext":{"name":"Tutti Frutti Deluxe","vendor":"TPA","casNumbers":["77-92-9"],"ingredients":[{"casNumber":"77-92-9","created":"2020-11-06","updated":"2020-11-06"}]}},
+    "staticQueryHashes": ["3649515864","63159454"]}

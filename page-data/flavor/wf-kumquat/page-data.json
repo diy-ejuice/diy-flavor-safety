@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/wf-kumquat","result":{"data":{"flavor":{"name":"Kumquat","category":"Avoid","ingredients":[{"casNumber":"75-07-0","manual":true,"sdsUrl":null}]},"vendor":{"code":"WF","name":"Wonder Flavours"},"ingredients":{"nodes":[{"name":"Acetaldehyde","category":"Avoid"}]}},"pageContext":{"name":"Kumquat","vendor":"WF","casNumbers":["75-07-0"],"ingredients":[{"casNumber":"75-07-0","created":"2021-01-25","updated":"2021-01-25"}]}},"staticQueryHashes":["3649515864","63159454"]}
+{
+    "componentChunkName": "component---src-pages-flavor-js",
+    "path": "/flavor/wf-kumquat",
+    "result": {"data":{"flavor":{"name":"Kumquat","category":"Avoid","ingredients":[{"casNumber":"75-07-0","manual":true,"sdsUrl":null}]},"vendor":{"code":"WF","name":"Wonder Flavours"},"ingredients":{"nodes":[{"name":"Acetaldehyde","category":"Avoid","casNumber":"75-07-0"}]}},"pageContext":{"name":"Kumquat","vendor":"WF","casNumbers":["75-07-0"],"ingredients":[{"casNumber":"75-07-0","created":"2021-01-25","updated":"2021-01-25"}]}},
+    "staticQueryHashes": ["3649515864","63159454"]}

@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/wf-cookie-butter","result":{"data":{"flavor":{"name":"Cookie Butter","category":"Avoid","ingredients":[{"casNumber":"56038-13-2","manual":true,"sdsUrl":null}]},"vendor":{"code":"WF","name":"Wonder Flavours"},"ingredients":{"nodes":[{"name":"Sucralose","category":"Avoid"}]}},"pageContext":{"name":"Cookie Butter","vendor":"WF","casNumbers":["56038-13-2"],"ingredients":[{"casNumber":"56038-13-2","created":"2020-02-23","updated":"2020-02-23"}]}},"staticQueryHashes":["3649515864","63159454"]}
+{
+    "componentChunkName": "component---src-pages-flavor-js",
+    "path": "/flavor/wf-cookie-butter",
+    "result": {"data":{"flavor":{"name":"Cookie Butter","category":"Avoid","ingredients":[{"casNumber":"56038-13-2","manual":true,"sdsUrl":null}]},"vendor":{"code":"WF","name":"Wonder Flavours"},"ingredients":{"nodes":[{"name":"Sucralose","category":"Avoid","casNumber":"56038-13-2"}]}},"pageContext":{"name":"Cookie Butter","vendor":"WF","casNumbers":["56038-13-2"],"ingredients":[{"casNumber":"56038-13-2","created":"2020-02-23","updated":"2020-02-23"}]}},
+    "staticQueryHashes": ["3649515864","63159454"]}

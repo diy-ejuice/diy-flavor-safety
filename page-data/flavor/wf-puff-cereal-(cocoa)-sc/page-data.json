@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/wf-puff-cereal-(cocoa)-sc","result":{"data":{"flavor":{"name":"Puff Cereal (Cocoa) SC","category":"Avoid","ingredients":[{"casNumber":"56038-13-2","manual":false,"sdsUrl":null}]},"vendor":{"code":"WF","name":"Wonder Flavours"},"ingredients":{"nodes":[{"name":"Sucralose","category":"Avoid"}]}},"pageContext":{"name":"Puff Cereal (Cocoa) SC","vendor":"WF","casNumbers":["56038-13-2"],"ingredients":[{"casNumber":"56038-13-2","created":"2020-01-22","updated":"2020-01-22"}]}},"staticQueryHashes":["3649515864","63159454"]}
+{
+    "componentChunkName": "component---src-pages-flavor-js",
+    "path": "/flavor/wf-puff-cereal-(cocoa)-sc",
+    "result": {"data":{"flavor":{"name":"Puff Cereal (Cocoa) SC","category":"Avoid","ingredients":[{"casNumber":"56038-13-2","manual":false,"sdsUrl":null}]},"vendor":{"code":"WF","name":"Wonder Flavours"},"ingredients":{"nodes":[{"name":"Sucralose","category":"Avoid","casNumber":"56038-13-2"}]}},"pageContext":{"name":"Puff Cereal (Cocoa) SC","vendor":"WF","casNumbers":["56038-13-2"],"ingredients":[{"casNumber":"56038-13-2","created":"2020-01-22","updated":"2020-01-22"}]}},
+    "staticQueryHashes": ["3649515864","63159454"]}

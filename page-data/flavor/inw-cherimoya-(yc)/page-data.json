@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/inw-cherimoya-(yc)","result":{"data":{"flavor":{"name":"Cherimoya (yc)","category":"Research","ingredients":[{"casNumber":"513-86-0","manual":false,"sdsUrl":"/INW/inw-cherimoya.pdf"}]},"vendor":{"code":"INW","name":"Inawera"},"ingredients":{"nodes":[{"name":"Acetoin","category":"Research"}]}},"pageContext":{"name":"Cherimoya (yc)","vendor":"INW","casNumbers":["513-86-0"],"ingredients":[{"casNumber":"513-86-0","created":"2021-01-15","updated":"2021-01-15"}]}},"staticQueryHashes":["3649515864","63159454"]}
+{
+    "componentChunkName": "component---src-pages-flavor-js",
+    "path": "/flavor/inw-cherimoya-(yc)",
+    "result": {"data":{"flavor":{"name":"Cherimoya (yc)","category":"Research","ingredients":[{"casNumber":"513-86-0","manual":false,"sdsUrl":"/INW/inw-cherimoya.pdf"}]},"vendor":{"code":"INW","name":"Inawera"},"ingredients":{"nodes":[{"name":"Acetoin","category":"Research","casNumber":"513-86-0"}]}},"pageContext":{"name":"Cherimoya (yc)","vendor":"INW","casNumbers":["513-86-0"],"ingredients":[{"casNumber":"513-86-0","created":"2021-01-15","updated":"2021-01-15"}]}},
+    "staticQueryHashes": ["3649515864","63159454"]}

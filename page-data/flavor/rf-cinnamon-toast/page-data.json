@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/rf-cinnamon-toast","result":{"data":{"flavor":{"name":"Cinnamon Toast","category":"Research","ingredients":[{"casNumber":"513-86-0","manual":false,"sdsUrl":"/RF/rf-cinnamon-toast.pdf"}]},"vendor":{"code":"RF","name":"Real Flavors"},"ingredients":{"nodes":[{"name":"Acetoin","category":"Research"}]}},"pageContext":{"name":"Cinnamon Toast","vendor":"RF","casNumbers":["513-86-0"],"ingredients":[{"casNumber":"513-86-0","created":"2020-01-17","updated":"2020-01-17"}]}},"staticQueryHashes":["3649515864","63159454"]}
+{
+    "componentChunkName": "component---src-pages-flavor-js",
+    "path": "/flavor/rf-cinnamon-toast",
+    "result": {"data":{"flavor":{"name":"Cinnamon Toast","category":"Research","ingredients":[{"casNumber":"513-86-0","manual":false,"sdsUrl":"/RF/rf-cinnamon-toast.pdf"}]},"vendor":{"code":"RF","name":"Real Flavors"},"ingredients":{"nodes":[{"name":"Acetoin","category":"Research","casNumber":"513-86-0"}]}},"pageContext":{"name":"Cinnamon Toast","vendor":"RF","casNumbers":["513-86-0"],"ingredients":[{"casNumber":"513-86-0","created":"2020-01-17","updated":"2020-01-17"}]}},
+    "staticQueryHashes": ["3649515864","63159454"]}

@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/flv-orange-citrus","result":{"data":{"flavor":{"name":"Orange Citrus","category":"Avoid","ingredients":[{"casNumber":"8029-43-4","manual":false,"sdsUrl":null}]},"vendor":{"code":"FLV","name":"Flavorah"},"ingredients":{"nodes":[{"name":"Corn Syrup","category":"Avoid"}]}},"pageContext":{"name":"Orange Citrus","vendor":"FLV","casNumbers":["8029-43-4"],"ingredients":[{"casNumber":"8029-43-4","created":"2020-01-22","updated":"2020-01-22"}]}},"staticQueryHashes":["3649515864","63159454"]}
+{
+    "componentChunkName": "component---src-pages-flavor-js",
+    "path": "/flavor/flv-orange-citrus",
+    "result": {"data":{"flavor":{"name":"Orange Citrus","category":"Avoid","ingredients":[{"casNumber":"8029-43-4","manual":false,"sdsUrl":null}]},"vendor":{"code":"FLV","name":"Flavorah"},"ingredients":{"nodes":[{"name":"Corn Syrup","category":"Avoid","casNumber":"8029-43-4"}]}},"pageContext":{"name":"Orange Citrus","vendor":"FLV","casNumbers":["8029-43-4"],"ingredients":[{"casNumber":"8029-43-4","created":"2020-01-22","updated":"2020-01-22"}]}},
+    "staticQueryHashes": ["3649515864","63159454"]}

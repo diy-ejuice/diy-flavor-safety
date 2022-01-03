@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/fw-crème-de-menthe","result":{"data":{"flavor":{"name":"Crème de Menthe","category":"Avoid","ingredients":[{"casNumber":"8006-90-4","manual":false,"sdsUrl":null}]},"vendor":{"code":"FW","name":"Flavor West"},"ingredients":{"nodes":[{"name":"Peppermint oil","category":"Avoid"}]}},"pageContext":{"name":"Crème de Menthe","vendor":"FW","casNumbers":["8006-90-4"],"ingredients":[{"casNumber":"8006-90-4","created":"2020-01-22","updated":"2020-01-22"}]}},"staticQueryHashes":["3649515864","63159454"]}
+{
+    "componentChunkName": "component---src-pages-flavor-js",
+    "path": "/flavor/fw-crème-de-menthe",
+    "result": {"data":{"flavor":{"name":"Crème de Menthe","category":"Avoid","ingredients":[{"casNumber":"8006-90-4","manual":false,"sdsUrl":null}]},"vendor":{"code":"FW","name":"Flavor West"},"ingredients":{"nodes":[{"name":"Peppermint oil","category":"Avoid","casNumber":"8006-90-4"}]}},"pageContext":{"name":"Crème de Menthe","vendor":"FW","casNumbers":["8006-90-4"],"ingredients":[{"casNumber":"8006-90-4","created":"2020-01-22","updated":"2020-01-22"}]}},
+    "staticQueryHashes": ["3649515864","63159454"]}

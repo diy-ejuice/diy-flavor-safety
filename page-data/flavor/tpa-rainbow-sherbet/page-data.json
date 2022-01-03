@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/tpa-rainbow-sherbet","result":{"data":{"flavor":{"name":"Rainbow Sherbet","category":"Avoid","ingredients":[{"casNumber":"98-0-0","manual":true,"sdsUrl":null}]},"vendor":{"code":"TPA","name":"The Flavor Apprentice"},"ingredients":{"nodes":[{"name":"Furfuryl alcohol","category":"Avoid"}]}},"pageContext":{"name":"Rainbow Sherbet","vendor":"TPA","casNumbers":["98-0-0"],"ingredients":[{"casNumber":"98-0-0","created":"2020-01-22","updated":"2020-01-22"}]}},"staticQueryHashes":["3649515864","63159454"]}
+{
+    "componentChunkName": "component---src-pages-flavor-js",
+    "path": "/flavor/tpa-rainbow-sherbet",
+    "result": {"data":{"flavor":{"name":"Rainbow Sherbet","category":"Avoid","ingredients":[{"casNumber":"98-0-0","manual":true,"sdsUrl":null}]},"vendor":{"code":"TPA","name":"The Flavor Apprentice"},"ingredients":{"nodes":[{"name":"Furfuryl alcohol","category":"Avoid","casNumber":"98-0-0"}]}},"pageContext":{"name":"Rainbow Sherbet","vendor":"TPA","casNumbers":["98-0-0"],"ingredients":[{"casNumber":"98-0-0","created":"2020-01-22","updated":"2020-01-22"}]}},
+    "staticQueryHashes": ["3649515864","63159454"]}

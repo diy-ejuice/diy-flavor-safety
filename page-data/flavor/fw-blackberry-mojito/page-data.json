@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/fw-blackberry-mojito","result":{"data":{"flavor":{"name":"Blackberry Mojito","category":"Avoid","ingredients":[{"casNumber":"57-48-7","manual":false,"sdsUrl":"/FW/fw-blackberry-mojito.pdf"}]},"vendor":{"code":"FW","name":"Flavor West"},"ingredients":{"nodes":[{"name":"Lime Oil","category":"Research"}]}},"pageContext":{"name":"Blackberry Mojito","vendor":"FW","casNumbers":["8008-26-2"],"ingredients":[{"casNumber":"8008-26-2","created":"2020-01-17","updated":"2020-01-17"}]}},"staticQueryHashes":["3649515864","63159454"]}
+{
+    "componentChunkName": "component---src-pages-flavor-js",
+    "path": "/flavor/fw-blackberry-mojito",
+    "result": {"data":{"flavor":{"name":"Blackberry Mojito","category":"Avoid","ingredients":[{"casNumber":"57-48-7","manual":false,"sdsUrl":"/FW/fw-blackberry-mojito.pdf"}]},"vendor":{"code":"FW","name":"Flavor West"},"ingredients":{"nodes":[{"name":"Lime Oil","category":"Research","casNumber":"8008-26-2"}]}},"pageContext":{"name":"Blackberry Mojito","vendor":"FW","casNumbers":["8008-26-2"],"ingredients":[{"casNumber":"8008-26-2","created":"2020-01-17","updated":"2020-01-17"}]}},
+    "staticQueryHashes": ["3649515864","63159454"]}

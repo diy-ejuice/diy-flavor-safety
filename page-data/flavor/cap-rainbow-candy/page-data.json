@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/cap-rainbow-candy","result":{"data":{"flavor":{"name":"Rainbow Candy","category":"Research","ingredients":[{"casNumber":"8008-26-2","manual":false,"sdsUrl":"/CAP/cap-rainbow-candy.pdf"}]},"vendor":{"code":"CAP","name":"Capella"},"ingredients":{"nodes":[{"name":"Lime Oil","category":"Research"}]}},"pageContext":{"name":"Rainbow Candy","vendor":"CAP","casNumbers":["8008-26-2"],"ingredients":[{"casNumber":"8008-26-2","created":"2020-01-14","updated":"2020-01-14"}]}},"staticQueryHashes":["3649515864","63159454"]}
+{
+    "componentChunkName": "component---src-pages-flavor-js",
+    "path": "/flavor/cap-rainbow-candy",
+    "result": {"data":{"flavor":{"name":"Rainbow Candy","category":"Research","ingredients":[{"casNumber":"8008-26-2","manual":false,"sdsUrl":"/CAP/cap-rainbow-candy.pdf"}]},"vendor":{"code":"CAP","name":"Capella"},"ingredients":{"nodes":[{"name":"Lime Oil","category":"Research","casNumber":"8008-26-2"}]}},"pageContext":{"name":"Rainbow Candy","vendor":"CAP","casNumbers":["8008-26-2"],"ingredients":[{"casNumber":"8008-26-2","created":"2020-01-14","updated":"2020-01-14"}]}},
+    "staticQueryHashes": ["3649515864","63159454"]}

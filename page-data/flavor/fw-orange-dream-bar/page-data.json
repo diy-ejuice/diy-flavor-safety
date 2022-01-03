@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/fw-orange-dream-bar","result":{"data":{"flavor":{"name":"Orange Dream Bar","category":"Research","ingredients":[{"casNumber":"8008-57-9","manual":false,"sdsUrl":"/FW/fw-orange-dream-bar.pdf"}]},"vendor":{"code":"FW","name":"Flavor West"},"ingredients":{"nodes":[{"name":"Orange Oil","category":"Research"}]}},"pageContext":{"name":"Orange Dream Bar","vendor":"FW","casNumbers":["8008-57-9"],"ingredients":[{"casNumber":"8008-57-9","created":"2020-01-17","updated":"2020-01-17"}]}},"staticQueryHashes":["3649515864","63159454"]}
+{
+    "componentChunkName": "component---src-pages-flavor-js",
+    "path": "/flavor/fw-orange-dream-bar",
+    "result": {"data":{"flavor":{"name":"Orange Dream Bar","category":"Research","ingredients":[{"casNumber":"8008-57-9","manual":false,"sdsUrl":"/FW/fw-orange-dream-bar.pdf"}]},"vendor":{"code":"FW","name":"Flavor West"},"ingredients":{"nodes":[{"name":"Orange Oil","category":"Research","casNumber":"8008-57-9"}]}},"pageContext":{"name":"Orange Dream Bar","vendor":"FW","casNumbers":["8008-57-9"],"ingredients":[{"casNumber":"8008-57-9","created":"2020-01-17","updated":"2020-01-17"}]}},
+    "staticQueryHashes": ["3649515864","63159454"]}

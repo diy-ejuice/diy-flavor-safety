@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/rf-sugar-plum","result":{"data":{"flavor":{"name":"Sugar Plum","category":"Caution","ingredients":[{"casNumber":"77-92-9","manual":false,"sdsUrl":"/RF/rf-sugar-plum.pdf"}]},"vendor":{"code":"RF","name":"Real Flavors"},"ingredients":{"nodes":[{"name":"Citric Acid","category":"Caution"}]}},"pageContext":{"name":"Sugar Plum","vendor":"RF","casNumbers":["77-92-9"],"ingredients":[{"casNumber":"77-92-9","created":"2020-03-23","updated":"2020-03-23"}]}},"staticQueryHashes":["3649515864","63159454"]}
+{
+    "componentChunkName": "component---src-pages-flavor-js",
+    "path": "/flavor/rf-sugar-plum",
+    "result": {"data":{"flavor":{"name":"Sugar Plum","category":"Caution","ingredients":[{"casNumber":"77-92-9","manual":false,"sdsUrl":"/RF/rf-sugar-plum.pdf"}]},"vendor":{"code":"RF","name":"Real Flavors"},"ingredients":{"nodes":[{"name":"Citric Acid","category":"Caution","casNumber":"77-92-9"}]}},"pageContext":{"name":"Sugar Plum","vendor":"RF","casNumbers":["77-92-9"],"ingredients":[{"casNumber":"77-92-9","created":"2020-03-23","updated":"2020-03-23"}]}},
+    "staticQueryHashes": ["3649515864","63159454"]}

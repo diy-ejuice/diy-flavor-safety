@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/fw-anise","result":{"data":{"flavor":{"name":"Anise","category":"Avoid","ingredients":[{"casNumber":"8007-70-3","manual":false,"sdsUrl":"/FW/fw-anise.pdf"}]},"vendor":{"code":"FW","name":"Flavor West"},"ingredients":{"nodes":[{"name":"Anice stellato oil","category":"Avoid"}]}},"pageContext":{"name":"Anise","vendor":"FW","casNumbers":["8007-70-3"],"ingredients":[{"casNumber":"8007-70-3","created":"2020-09-07","updated":"2020-09-07"}]}},"staticQueryHashes":["3649515864","63159454"]}
+{
+    "componentChunkName": "component---src-pages-flavor-js",
+    "path": "/flavor/fw-anise",
+    "result": {"data":{"flavor":{"name":"Anise","category":"Avoid","ingredients":[{"casNumber":"8007-70-3","manual":false,"sdsUrl":"/FW/fw-anise.pdf"}]},"vendor":{"code":"FW","name":"Flavor West"},"ingredients":{"nodes":[{"name":"Anice stellato oil","category":"Avoid","casNumber":"8007-70-3"}]}},"pageContext":{"name":"Anise","vendor":"FW","casNumbers":["8007-70-3"],"ingredients":[{"casNumber":"8007-70-3","created":"2020-09-07","updated":"2020-09-07"}]}},
+    "staticQueryHashes": ["3649515864","63159454"]}

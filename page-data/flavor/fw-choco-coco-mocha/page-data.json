@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/fw-choco-coco-mocha","result":{"data":{"flavor":{"name":"Choco Coco Mocha","category":"Avoid","ingredients":[{"casNumber":"8002-31-1","manual":false,"sdsUrl":"/FW/fw-choco-coco-mocha.pdf"}]},"vendor":{"code":"FW","name":"Flavor West"},"ingredients":{"nodes":[{"name":"Cocoa Butter","category":"Avoid"}]}},"pageContext":{"name":"Choco Coco Mocha","vendor":"FW","casNumbers":["8002-31-1"],"ingredients":[{"casNumber":"8002-31-1","created":"2020-01-17","updated":"2020-01-17"}]}},"staticQueryHashes":["3649515864","63159454"]}
+{
+    "componentChunkName": "component---src-pages-flavor-js",
+    "path": "/flavor/fw-choco-coco-mocha",
+    "result": {"data":{"flavor":{"name":"Choco Coco Mocha","category":"Avoid","ingredients":[{"casNumber":"8002-31-1","manual":false,"sdsUrl":"/FW/fw-choco-coco-mocha.pdf"}]},"vendor":{"code":"FW","name":"Flavor West"},"ingredients":{"nodes":[{"name":"Cocoa Butter","category":"Avoid","casNumber":"8002-31-1"}]}},"pageContext":{"name":"Choco Coco Mocha","vendor":"FW","casNumbers":["8002-31-1"],"ingredients":[{"casNumber":"8002-31-1","created":"2020-01-17","updated":"2020-01-17"}]}},
+    "staticQueryHashes": ["3649515864","63159454"]}

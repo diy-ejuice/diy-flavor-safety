@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/inw-fresh-puff","result":{"data":{"flavor":{"name":"Fresh Puff","category":"Avoid","ingredients":[{"casNumber":"8006-90-4","manual":true,"sdsUrl":null}]},"vendor":{"code":"INW","name":"Inawera"},"ingredients":{"nodes":[{"name":"Peppermint oil","category":"Avoid"}]}},"pageContext":{"name":"Fresh Puff","vendor":"INW","casNumbers":["8006-90-4"],"ingredients":[{"casNumber":"8006-90-4","created":"2020-01-22","updated":"2020-01-22"}]}},"staticQueryHashes":["3649515864","63159454"]}
+{
+    "componentChunkName": "component---src-pages-flavor-js",
+    "path": "/flavor/inw-fresh-puff",
+    "result": {"data":{"flavor":{"name":"Fresh Puff","category":"Avoid","ingredients":[{"casNumber":"8006-90-4","manual":true,"sdsUrl":null}]},"vendor":{"code":"INW","name":"Inawera"},"ingredients":{"nodes":[{"name":"Peppermint oil","category":"Avoid","casNumber":"8006-90-4"}]}},"pageContext":{"name":"Fresh Puff","vendor":"INW","casNumbers":["8006-90-4"],"ingredients":[{"casNumber":"8006-90-4","created":"2020-01-22","updated":"2020-01-22"}]}},
+    "staticQueryHashes": ["3649515864","63159454"]}

@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/rf-coconut-spiced-rum-–-sc","result":{"data":{"flavor":{"name":"Coconut Spiced Rum – SC","category":"Caution","ingredients":[{"casNumber":"77-92-9","manual":false,"sdsUrl":"/RF/rf-coconut-spiced-rum.pdf"}]},"vendor":{"code":"RF","name":"Real Flavors"},"ingredients":{"nodes":[{"name":"Acetyl Propionyl","category":"Research"}]}},"pageContext":{"name":"Coconut Spiced Rum – SC","vendor":"RF","casNumbers":["600-14-6"],"ingredients":[{"casNumber":"600-14-6","created":"2020-02-05","updated":"2020-02-05"}]}},"staticQueryHashes":["3649515864","63159454"]}
+{
+    "componentChunkName": "component---src-pages-flavor-js",
+    "path": "/flavor/rf-coconut-spiced-rum-–-sc",
+    "result": {"data":{"flavor":{"name":"Coconut Spiced Rum – SC","category":"Caution","ingredients":[{"casNumber":"77-92-9","manual":false,"sdsUrl":"/RF/rf-coconut-spiced-rum.pdf"}]},"vendor":{"code":"RF","name":"Real Flavors"},"ingredients":{"nodes":[{"name":"Acetyl Propionyl","category":"Research","casNumber":"600-14-6"}]}},"pageContext":{"name":"Coconut Spiced Rum – SC","vendor":"RF","casNumbers":["600-14-6"],"ingredients":[{"casNumber":"600-14-6","created":"2020-02-05","updated":"2020-02-05"}]}},
+    "staticQueryHashes": ["3649515864","63159454"]}
