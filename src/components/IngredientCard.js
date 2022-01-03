@@ -161,7 +161,7 @@ export default function IngredientCard({
           </span>
           <CategoryInfo
             category={category}
-            badgeProps={{ className: 'float-right' }}
+            badgeProps={{ className: 'float-end' }}
           />
         </h3>
       </Card.Header>

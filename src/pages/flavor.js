@@ -64,7 +64,7 @@ export default function FlavorPage({ data }) {
                 <h3>
                   {vendor.name} {flavor.name}
                   <CategoryInfo
-                    badgeProps={{ className: 'float-right' }}
+                    badgeProps={{ className: 'float-end' }}
                     category={flavor.category}
                   />
                 </h3>
