@@ -209,7 +209,7 @@ export default function FlavorsPage({ data }) {
           </Col>
         </Row>
         <Row>
-          <Col className="text-right text-muted mb-4">
+          <Col className="text-end text-muted mb-4">
             {results?.length
               ? `${results.length} results displayed (${rows.length} total)`
               : null}
