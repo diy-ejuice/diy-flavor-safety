@@ -17,8 +17,10 @@ export default function VendorCard({
   const sortedFlavors = [...flavors];
   const sortedIngredients = [...ingredients];
 
-  sortedFlavors.sort((a, b) =>
-    a.name.toLowerCase().localeCompare(b.name.toLowerCase())
+  sortedFlavors.sort(
+    (a, b) =>
+      a.category.toLowerCase().localeCompare(b.category.toLowerCase()) ||
+      a.name.toLowerCase().localeCompare(b.name.toLowerCase())
   );
   sortedIngredients.sort(
     (a, b) =>
@@ -58,6 +60,7 @@ export default function VendorCard({
                   as={Link}
                   key={`${flavor.name}-${flavor.casNumbers.join('--')}`}
                   to={getFlavorSlug(flavor)}
+                  variant={getCategoryVariant(flavor.category)}
                 >
                   {flavor.name}
                 </ListGroupItem>

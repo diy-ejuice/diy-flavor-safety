@@ -70,8 +70,12 @@ export const query = graphql`
     flavors: allFlavorsJson {
       nodes {
         casNumbers
+        category
         name
         vendor
+        ingredients {
+          casNumber
+        }
       }
     }
     ingredients: allIngredientsJson {
