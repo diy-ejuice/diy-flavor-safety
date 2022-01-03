@@ -1,15 +1,15 @@
 language: node_js
 os: linux
 node_js:
-  - 'stable'
+  - 16
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN
+  github_token: "$GITHUB_TOKEN"
   local_dir: public
   keep_history: true
   on:
-    branch: master
+    branch: main
 cache:
   directories:
     - node_modules
