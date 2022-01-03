@@ -1,85 +1,81 @@
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import React, { Component } from 'react';
+import { useMemo } from 'react';
 import { Container, Row } from 'react-bootstrap';
 
-import Layout from '~components/Layout';
-import SEO from '~components/SEO';
-import VendorCard from '~components/VendorCard';
+import Layout from 'components/Layout';
+import SEO from 'components/SEO';
+import VendorCard from 'components/VendorCard';
 
-export default class VendorsPage extends Component {
-  static propTypes = {
-    data: PropTypes.object.isRequired
-  };
+export default function VendorsPage({ data }) {
+  const {
+    flavors: { nodes: flavors },
+    ingredients: { nodes: ingredients },
+    vendors: { nodes: vendors }
+  } = data;
 
-  constructor(props) {
-    super(props);
+  const vendorData = useMemo(() => {
+    const result = vendors.flatMap((vendor) => {
+      const vendorFlavors = flavors.filter(
+        (flavor) => flavor.vendor === vendor.code
+      );
+      const vendorIngredients = ingredients.filter((ingredient) =>
+        vendorFlavors.some((vendorFlavor) =>
+          vendorFlavor.casNumbers.includes(ingredient.casNumber)
+        )
+      );
 
-    const {
-      data: {
-        flavors: { nodes: flavors },
-        ingredients: { nodes: ingredients },
-        vendors: { nodes: vendors }
-      }
-    } = this.props;
+      return vendorFlavors.length
+        ? [
+            {
+              ...vendor,
+              flavors: vendorFlavors,
+              ingredients: vendorIngredients
+            }
+          ]
+        : [];
+    });
 
-    this.state = {
-      vendors: vendors.flatMap((vendor) => {
-        const vendorFlavors = flavors.filter(
-          (flavor) => flavor.vendor === vendor.code
-        );
-        const vendorIngredients = ingredients.filter((ingredient) =>
-          vendorFlavors.some((vendorFlavor) =>
-            vendorFlavor.casNumbers.includes(ingredient.casNumber)
-          )
-        );
+    result.sort((a, b) => a.name.localeCompare(b.name));
 
-        return vendorFlavors.length
-          ? [
-              {
-                ...vendor,
-                flavors: vendorFlavors,
-                ingredients: vendorIngredients
-              }
-            ]
-          : [];
-      })
-    };
+    return result;
+  }, [vendors]);
 
-    this.state.vendors.sort((a, b) => a.name.localeCompare(b.name));
-  }
-
-  render() {
-    const { vendors } = this.state;
-
-    return (
-      <Layout>
-        <SEO title="Vendor Info" />
-        <Container>
-          <Row>
-            <h1>Vendor Info</h1>
-          </Row>
-          {vendors.map((vendor) => (
-            <VendorCard
-              {...vendor}
-              key={vendor.code}
-              flavors={vendor.flavors}
-              ingredients={vendor.ingredients}
-            />
-          ))}
-        </Container>
-      </Layout>
-    );
-  }
+  return (
+    <Layout>
+      <SEO title="Vendor Info" />
+      <Container>
+        <Row>
+          <h1>Vendor Info</h1>
+        </Row>
+        {vendorData.map((vendor) => (
+          <VendorCard
+            {...vendor}
+            key={vendor.code}
+            flavors={vendor.flavors}
+            ingredients={vendor.ingredients}
+          />
+        ))}
+      </Container>
+    </Layout>
+  );
 }
+
+VendorsPage.propTypes = {
+  data: PropTypes.object.isRequired
+};
 
 export const query = graphql`
   query VendorsSearchQuery {
     flavors: allFlavorsJson {
       nodes {
         casNumbers
+        category
         name
         vendor
+        ingredients {
+          casNumber
+        }
       }
     }
     ingredients: allIngredientsJson {

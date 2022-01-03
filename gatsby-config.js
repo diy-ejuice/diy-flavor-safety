@@ -8,7 +8,6 @@ module.exports = {
     siteUrl: 'https://safety.diyejuice.org/'
   },
   plugins: [
-    'gatsby-transformer-json',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -36,8 +35,7 @@ module.exports = {
         ]
       }
     },
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
+    'gatsby-transformer-json',
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
@@ -59,7 +57,6 @@ module.exports = {
       }
     },
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-offline',
     'gatsby-plugin-sass',
     'gatsby-plugin-eslint'
   ]

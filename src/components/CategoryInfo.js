@@ -1,8 +1,7 @@
 import PropTypes from 'prop-types';
-import React, { Component } from 'react';
 import { Badge, OverlayTrigger, Tooltip } from 'react-bootstrap';
 
-import { getCategoryVariant } from '~utils';
+import { getCategoryVariant } from 'utils';
 
 export default function CategoryInfo({ badgeProps, category }) {
   const badgeVariant = getCategoryVariant(category);
@@ -14,8 +13,7 @@ export default function CategoryInfo({ badgeProps, category }) {
     textTooltip =
       'There is evidence that this ingredient can be toxic when vaped.';
   } else if (category === 'Avoid') {
-    textTooltip =
-      'There is evidence that this ingredient is toxic when vaped.';
+    textTooltip = 'There is evidence that this ingredient is toxic when vaped.';
   }
 
   return (
@@ -23,7 +21,7 @@ export default function CategoryInfo({ badgeProps, category }) {
       placement="left"
       overlay={(props) => <Tooltip {...props}>{textTooltip}</Tooltip>}
     >
-      <Badge variant={badgeVariant} {...badgeProps}>
+      <Badge bg={badgeVariant} {...badgeProps}>
         {category}
       </Badge>
     </OverlayTrigger>
