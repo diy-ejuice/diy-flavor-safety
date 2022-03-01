@@ -20,18 +20,22 @@ export default function Index() {
               flavor safety information.
             </p>
             <p>
-              In late 2019 /u/TeslaDelMar started working on a piece of software
+              In late 2019 TeslaDelMar started working on a piece of software
               that scans safety data sheets for known harmful ingredients. A
               Google Sheet was created to contain the findings.
             </p>
             <p>
-              Shortly after, /u/Baade89 began sending emails to flavor vendors
-              and manufacturers in an effort to augment the machine-sourced
-              data.
+              Shortly after, Baade89 began sending emails to flavor vendors and
+              manufacturers in an effort to augment the machine-sourced data.
+            </p>
+            <p>
+              In 2020, this site was created as a way to synthesize the Google
+              Sheet and the manually-sourced data as a single, easy to search
+              website.
             </p>
             <p>
               The current dataset contains over 3,000 data sheets sourced from
-              17 vendors, as well as data from toxicoligsts at{' '}
+              17 vendors, as well as data from toxicologists at{' '}
               <a
                 href="https://www.trusticert.com/en/"
                 target="_blank"
@@ -39,8 +43,8 @@ export default function Index() {
               >
                 TRUSTiCERT SRL
               </a>
-              . We scan the data sheets and query vendors for the presence of 32
-              different compounds.
+              . We scan the data sheets and query vendors for the presence of
+              over 400 different compounds.
             </p>
           </Col>
         </Row>

@@ -20,7 +20,7 @@ const Layout = ({ children }) => {
     <Fragment>
       <Header siteTitle={data.site.siteMetadata.title} />
       <main className="mt-3">{children}</main>
-      <Footer />
+      <Footer siteTitle={data.site.siteMetadata.title} />
     </Fragment>
   );
 };
