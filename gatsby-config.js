@@ -1,5 +1,34 @@
 require('dotenv/config');
 
+const manifestOptions = {
+  name: 'DIY Flavor Safety',
+  /* eslint-disable camelcase */
+  short_name: 'Flavor Safety',
+  start_url: '/',
+  background_color: '#ffffff',
+  theme_color: '#993014',
+  /* eslint-enable camelcase */
+  display: 'minimal-ui',
+  icon: 'content/assets/gatsby-icon.png'
+};
+
+const remarkOptions = {
+  plugins: [
+    {
+      resolve: 'gatsby-remark-images',
+      options: {
+        maxWidth: 590
+      }
+    }
+  ]
+};
+
+const gtagOptions = {
+  trackingId: process.env.GA_TRACKING_ID,
+  head: true,
+  anonymize: true
+};
+
 module.exports = {
   siteMetadata: {
     title: 'DIY Flavor Safety',
@@ -25,37 +54,16 @@ module.exports = {
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-transformer-remark',
-      options: {
-        plugins: [
-          {
-            resolve: 'gatsby-remark-images',
-            options: {
-              maxWidth: 590
-            }
-          }
-        ]
-      }
+      options: remarkOptions
     },
     'gatsby-transformer-json',
     {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: process.env.GA_TRACKING_ID
-      }
+      resolve: 'gatsby-plugin-gtag',
+      options: gtagOptions
     },
     {
       resolve: 'gatsby-plugin-manifest',
-      options: {
-        name: 'DIY Flavor Safety',
-        /* eslint-disable camelcase */
-        short_name: 'Flavor Safety',
-        start_url: '/',
-        background_color: '#ffffff',
-        theme_color: '#993014',
-        /* eslint-enable camelcase */
-        display: 'minimal-ui',
-        icon: 'content/assets/gatsby-icon.png'
-      }
+      options: manifestOptions
     },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
