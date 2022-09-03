@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-flavor-js",
-    "path": "/flavor/tpa-gingerbread-extra-ginger",
-    "result": {"data":{"flavor":{"name":"Gingerbread Extra Ginger","category":"Research","ingredients":[{"casNumber":"8000-34-8","manual":false,"sdsUrl":"/TPA/tpa-gingerbread-extra-ginger.pdf"}]},"vendor":{"code":"TPA","name":"The Flavor Apprentice"},"ingredients":{"nodes":[{"name":"Clove leaf oil","category":"Research","casNumber":"8000-34-8"}]}},"pageContext":{"name":"Gingerbread Extra Ginger","vendor":"TPA","casNumbers":["8000-34-8"],"ingredients":[{"casNumber":"8000-34-8","created":"2020-11-06","updated":"2020-11-06"}]}},
-    "staticQueryHashes": ["3649515864","63159454"]}
+{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/tpa-gingerbread-extra-ginger","result":{"data":{"flavor":{"name":"Gingerbread Extra Ginger","category":"Research","ingredients":[{"casNumber":"8000-34-8","manual":false,"sdsUrl":"/TPA/tpa-gingerbread-extra-ginger.pdf"}]},"vendor":{"code":"TPA","name":"The Flavor Apprentice"},"ingredients":{"nodes":[{"name":"Clove leaf oil","category":"Research","casNumber":"8000-34-8"}]}},"pageContext":{"name":"Gingerbread Extra Ginger","vendor":"TPA","casNumbers":["8000-34-8"],"ingredients":[{"casNumber":"8000-34-8","created":"2020-11-06","updated":"2020-11-06"}]}},"staticQueryHashes":["3649515864","63159454"]}

@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-flavor-js",
-    "path": "/flavor/rf-peanut-butter",
-    "result": {"data":{"flavor":{"name":"Peanut Butter","category":"Research","ingredients":[{"casNumber":"600-14-6","manual":false,"sdsUrl":"/RF/rf-peanut-butter.pdf"}]},"vendor":{"code":"RF","name":"Real Flavors"},"ingredients":{"nodes":[{"name":"Acetyl Propionyl","category":"Research","casNumber":"600-14-6"}]}},"pageContext":{"name":"Peanut Butter","vendor":"RF","casNumbers":["600-14-6"],"ingredients":[{"casNumber":"600-14-6","created":"2020-01-17","updated":"2020-01-17"}]}},
-    "staticQueryHashes": ["3649515864","63159454"]}
+{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/rf-peanut-butter","result":{"data":{"flavor":{"name":"Peanut Butter","category":"Research","ingredients":[{"casNumber":"600-14-6","manual":false,"sdsUrl":"/RF/rf-peanut-butter.pdf"}]},"vendor":{"code":"RF","name":"Real Flavors"},"ingredients":{"nodes":[{"name":"Acetyl Propionyl","category":"Research","casNumber":"600-14-6"}]}},"pageContext":{"name":"Peanut Butter","vendor":"RF","casNumbers":["600-14-6"],"ingredients":[{"casNumber":"600-14-6","created":"2020-01-17","updated":"2020-01-17"}]}},"staticQueryHashes":["3649515864","63159454"]}

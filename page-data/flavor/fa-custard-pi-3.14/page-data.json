@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-flavor-js",
-    "path": "/flavor/fa-custard-pi-3.14",
-    "result": {"data":{"flavor":{"name":"Custard Pi 3.14","category":"Research","ingredients":[{"casNumber":"8008-56-8","manual":false,"sdsUrl":"/FA/fa-custard-pi.pdf"}]},"vendor":{"code":"FA","name":"FlavourArt"},"ingredients":{"nodes":[{"name":"Lemon Oil","category":"Research","casNumber":"8008-56-8"}]}},"pageContext":{"name":"Custard Pi 3.14","vendor":"FA","casNumbers":["8008-56-8"],"ingredients":[{"casNumber":"8008-56-8","created":"2020-06-20","updated":"2020-06-20"}]}},
-    "staticQueryHashes": ["3649515864","63159454"]}
+{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/fa-custard-pi-3.14","result":{"data":{"flavor":{"name":"Custard Pi 3.14","category":"Research","ingredients":[{"casNumber":"8008-56-8","manual":false,"sdsUrl":"/FA/fa-custard-pi.pdf"}]},"vendor":{"code":"FA","name":"FlavourArt"},"ingredients":{"nodes":[{"name":"Lemon Oil","category":"Research","casNumber":"8008-56-8"}]}},"pageContext":{"name":"Custard Pi 3.14","vendor":"FA","casNumbers":["8008-56-8"],"ingredients":[{"casNumber":"8008-56-8","created":"2020-06-20","updated":"2020-06-20"}]}},"staticQueryHashes":["3649515864","63159454"]}

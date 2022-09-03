@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-flavor-js",
-    "path": "/flavor/inw-eucalyptus-with-mint",
-    "result": {"data":{"flavor":{"name":"Eucalyptus With Mint","category":"Caution","ingredients":[{"casNumber":"84625-32-1","manual":true,"sdsUrl":null}]},"vendor":{"code":"INW","name":"Inawera"},"ingredients":{"nodes":[{"name":"Eucalyptus oil","category":"Caution","casNumber":"84625-32-1"}]}},"pageContext":{"name":"Eucalyptus With Mint","vendor":"INW","casNumbers":["84625-32-1"],"ingredients":[{"casNumber":"84625-32-1","created":"2020-02-03","updated":"2020-02-03"}]}},
-    "staticQueryHashes": ["3649515864","63159454"]}
+{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/inw-eucalyptus-with-mint","result":{"data":{"flavor":{"name":"Eucalyptus With Mint","category":"Caution","ingredients":[{"casNumber":"84625-32-1","manual":true,"sdsUrl":null}]},"vendor":{"code":"INW","name":"Inawera"},"ingredients":{"nodes":[{"name":"Eucalyptus oil","category":"Caution","casNumber":"84625-32-1"}]}},"pageContext":{"name":"Eucalyptus With Mint","vendor":"INW","casNumbers":["84625-32-1"],"ingredients":[{"casNumber":"84625-32-1","created":"2020-02-03","updated":"2020-02-03"}]}},"staticQueryHashes":["3649515864","63159454"]}

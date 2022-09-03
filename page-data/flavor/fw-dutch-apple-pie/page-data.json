@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-flavor-js",
-    "path": "/flavor/fw-dutch-apple-pie",
-    "result": {"data":{"flavor":{"name":"Dutch Apple Pie","category":"Avoid","ingredients":[{"casNumber":"8052-35-5","manual":false,"sdsUrl":"/FW/fw-dutch-apple-pie.pdf"}]},"vendor":{"code":"FW","name":"Flavor West"},"ingredients":{"nodes":[{"name":"Molasses","category":"Avoid","casNumber":"8052-35-5"}]}},"pageContext":{"name":"Dutch Apple Pie","vendor":"FW","casNumbers":["8052-35-5"],"ingredients":[{"casNumber":"8052-35-5","created":"2020-01-17","updated":"2020-01-17"}]}},
-    "staticQueryHashes": ["3649515864","63159454"]}
+{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/fw-dutch-apple-pie","result":{"data":{"flavor":{"name":"Dutch Apple Pie","category":"Avoid","ingredients":[{"casNumber":"8052-35-5","manual":false,"sdsUrl":"/FW/fw-dutch-apple-pie.pdf"}]},"vendor":{"code":"FW","name":"Flavor West"},"ingredients":{"nodes":[{"name":"Molasses","category":"Avoid","casNumber":"8052-35-5"}]}},"pageContext":{"name":"Dutch Apple Pie","vendor":"FW","casNumbers":["8052-35-5"],"ingredients":[{"casNumber":"8052-35-5","created":"2020-01-17","updated":"2020-01-17"}]}},"staticQueryHashes":["3649515864","63159454"]}

@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-flavor-js",
-    "path": "/flavor/flv-chocolate-deutsch",
-    "result": {"data":{"flavor":{"name":"Chocolate Deutsch","category":"Avoid","ingredients":[{"casNumber":"8002-31-1","manual":true,"sdsUrl":null}]},"vendor":{"code":"FLV","name":"Flavorah"},"ingredients":{"nodes":[{"name":"Cocoa Butter","category":"Avoid","casNumber":"8002-31-1"}]}},"pageContext":{"name":"Chocolate Deutsch","vendor":"FLV","casNumbers":["8002-31-1"],"ingredients":[{"casNumber":"8002-31-1","created":"2020-01-18","updated":"2020-01-18"}]}},
-    "staticQueryHashes": ["3649515864","63159454"]}
+{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/flv-chocolate-deutsch","result":{"data":{"flavor":{"name":"Chocolate Deutsch","category":"Avoid","ingredients":[{"casNumber":"8002-31-1","manual":true,"sdsUrl":null}]},"vendor":{"code":"FLV","name":"Flavorah"},"ingredients":{"nodes":[{"name":"Cocoa Butter","category":"Avoid","casNumber":"8002-31-1"}]}},"pageContext":{"name":"Chocolate Deutsch","vendor":"FLV","casNumbers":["8002-31-1"],"ingredients":[{"casNumber":"8002-31-1","created":"2020-01-18","updated":"2020-01-18"}]}},"staticQueryHashes":["3649515864","63159454"]}

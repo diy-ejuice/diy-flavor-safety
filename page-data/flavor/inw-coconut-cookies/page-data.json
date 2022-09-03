@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-flavor-js",
-    "path": "/flavor/inw-coconut-cookies",
-    "result": {"data":{"flavor":{"name":"Coconut Cookies","category":"Research","ingredients":[{"casNumber":"513-86-0","manual":false,"sdsUrl":"/INW/inw-coconut-cookies.pdf"}]},"vendor":{"code":"INW","name":"Inawera"},"ingredients":{"nodes":[{"name":"Acetoin","category":"Research","casNumber":"513-86-0"}]}},"pageContext":{"name":"Coconut Cookies","vendor":"INW","casNumbers":["513-86-0"],"ingredients":[{"casNumber":"513-86-0","created":"2020-02-02","updated":"2020-02-02"}]}},
-    "staticQueryHashes": ["3649515864","63159454"]}
+{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/inw-coconut-cookies","result":{"data":{"flavor":{"name":"Coconut Cookies","category":"Research","ingredients":[{"casNumber":"513-86-0","manual":false,"sdsUrl":"/INW/inw-coconut-cookies.pdf"}]},"vendor":{"code":"INW","name":"Inawera"},"ingredients":{"nodes":[{"name":"Acetoin","category":"Research","casNumber":"513-86-0"}]}},"pageContext":{"name":"Coconut Cookies","vendor":"INW","casNumbers":["513-86-0"],"ingredients":[{"casNumber":"513-86-0","created":"2020-02-02","updated":"2020-02-02"}]}},"staticQueryHashes":["3649515864","63159454"]}

@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-flavor-js",
-    "path": "/flavor/fw-cookie-butter",
-    "result": {"data":{"flavor":{"name":"Cookie Butter","category":"Caution","ingredients":[{"casNumber":"7647-14-5","manual":false,"sdsUrl":"/FW/fw-cookie-butter.pdf"}]},"vendor":{"code":"FW","name":"Flavor West"},"ingredients":{"nodes":[{"name":"Sodium Chloride","category":"Caution","casNumber":"7647-14-5"}]}},"pageContext":{"name":"Cookie Butter","vendor":"FW","casNumbers":["7647-14-5"],"ingredients":[{"casNumber":"7647-14-5","created":"2020-01-17","updated":"2020-01-17"}]}},
-    "staticQueryHashes": ["3649515864","63159454"]}
+{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/fw-cookie-butter","result":{"data":{"flavor":{"name":"Cookie Butter","category":"Caution","ingredients":[{"casNumber":"7647-14-5","manual":false,"sdsUrl":"/FW/fw-cookie-butter.pdf"}]},"vendor":{"code":"FW","name":"Flavor West"},"ingredients":{"nodes":[{"name":"Sodium Chloride","category":"Caution","casNumber":"7647-14-5"}]}},"pageContext":{"name":"Cookie Butter","vendor":"FW","casNumbers":["7647-14-5"],"ingredients":[{"casNumber":"7647-14-5","created":"2020-01-17","updated":"2020-01-17"}]}},"staticQueryHashes":["3649515864","63159454"]}

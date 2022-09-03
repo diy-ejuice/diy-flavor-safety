@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-flavor-js",
-    "path": "/flavor/tpa-apple-(tart-granny-smith)",
-    "result": {"data":{"flavor":{"name":"Apple (tart Granny Smith)","category":"Caution","ingredients":[{"casNumber":"77-92-9","manual":false,"sdsUrl":"/TPA/tpa-apple-tart-granny-smith.pdf"}]},"vendor":{"code":"TPA","name":"The Flavor Apprentice"},"ingredients":{"nodes":[{"name":"Acetyl Propionyl","category":"Research","casNumber":"600-14-6"}]}},"pageContext":{"name":"Apple (tart Granny Smith)","vendor":"TPA","casNumbers":["600-14-6"],"ingredients":[{"casNumber":"600-14-6","created":"2020-11-06","updated":"2020-11-06"}]}},
-    "staticQueryHashes": ["3649515864","63159454"]}
+{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/tpa-apple-(tart-granny-smith)","result":{"data":{"flavor":{"name":"Apple (tart Granny Smith)","category":"Caution","ingredients":[{"casNumber":"77-92-9","manual":false,"sdsUrl":"/TPA/tpa-apple-tart-granny-smith.pdf"}]},"vendor":{"code":"TPA","name":"The Flavor Apprentice"},"ingredients":{"nodes":[{"name":"Acetyl Propionyl","category":"Research","casNumber":"600-14-6"}]}},"pageContext":{"name":"Apple (tart Granny Smith)","vendor":"TPA","casNumbers":["600-14-6"],"ingredients":[{"casNumber":"600-14-6","created":"2020-11-06","updated":"2020-11-06"}]}},"staticQueryHashes":["3649515864","63159454"]}

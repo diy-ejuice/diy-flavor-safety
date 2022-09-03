@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-flavor-js",
-    "path": "/flavor/hs-elder-captain",
-    "result": {"data":{"flavor":{"name":"Elder Captain","category":"Research","ingredients":[{"casNumber":"22047-25-2","manual":false,"sdsUrl":"/HS/hs-elder-captain.pdf"}]},"vendor":{"code":"HS","name":"Hangsen"},"ingredients":{"nodes":[{"name":"Acetyl Pyrazine","category":"Research","casNumber":"22047-25-2"}]}},"pageContext":{"name":"Elder Captain","vendor":"HS","casNumbers":["22047-25-2"],"ingredients":[{"casNumber":"22047-25-2","created":"2020-01-18","updated":"2020-01-18"}]}},
-    "staticQueryHashes": ["3649515864","63159454"]}
+{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/hs-elder-captain","result":{"data":{"flavor":{"name":"Elder Captain","category":"Research","ingredients":[{"casNumber":"22047-25-2","manual":false,"sdsUrl":"/HS/hs-elder-captain.pdf"}]},"vendor":{"code":"HS","name":"Hangsen"},"ingredients":{"nodes":[{"name":"Acetyl Pyrazine","category":"Research","casNumber":"22047-25-2"}]}},"pageContext":{"name":"Elder Captain","vendor":"HS","casNumbers":["22047-25-2"],"ingredients":[{"casNumber":"22047-25-2","created":"2020-01-18","updated":"2020-01-18"}]}},"staticQueryHashes":["3649515864","63159454"]}

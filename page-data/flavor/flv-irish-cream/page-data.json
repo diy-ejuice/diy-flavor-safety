@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-flavor-js",
-    "path": "/flavor/flv-irish-cream",
-    "result": {"data":{"flavor":{"name":"Irish Cream","category":"Avoid","ingredients":[{"casNumber":"8002-31-1","manual":true,"sdsUrl":null}]},"vendor":{"code":"FLV","name":"Flavorah"},"ingredients":{"nodes":[{"name":"Cocoa Butter","category":"Avoid","casNumber":"8002-31-1"}]}},"pageContext":{"name":"Irish Cream","vendor":"FLV","casNumbers":["8002-31-1"],"ingredients":[{"casNumber":"8002-31-1","created":"2020-01-18","updated":"2020-01-18"}]}},
-    "staticQueryHashes": ["3649515864","63159454"]}
+{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/flv-irish-cream","result":{"data":{"flavor":{"name":"Irish Cream","category":"Avoid","ingredients":[{"casNumber":"8002-31-1","manual":true,"sdsUrl":null}]},"vendor":{"code":"FLV","name":"Flavorah"},"ingredients":{"nodes":[{"name":"Cocoa Butter","category":"Avoid","casNumber":"8002-31-1"}]}},"pageContext":{"name":"Irish Cream","vendor":"FLV","casNumbers":["8002-31-1"],"ingredients":[{"casNumber":"8002-31-1","created":"2020-01-18","updated":"2020-01-18"}]}},"staticQueryHashes":["3649515864","63159454"]}

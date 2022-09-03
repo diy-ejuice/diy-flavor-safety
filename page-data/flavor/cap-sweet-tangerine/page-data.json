@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-flavor-js",
-    "path": "/flavor/cap-sweet-tangerine",
-    "result": {"data":{"flavor":{"name":"Sweet Tangerine","category":"Research","ingredients":[{"casNumber":"8008-57-9","manual":false,"sdsUrl":"/CAP/cap-sweet-tangerine.pdf"}]},"vendor":{"code":"CAP","name":"Capella"},"ingredients":{"nodes":[{"name":"Orange Oil","category":"Research","casNumber":"8008-57-9"}]}},"pageContext":{"name":"Sweet Tangerine","vendor":"CAP","casNumbers":["8008-57-9"],"ingredients":[{"casNumber":"8008-57-9","created":"2020-01-14","updated":"2020-01-14"}]}},
-    "staticQueryHashes": ["3649515864","63159454"]}
+{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/cap-sweet-tangerine","result":{"data":{"flavor":{"name":"Sweet Tangerine","category":"Research","ingredients":[{"casNumber":"8008-57-9","manual":false,"sdsUrl":"/CAP/cap-sweet-tangerine.pdf"}]},"vendor":{"code":"CAP","name":"Capella"},"ingredients":{"nodes":[{"name":"Orange Oil","category":"Research","casNumber":"8008-57-9"}]}},"pageContext":{"name":"Sweet Tangerine","vendor":"CAP","casNumbers":["8008-57-9"],"ingredients":[{"casNumber":"8008-57-9","created":"2020-01-14","updated":"2020-01-14"}]}},"staticQueryHashes":["3649515864","63159454"]}

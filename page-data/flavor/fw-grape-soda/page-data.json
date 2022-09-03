@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-flavor-js",
-    "path": "/flavor/fw-grape-soda",
-    "result": {"data":{"flavor":{"name":"Grape Soda","category":"Avoid","ingredients":[{"casNumber":"56038-13-2","manual":false,"sdsUrl":"/FW/fw-grape-soda.pdf"}]},"vendor":{"code":"FW","name":"Flavor West"},"ingredients":{"nodes":[{"name":"Sucralose","category":"Avoid","casNumber":"56038-13-2"}]}},"pageContext":{"name":"Grape Soda","vendor":"FW","casNumbers":["56038-13-2"],"ingredients":[{"casNumber":"56038-13-2","created":"2020-01-17","updated":"2020-01-17"}]}},
-    "staticQueryHashes": ["3649515864","63159454"]}
+{"componentChunkName":"component---src-pages-flavor-js","path":"/flavor/fw-grape-soda","result":{"data":{"flavor":{"name":"Grape Soda","category":"Avoid","ingredients":[{"casNumber":"56038-13-2","manual":false,"sdsUrl":"/FW/fw-grape-soda.pdf"}]},"vendor":{"code":"FW","name":"Flavor West"},"ingredients":{"nodes":[{"name":"Sucralose","category":"Avoid","casNumber":"56038-13-2"}]}},"pageContext":{"name":"Grape Soda","vendor":"FW","casNumbers":["56038-13-2"],"ingredients":[{"casNumber":"56038-13-2","created":"2020-01-17","updated":"2020-01-17"}]}},"staticQueryHashes":["3649515864","63159454"]}
