@@ -34,7 +34,7 @@ module.exports = {
     title: 'DIY Flavor Safety',
     author: 'ayan4m1',
     description: 'A repository of vaping flavor safety information.',
-    siteUrl: 'https://safety.diyejuice.org/'
+    siteUrl: 'https://safety.ejoose.org/'
   },
   plugins: [
     {

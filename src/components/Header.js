@@ -45,7 +45,7 @@ export default function Header({ siteTitle = '' }) {
               <FontAwesomeIcon icon={faRedditAlien} size="lg" /> /r/DIY_eJuice
             </Nav.Link>
             <Nav.Link
-              href="http://link.diyejuice.org/discord"
+              href="http://discord.gg/ejuice"
               target="_blank"
               rel="noopener noreferrer"
             >
