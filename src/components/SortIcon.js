@@ -18,7 +18,7 @@ export default function SortIcon({ column, onToggle }) {
 
       return newDir;
     });
-  }, [setDirection, onToggle]);
+  }, [setDirection, onToggle, column]);
 
   return (
     <FontAwesomeIcon

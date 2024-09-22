@@ -65,8 +65,14 @@ module.exports = {
       resolve: 'gatsby-plugin-manifest',
       options: manifestOptions
     },
+    {
+      resolve: 'gatsby-plugin-eslint',
+      options: {
+        configType: 'flat',
+        eslintPath: 'eslint/use-at-your-own-risk'
+      }
+    },
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sass',
-    'gatsby-plugin-eslint'
+    'gatsby-plugin-sass'
   ]
 };

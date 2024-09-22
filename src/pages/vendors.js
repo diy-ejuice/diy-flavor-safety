@@ -39,7 +39,7 @@ export default function VendorsPage({ data }) {
     result.sort((a, b) => a.name.localeCompare(b.name));
 
     return result;
-  }, [vendors]);
+  }, [vendors, flavors, ingredients]);
 
   return (
     <Layout>

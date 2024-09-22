@@ -20,7 +20,6 @@ export default function SearchForm({
         target: { name, value }
       } = event;
 
-      // eslint-disable-next-line default-case
       switch (name) {
         case 'vendor':
           onVendorChange(value);
