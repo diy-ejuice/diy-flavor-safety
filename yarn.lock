@@ -33,6 +33,11 @@
     signedsource "^1.0.0"
     yargs "^15.3.1"
 
+"@ayan4m1/gatsby-plugin-root-import@^2.0.10":
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/@ayan4m1/gatsby-plugin-root-import/-/gatsby-plugin-root-import-2.0.10.tgz#e76e2bba2db59773a7c29ec9718dc31dcbde97ec"
+  integrity sha512-Now6pVcLPuCKexuBuwiUsZ4FTtB06iplmj6VcPN2jIt4cP0HvQqFnESzrJOO6g9lhWuQpUEyynWAQFiZRcoGpA==
+
 "@babel/code-frame@7.12.11":
   version "7.12.11"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.12.11.tgz#f4ad435aa263db935b8f10f2c552d23fb716a63f"

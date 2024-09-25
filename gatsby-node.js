@@ -94,11 +94,3 @@ exports.createPages = async (options) => {
   await createVendorPages(options);
   await createIngredientPages(options);
 };
-
-exports.onCreateWebpackConfig = ({ actions }) => {
-  actions.setWebpackConfig({
-    resolve: {
-      modules: ['node_modules', 'src']
-    }
-  });
-};
