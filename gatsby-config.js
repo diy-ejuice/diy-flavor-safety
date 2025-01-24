@@ -73,7 +73,14 @@ module.exports = {
       }
     },
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-plugin-sass',
+      options: {
+        sassOptions: {
+          quietDeps: true
+        }
+      }
+    },
     '@ayan4m1/gatsby-plugin-root-import'
   ]
 };
