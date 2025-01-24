@@ -19,17 +19,7 @@ export default [
       globals: globals.browser,
       parser: babelParser,
       parserOptions: {
-        requireConfigFile: false,
-        babelOptions: {
-          presets: [
-            [
-              'babel-preset-gatsby',
-              {
-                reactRuntime: 'automatic'
-              }
-            ]
-          ]
-        }
+        requireConfigFile: false
       }
     },
     rules: {
