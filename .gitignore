@@ -63,6 +63,7 @@ public
 
 # Yarn
 yarn-error.log
+.yarn/
 .pnp/
 .pnp.js
 # Yarn Integrity file
